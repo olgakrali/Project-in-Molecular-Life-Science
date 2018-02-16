@@ -1,6 +1,5 @@
 
 #Template for my project in Molecular Life Science 
-#(the README.md file is already created along with the directory)
 
 #Create a project folder
 
