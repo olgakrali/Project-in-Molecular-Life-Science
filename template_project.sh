@@ -31,9 +31,7 @@ cd Source_codes
 
 touch predictor.py #empty python file where I will store my code for the predictor
 
-cd 
-
-cd My_Project
+cd ..
 
 mkdir Docs #papers, instructions etc. are stored
 
@@ -41,9 +39,7 @@ cd Docs
 
 mkdir Papers_list
 
-cd
-
-cd My_Project
+cd ..
 
 mkdir Diary #daily diary that tracks the project
 
