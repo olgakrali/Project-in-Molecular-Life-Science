@@ -3,9 +3,9 @@
 
 #Create a project folder
 
-mkdir My_Project
+mkdir Olgas_Project
 
-cd My_Project
+cd Olgas_Project
 
 #Create a bash file that contains all the codes and runs everything
 
@@ -52,6 +52,8 @@ mkdir Week2
 mkdir Week3
 mkdir Week4
 mkdir Week5
+
+echo "Done!"
 
 
 
