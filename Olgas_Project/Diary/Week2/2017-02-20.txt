@@ -1,0 +1,9 @@
+Tuesday 20 February, 2018
+
+Project in Molecular Life Science start
+Steps
+
+1) Create a subdataset with only 5 proteins to try the scripts. Later, during the course I will run them for the whole dataset.
+
+2) Make dictionary for the subset of the 5 proteins (Saved on the bin file).
+
