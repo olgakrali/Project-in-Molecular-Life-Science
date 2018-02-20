@@ -46,7 +46,7 @@ mkdir Diary #daily diary that tracks the project
 cd Diary
 
 
-#Make subdirectories for the diaries for each week(each week will contain a report for everyday in a txt file folder)
+#Make subdirectories for the diaries for each week(each week will contain a report for everyday in a md file folder)
 
 mkdir Week2
 mkdir Week3
