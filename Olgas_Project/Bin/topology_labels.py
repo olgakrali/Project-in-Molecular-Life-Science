@@ -6,7 +6,7 @@ topologies = ['GGGGGGGGGGGGGGGGGGGGGGGGGSSSSSSSS','GGGGGGGGGGGGGGGGGGGGGGGGGGGG'
 
 # Assign a number to each of the three structures
 
-struct_labels = {'G': 0, 'S': 1, 'M': 2}
+struct_labels = {'G': 1, 'S': 2, 'M': 3}
 
 structure = []         #this list will contain a list of integers for every protein ( 5 lists in this case)
 for topology in topologies:
