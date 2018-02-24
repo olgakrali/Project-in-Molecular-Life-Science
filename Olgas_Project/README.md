@@ -1,1 +1,1 @@
-Template for the the project in Molecular Life Science course. Prediction of the structure of proteins. Feature predictor development
+# Project organization into folder files depending if they are short scripts, source code, documents, diary entries, datasets etc. More folders will be probably added (e.g. Results) later during the course.
