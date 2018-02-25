@@ -1,11 +1,12 @@
 import pandas as pd
 import numpy as np
+from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.model_selection import cross_val_score
 import matplotlib.pyplot as plt
+from sklearn.ensemble import RandomForestClassifier
 
-
-path = 'Datasets/'
+path = '/Datasets/'
 
 # Work on the original big dataset
 
@@ -121,21 +122,34 @@ y = np.array(seconstr[int(input('Pick a protein: '))])
 
 ##################Support vector machine classifier
 
-#### Use the cross_val_score function for cross validation, instead of splitting on test and train set to avoid overfitting
+### Split the data into train and test set   ####Check if we should do it
 
-clfr= SVC(kernel = 'linear', C =1)
-clfr.fit(X,y)
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.2)
+print(X_train.shape, y_train.shape)
+print(X_test.shape, y_test.shape)
 
-print(clfr.score(X,y))
+####### Running SVM classification
 
-score = cross_val_score(clfr, X, y, cv = int(input('pick a number of cv set: ')), verbose = True)  ####get scores for the train set
+print("Classifier fitting to training set")
+
+clfr = SVC(gamma = 2, C =1)
+
+clfr.fit(X_train,y_train)
+
+print(clfr.score(X_train,y_train))
+
+score = cross_val_score(clfr, X_train, y_train, cv = int(input('pick a number of cv set: ')), verbose = True)  ####get scores for the train set
 
 print(score)
 
-predictions = clfr.predict(X)  ### how well can the SVM predict our data?
-print(predictions)   ##### it returns predicted values for the topologies (1-3)
+##### Predict on the test set
+(print("Predict the topology of each window on the test set"))
 
-plt.scatter(y, predictions)
+predictions = clfr.predict(X_test)  ### how well can the SVM predict our data?
+print(predictions)   ##### it returns predicted values for the topologies (1-3)
+print(clfr.score(X_test, y_test))  ## score for svm predictions over test set
+
+plt.scatter(y_test, predictions)
 
 plt.xlabel('True values')
 plt.ylabel('Predicted values')
@@ -145,4 +159,12 @@ plt.show()          ###Visualizing the true values versus the predictions
 
 
 
+#####Random forest classifier
+
+
+clf = RandomForestClassifier(max_depth = 2, random_state = 0)
+clf.fit(X, y)
+print(clf.feature_importances_)
+print(clf.predict(X))
+print(clf.score(X,y))
 
