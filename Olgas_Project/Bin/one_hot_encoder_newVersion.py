@@ -1,6 +1,5 @@
 #########One hot encoder updated version
 
-
 aminoacid = list('ACDEFGHIKLMNPQRSTVWY')  ### a list for the 20 amino acids
 
 #Make a list that contains 20 zeros
