@@ -57,7 +57,7 @@ for line, aa in zip(zero_one, aminoacid):     ### it reads simultaneously every 
 
 
 
-###  Pike a protein
+###  Pick a protein
 
 
 sequence = sequences[int(input('Pick a protein: '))]
