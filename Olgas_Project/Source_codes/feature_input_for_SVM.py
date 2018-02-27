@@ -1,11 +1,5 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import KFold
-import matplotlib.pyplot as plt
-
 
 path = "C:/Users/olga_/Documents/Master's in molecular techniques in life science/Project in Molecular Life Science/"
 
