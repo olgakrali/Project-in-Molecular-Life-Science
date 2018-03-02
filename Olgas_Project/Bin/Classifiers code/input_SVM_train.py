@@ -155,11 +155,10 @@ for binary,am in zip(padding,extra_aa):
 ########Works the same for other window sizes
 #####################################################
 
-
+c1 = extra_window
 extra_aa2 = []
 for window in windows:
     a_list = []
-    c1 = extra_window
     for i in range(1, extra_window+1):
         amino = window[-1][-(extra_window+c1)*len(aminoacid):]   # counts from the last part to the end
         #print(len(amino))
@@ -169,10 +168,9 @@ for window in windows:
     extra_aa2.append(a_list)
 #print(len(extra_aa2))
 
-
+c = extra_window - 1
 padding2 = []
 for window in windows:
-    c = extra_window - 1
     b_list = []
     for j in range(0,extra_window):
         pad = (extra_window-c)*list_zeros
