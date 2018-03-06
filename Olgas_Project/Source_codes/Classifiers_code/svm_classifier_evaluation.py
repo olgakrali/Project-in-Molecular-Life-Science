@@ -253,8 +253,8 @@ print(y_train.shape)
 #
 # Find the best SVM model
 
-my_par = {'kernel':('linear','rbf','poly'), 'C': [1,10], 'gamma':[0.05,1]}
-my_svm = SVC(cache_size = 3000)
+my_par = {'kernel':('linear','rbf','poly'), 'C': [1,10], 'gamma':[0.01,0.1]}
+my_svm = SVC(cache_size = 6000)
 
 clfr = GridSearchCV(my_svm,my_par)
 
