@@ -261,7 +261,7 @@ def floatrange(start, stop, step):
 classifier = []
 for kernel in kernels:
     for C in range(1,10,1):
-        for gamma in floatrange(0.05, 0.1, 0.01):
+        for gamma in floatrange(0.01, 0.1, 0.01):
             clfr = SVC(kernel= kernel, C = C, gamma = gamma, cache_size = 3000)
             clfr.fit(X_train, y_train)
             score = cross_val_score(clfr, X_train, y_train, cv=5, verbose=True)  ####get scores for the train set
