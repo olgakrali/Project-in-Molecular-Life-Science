@@ -17,7 +17,7 @@ X_PCA_test = pca.transform(X_test)
 
 
 # Predict the same data just to check if the SVM is actually accurate
-(print("Predict the topology of each window on another of data"))
+print("Predict the topology of each window on another of data")
 
 predictions = clfr.fit(X_PCA_train,y_train).predict(X_PCA_test)  # how well can the SVM predict our data?
 print(predictions)   # it returns predicted values for the topologies (1-3)

@@ -249,20 +249,26 @@ print(y_train.shape)
 ############################ SVM ###############
 
 
-
-#
 # Find the best SVM model
+kernels = ['linear','rbf','poly']
 
-my_par = {'kernel':('linear','rbf','poly'), 'C': [1,10], 'gamma':[0.05,1]}
-my_svm = SVC(cache_size = 3000)
+def floatrange(start, stop, step):
+    i = start
+    while i < stop:
+        yield i
+        i += step
 
-clfr = GridSearchCV(my_svm,my_par)
+classifier = []
+for kernel in kernels:
+    for C in range(1,10,1):
+        for gamma in floatrange(0.05, 0.1, 0.01):
+            clfr = SVC(kernel= kernel, C = C, gamma = gamma, cache_size = 3000)
+            clfr.fit(X_train, y_train)
+            score = cross_val_score(clfr, X_train, y_train, cv=5, verbose=True)  ####get scores for the train set
+            print(score)
+            #print(clfr.decision_function(X_train))
 
-clfr.fit(X_train,y_train)
-
-score = cross_val_score(clfr, X_train, y_train, cv = 5, verbose = True)  ####get scores for the train set
-print(score)
-
-print(clfr.decision_function(X_train))
+            classifier.append((kernel,C,gamma,clfr))
+print(classifier)
 
 
