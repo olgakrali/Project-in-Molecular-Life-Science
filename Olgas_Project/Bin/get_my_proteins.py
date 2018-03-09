@@ -24,5 +24,5 @@ def my_par(filename):
     return protein_ID, sequences, topology
 
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     print('This is my function for parsing my files')
