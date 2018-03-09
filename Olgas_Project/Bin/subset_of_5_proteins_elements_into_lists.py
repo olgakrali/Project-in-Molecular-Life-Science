@@ -4,7 +4,7 @@
 
 path = 'Datasets/'
 
-def my_par(filename: str):
+def my_par(filename):
 
     protein_ID = []
     sequences = []
