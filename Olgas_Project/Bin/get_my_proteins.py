@@ -1,10 +1,6 @@
-####  Add each proteins' elements (ID, Sequence, Topology) into lists
+path = "Datasets/"
 
-######### Work on a sample of 5 proteins
-
-path = 'Datasets/'
-
-def my_par(filename: str):
+def my_par(filename):
 
     protein_ID = []
     sequences = []
@@ -26,5 +22,4 @@ def my_par(filename: str):
 
 
 if __name__ == "__name__":
-    protein_ID, sequences, topology = my_par("subset_of_5_proteins.txt")
-    print(topology)
+    print('This is my function for parsing my files')
