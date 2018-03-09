@@ -1,5 +1,12 @@
 path = "Datasets/"
 
+<<<<<<< HEAD:Olgas_Project/Bin/get_my_proteins.py
+=======
+######### Work on a sample of 5 proteins
+
+path = 'Datasets/'
+
+>>>>>>> master:Olgas_Project/Bin/subset_of_5_proteins_elements_into_lists.py
 def my_par(filename):
 
     protein_ID = []
