@@ -19,4 +19,4 @@ clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000)
 
 clfr.fit(X,y)
 
-joblib.dump(clfr, path2 + "my_test.sav")
+joblib.dump(clfr, path2 + "train_my_data.sav")
