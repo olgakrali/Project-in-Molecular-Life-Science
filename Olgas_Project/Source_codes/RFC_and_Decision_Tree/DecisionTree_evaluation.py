@@ -1,9 +1,5 @@
 import numpy as np
-from sklearn.model_selection import cross_val_score
 from sklearn.tree import DecisionTreeClassifier
-import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix
-from sklearn import preprocessing
 
 import parsers_windows as pw
 
