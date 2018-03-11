@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.model_selection import cross_val_score
 from sklearn.tree import DecisionTreeClassifier
 
 import parsers_windows as pw
