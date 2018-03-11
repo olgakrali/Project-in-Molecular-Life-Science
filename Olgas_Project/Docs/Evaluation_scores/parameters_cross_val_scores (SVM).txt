@@ -1,3 +1,4 @@
+C, gamma, SVM classifier, CV scores
 [(1, 0.01, SVC(C=1, cache_size=3000, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma=0.01, kernel='linear',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
