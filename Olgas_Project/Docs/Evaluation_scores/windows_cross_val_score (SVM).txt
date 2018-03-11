@@ -1,34 +1,30 @@
 (12641, 60)
-[ 0.83985765  0.84018987  0.84018987  0.84018987  0.84018987]
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:   24.8s finished
-12641
+0.840123428983
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:   21.4s finished
 (12641, 140)
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.0min finished
-[ 0.87939897  0.89121835  0.88093354  0.88647152  0.87341772]
-12641
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:   60.0s finished
+0.882288022233
 (12641, 220)
-[ 0.90786872  0.90664557  0.90308544  0.90901899  0.88488924]
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.2min finished
-12641
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.3min finished
+0.902301592664
 (12641, 300)
-[ 0.91419533  0.90822785  0.91060127  0.92207278  0.88647152]
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.6min finished
-12641
+0.908313750369
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.9min finished
 (12641, 380)
-[ 0.91933571  0.9284019   0.91139241  0.92998418  0.89161392]
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.7min finished
-12641
+0.916145622175
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.2min finished
 (12641, 460)
-[ 0.91459075  0.92681962  0.91455696  0.93037975  0.8840981 ]
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.0min finished
-12641
+0.914089035542
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.4min finished
 (12641, 540)
-[ 0.91577699  0.92128165  0.90743671  0.9153481   0.88132911]
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.3min finished
-12641
+0.908234511314
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  3.0min finished
 (12641, 620)
-[ 0.91419533  0.91574367  0.90466772  0.91495253  0.87697785]
-[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  3.2min finished
-12641
+0.905307421255
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  3.1min finished
 (12641, 700)
-[ 0.91538157  0.91376582  0.90466772  0.9153481   0.87816456]
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  4.0min finished
+0.905465555255
+windows average CV scores
+[(3, 0.84012342898328762), (7, 0.88228802223323366), (11, 0.9023015926643343), (15, 0.90831375036913575), 
+(19, 0.91614562217517315), (23, 0.9140890355421416), (27, 0.90823451131432331), (31, 0.90530742125521169), (35, 0.90546555525524164)]
