@@ -9,7 +9,7 @@ import parsers_windows as mp
 path = "Datasets/"
 path2 = "Saved_models/"
 
-protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("subset_of_30_proteins.txt",19)
+protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("test.txt",19)
 print(len(protein_ID))
 
 #Prepare the X and y for the svm
@@ -21,7 +21,7 @@ print(y_test.shape)
 #####SVM
 
 # Load the model
-my_model = joblib.load(path2 + "my_test.sav")
+my_model = joblib.load(path2 + "train_my_data.sav")
 
 result = my_model.score(X_test,y_test)
 print(result)
