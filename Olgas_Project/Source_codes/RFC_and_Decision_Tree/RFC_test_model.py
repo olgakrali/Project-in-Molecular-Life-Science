@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 import parsers_windows as mp
 
 path = "Datasets/"
-path2 = "Saved_models/"
-
+path2  = "Saved_models"
 protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("subset_of_30_proteins.txt",5)
 print(len(protein_ID))
 
@@ -21,7 +20,7 @@ print(y_test.shape)
 #####SVM
 
 # Load the model
-my_model = joblib.load(path2 + "Decision_tree.sav")
+my_model = joblib.load(path2 + "RFC.sav")
 
 result = my_model.score(X_test,y_test)
 print(result)
@@ -61,7 +60,7 @@ bar = fig.colorbar(residues)
 labels = ['Globular', 'Signal Peptide', 'Membrane']
 plt.xticks(range(hor), labels[:hor])
 plt.yticks(range(ver), labels[:ver])
-plt.title('Confusion Matrix for the predicted sequences Decision Tree (window = 5)')
+plt.title('Confusion Matrix for the predicted sequences RandomForest (window = 5)')
 plt.xlabel('Predicted Topologies')
 plt.ylabel('True Topologies')
 plt.show()
@@ -100,7 +99,7 @@ def my_predictions():
 my_pred = my_predictions()
 
 
-with open(path + 'true_vs_predicted_topo_DT.txt', 'w') as file:
+with open(path + 'true_vs_predicted_topo_RFC.txt', 'w') as file:
     for prot, sequen, top, pre in zip(protein_ID,sequences,topology,my_pred):
         file.writelines('>' + prot + '\n')
         file.writelines(sequen + '\n')
