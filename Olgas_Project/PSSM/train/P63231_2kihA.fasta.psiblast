@@ -1,0 +1,4081 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2376/PSSM/uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P63231|2kihA
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P63232|M2_I73A5 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|P0DOF8|M2_I72A8 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|Q463X4|M2_I72A3 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|P0DOF5|M2_I72A2 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|Q6XT33|M2_I70A0 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|Q76R36|M2_I68A6 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|Q77IM6|M2_I68A4 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|Q76V12|M2_I68A0 Matrix protein 2 OS=Influenza A virus (strai...  201     1e-66
+  sp|Q3YPZ4|M2_I71A1 Matrix protein 2 OS=Influenza A virus (strai...  201     2e-66
+  sp|Q2PIM1|M2_I78A8 Matrix protein 2 OS=Influenza A virus (strai...  201     3e-66
+  sp|Q2PIM5|M2_I78A7 Matrix protein 2 OS=Influenza A virus (strai...  201     3e-66
+  sp|P10920|M2_I57A5 Matrix protein 2 OS=Influenza A virus (strai...  200     3e-66
+  sp|P0C2M3|M2_I72A4 Matrix protein 2 OS=Influenza A virus (strai...  200     4e-66
+  sp|Q6XTV0|M2_I67A0 Matrix protein 2 OS=Influenza A virus (strai...  200     5e-66
+  sp|Q2PIK5|M2_I76A6 Matrix protein 2 OS=Influenza A virus (strai...  199     7e-66
+  sp|P03491|M2_I79A0 Matrix protein 2 OS=Influenza A virus (strai...  199     8e-66
+  sp|Q67179|M2_I68A5 Matrix protein 2 OS=Influenza A virus (strai...  199     1e-65
+  sp|P21430|M2_I60A0 Matrix protein 2 OS=Influenza A virus (strai...  198     2e-65
+  sp|P26129|M2_I57A1 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q2PI09|M2_I80A4 Matrix protein 2 OS=Influenza A virus (strai...  197     3e-65
+  sp|Q77GW2|M2_I89A2 Matrix protein 2 OS=Influenza A virus (strai...  197     5e-65
+  sp|Q76V11|M2_I88A3 Matrix protein 2 OS=Influenza A virus (strai...  197     5e-65
+  sp|Q38SQ7|M2_I83A8 Matrix protein 2 OS=Influenza A virus (strai...  197     5e-65
+  sp|A4U7A7|M2_I51A0 Matrix protein 2 OS=Influenza A virus (strai...  197     5e-65
+  sp|P10921|M2_I50A0 Matrix protein 2 OS=Influenza A virus (strai...  197     5e-65
+  sp|A4GCK9|M2_I43A0 Matrix protein 2 OS=Influenza A virus (strai...  197     5e-65
+  sp|Q6XU12|M2_I57A0 Matrix protein 2 OS=Influenza A virus (strai...  197     7e-65
+  sp|Q8QV59|M2_I82A9 Matrix protein 2 OS=Influenza A virus (strai...  197     1e-64
+  sp|Q30NQ0|M2_I75A0 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|P35938|M2_I77AB Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|A4GBX8|M2_I77AA Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|A4U6V3|M2_I45A0 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q6XT43|M2_I69A0 Matrix protein 2 OS=Influenza A virus (strai...  196     3e-64
+  sp|A4K144|M2_I54A2 Matrix protein 2 OS=Influenza A virus (strai...  195     3e-64
+  sp|P67867|M2_I57A3 Matrix protein 2 OS=Influenza A virus (strai...  194     1e-63
+  sp|P67866|M2_I57A2 Matrix protein 2 OS=Influenza A virus (strai...  194     1e-63
+  sp|A4GCH6|M2_I83A1 Matrix protein 2 OS=Influenza A virus (strai...  194     1e-63
+  sp|A4GCJ8|M2_I80AA Matrix protein 2 OS=Influenza A virus (strai...  194     1e-63
+  sp|Q0HD59|M2_I40A0 Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q288Z5|M2_I77A4 Matrix protein 2 OS=Influenza A virus (strai...  192     7e-63
+  sp|A4GCI7|M2_I36A0 Matrix protein 2 OS=Influenza A virus (strai...  192     8e-63
+  sp|A3DRP1|M2_I96A2 Matrix protein 2 OS=Influenza A virus (strai...  189     6e-62
+  sp|P05780|M2_I33A0 Matrix protein 2 OS=Influenza A virus (strai...  187     3e-61
+  sp|Q8BAC4|M2_I18A0 Matrix protein 2 OS=Influenza A virus (strai...  186     9e-61
+  sp|Q67206|M2_I37A0 Matrix protein 2 OS=Influenza A virus (strai...  186     2e-60
+  sp|Q07FI4|M2_I96A3 Matrix protein 2 OS=Influenza A virus (strai...  186     2e-60
+  sp|A4GCM0|M2_I35A3 Matrix protein 2 OS=Influenza A virus (strai...  184     7e-60
+  sp|Q67203|M2_I81A4 Matrix protein 2 OS=Influenza A virus (strai...  184     8e-60
+  sp|Q289M6|M2_I00A1 Matrix protein 2 (Fragment) OS=Influenza A v...  184     9e-60
+  sp|P06821|M2_I34A1 Matrix protein 2 OS=Influenza A virus (strai...  184     9e-60
+  sp|Q67186|M2_I88A5 Matrix protein 2 OS=Influenza A virus (strai...  184     1e-59
+  sp|Q67207|M2_I61A1 Matrix protein 2 OS=Influenza A virus (strai...  183     2e-59
+  sp|Q89687|M2_I54A1 Matrix protein 2 OS=Influenza A virus (strai...  182     3e-59
+  sp|B4URD7|M2_I06A0 Matrix protein 2 OS=Influenza A virus (strai...  182     4e-59
+  sp|Q67211|M2_I88A7 Matrix protein 2 OS=Influenza A virus (strai...  181     1e-58
+  sp|Q6DPT5|M2_I02A6 Matrix protein 2 OS=Influenza A virus (strai...  180     3e-58
+  sp|A8C8J5|M2_I07A0 Matrix protein 2 (Fragment) OS=Influenza A v...  180     4e-58
+  sp|P0C5T0|M2_I01A0 Matrix protein 2 OS=Influenza A virus (strai...  179     7e-58
+  sp|Q67205|M2_I77AC Matrix protein 2 OS=Influenza A virus (strai...  179     1e-57
+  sp|Q0A447|M2_I49A1 Matrix protein 2 OS=Influenza A virus (strai...  179     1e-57
+  sp|Q6DPQ1|M2_I03A1 Matrix protein 2 OS=Influenza A virus (strai...  178     1e-57
+  sp|Q9IQ49|M2_I000X Matrix protein 2 OS=Influenza A virus (strai...  178     1e-57
+  sp|O70632|M2_I97A1 Matrix protein 2 OS=Influenza A virus (strai...  178     2e-57
+  sp|Q77XR9|M2_I97A0 Matrix protein 2 OS=Influenza A virus (strai...  178     2e-57
+  sp|Q9Q0L9|M2_I96A0 Matrix protein 2 OS=Influenza A virus (strai...  178     2e-57
+  sp|Q67201|M2_I85A4 Matrix protein 2 OS=Influenza A virus (strai...  178     2e-57
+  sp|P0C5T6|M2_I05A1 Matrix protein 2 OS=Influenza A virus (strai...  178     2e-57
+  sp|P0C575|M2_I00A0 Matrix protein 2 OS=Influenza A virus (strai...  177     3e-57
+  sp|Q76V06|M2_I82A7 Matrix protein 2 OS=Influenza A virus (strai...  177     3e-57
+  sp|A8C8W4|M2_I67A2 Matrix protein 2 OS=Influenza A virus (strai...  177     3e-57
+  sp|Q0A415|M2_I77AF Matrix protein 2 OS=Influenza A virus (strai...  177     4e-57
+  sp|P03492|M2_I34A0 Matrix protein 2 OS=Influenza A virus (strai...  177     4e-57
+  sp|Q2VC90|M2_I80A2 Matrix protein 2 OS=Influenza A virus (strai...  177     5e-57
+  sp|Q20P03|M2_I68A3 Matrix protein 2 OS=Influenza A virus (strai...  177     7e-57
+  sp|P0C5T1|M2_I01A1 Matrix protein 2 OS=Influenza A virus (strai...  176     8e-57
+  sp|P0C5T3|M2_I01A3 Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|Q20PM2|M2_I79A7 Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|P08382|M2_I78A3 Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|Q77ZJ9|M2_I77A9 Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|Q77W49|M2_I71A2 Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|P36348|M2_I02A0 Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|Q0A3Q8|M2_I78AC Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|Q0A458|M2_I66A1 Matrix protein 2 OS=Influenza A virus (strai...  176     1e-56
+  sp|Q0A436|M2_I56A2 Matrix protein 2 OS=Influenza A virus (strai...  176     2e-56
+  sp|P0C5T4|M2_I02A5 Matrix protein 2 OS=Influenza A virus (strai...  175     2e-56
+  sp|Q67210|M2_I80A8 Matrix protein 2 OS=Influenza A virus (strai...  175     3e-56
+  sp|Q08IG9|M2_I80A6 Matrix protein 2 OS=Influenza A virus (strai...  175     3e-56
+  sp|Q6DPT9|M2_I02A3 Matrix protein 2 OS=Influenza A virus (strai...  175     4e-56
+  sp|Q67162|M2_I85A3 Matrix protein 2 OS=Influenza A virus (strai...  175     4e-56
+  sp|Q0A2G4|M2_I83A4 Matrix protein 2 OS=Influenza A virus (strai...  174     6e-56
+  sp|Q67160|M2_I77AG Matrix protein 2 OS=Influenza A virus (strai...  173     2e-55
+  sp|P0C5T5|M2_I03A0 Matrix protein 2 OS=Influenza A virus (strai...  172     2e-55
+  sp|Q67146|M2_I72A5 Matrix protein 2 OS=Influenza A virus (strai...  172     3e-55
+  sp|Q6DPT7|M2_I02A4 Matrix protein 2 OS=Influenza A virus (strai...  172     4e-55
+  sp|Q6DPU1|M2_I02A2 Matrix protein 2 OS=Influenza A virus (strai...  172     4e-55
+  sp|Q0A2E4|M2_I66A0 Matrix protein 2 OS=Influenza A virus (strai...  172     5e-55
+  sp|Q67166|M2_I56A1 Matrix protein 2 OS=Influenza A virus (strai...  171     8e-55
+  sp|P0C5T2|M2_I01A2 Matrix protein 2 OS=Influenza A virus (strai...  171     1e-54
+  sp|Q77ZK8|M2_I91A0 Matrix protein 2 OS=Influenza A virus (strai...  171     1e-54
+  sp|Q77ZL3|M2_I81A2 Matrix protein 2 OS=Influenza A virus (strai...  171     1e-54
+  sp|Q77ZL5|M2_I79A6 Matrix protein 2 OS=Influenza A virus (strai...  171     1e-54
+  sp|P05778|M2_I000F Matrix protein 2 OS=Influenza A virus (strai...  171     1e-54
+  sp|Q04261|M2_I89A7 Matrix protein 2 OS=Influenza A virus (strai...  171     1e-54
+  sp|Q20NW0|M2_I80AD Matrix protein 2 OS=Influenza A virus (strai...  170     2e-54
+  sp|Q89881|M2_I80AC Matrix protein 2 OS=Influenza A virus (strai...  170     2e-54
+  sp|Q76V04|M2_I79A8 Matrix protein 2 OS=Influenza A virus (strai...  170     2e-54
+  sp|Q0A2I6|M2_I83A5 Matrix protein 2 OS=Influenza A virus (strai...  170     3e-54
+  sp|Q67168|M2_I86A2 Matrix protein 2 OS=Influenza A virus (strai...  170     3e-54
+  sp|Q6DPQ7|M2_I02A7 Matrix protein 2 (Fragment) OS=Influenza A v...  169     4e-54
+  sp|Q0A2H5|M2_I59A0 Matrix protein 2 OS=Influenza A virus (strai...  169     5e-54
+  sp|Q67176|M2_I78AF Matrix protein 2 OS=Influenza A virus (strai...  169     8e-54
+  sp|Q0A2D6|M2_I83A6 Matrix protein 2 OS=Influenza A virus (strai...  167     4e-53
+  sp|Q67172|M2_I86A3 Matrix protein 2 OS=Influenza A virus (strai...  166     1e-52
+  sp|P05779|M2_I30A0 Matrix protein 2 OS=Influenza A virus (strai...  166     2e-52
+  sp|Q67170|M2_I56A3 Matrix protein 2 OS=Influenza A virus (strai...  161     1e-50
+  sp|Q6DPU3|M2_I02A1 Matrix protein 2 (Fragment) OS=Influenza A v...  159     3e-50
+
+
+> sp|P63232|M2_I73A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Port Chalmers/1/1973 H3N2) OX=385624 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P0DOF8|M2_I72A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Udorn/1972 H3N2) OX=385599 GN=M PE=1 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q463X4|M2_I72A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/102/1972 H3N2) OX=385640 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P0DOF5|M2_I72A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Udorn/307/1972 H3N2) OX=381517 GN=M PE=1 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q6XT33|M2_I70A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Qu/7/1970 H3N2) OX=221016 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q76R36|M2_I68A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Northern Territory/60/1968 H3N2) OX=384505 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q77IM6|M2_I68A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/1/1968 H3N2) OX=506350 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q76V12|M2_I68A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Aichi/2/1968 H3N2) OX=387139 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (512),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q3YPZ4|M2_I71A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/1/1971 H3N2) OX=383586 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (510),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPI+NEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIKNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q2PIM1|M2_I78A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/18/1978 H3N2) OX=383579 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (510),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q2PIM5|M2_I78A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/2/1978 H3N2) OX=383580 GN=M PE=3 SV=1
+Length=97
+
+ Score = 201 bits (510),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|P10920|M2_I57A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Singapore/1/1957 H2N2) OX=382781 GN=M PE=3 SV=1
+Length=97
+
+ Score = 200 bits (509),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P0C2M3|M2_I72A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/101/1972 H3N2) OX=383583 GN=M PE=3 SV=1
+Length=96
+
+ Score = 200 bits (508),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 96/96 (100%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+
+
+> sp|Q6XTV0|M2_I67A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Tokyo/3/1967 H2N2) OX=380960 GN=M PE=3 SV=1
+Length=97
+
+ Score = 200 bits (508),  Expect = 5e-66, Method: Compositional matrix adjust.
+ Identities = 96/97 (99%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q2PIK5|M2_I76A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/110/1976 H3N2) OX=383581 GN=M PE=3 SV=1
+Length=97
+
+ Score = 199 bits (507),  Expect = 7e-66, Method: Compositional matrix adjust.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P03491|M2_I79A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Bangkok/1/1979 H3N2) OX=385630 GN=M PE=3 SV=1
+Length=97
+
+ Score = 199 bits (507),  Expect = 8e-66, Method: Compositional matrix adjust.
+ Identities = 95/97 (98%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q67179|M2_I68A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Korea/426/1968 H2N2) OX=488241 GN=M PE=3 SV=1
+Length=97
+
+ Score = 199 bits (506),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILH ILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHFILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P21430|M2_I60A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Ann Arbor/6/1960 H2N2) OX=384498 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (504),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILD LFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDHLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P26129|M2_I57A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Leningrad/134/1957 H2N2) OX=387163 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Compositional matrix adjust.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKC YRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCNYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q2PI09|M2_I80A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/4/1980 H3N2) OX=383578 GN=M PE=3 SV=1
+Length=96
+
+ Score = 197 bits (502),  Expect = 3e-65, Method: Compositional matrix adjust.
+ Identities = 94/96 (98%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIEL  96
+
+
+> sp|Q77GW2|M2_I89A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Beijing/353/1989 H3N2) OX=380949 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q76V11|M2_I88A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/8/1988 H3N2) OX=383588 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q38SQ7|M2_I83A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/5/1983 H3N2) OX=387159 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|A4U7A7|M2_I51A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Albany/12/1951 H1N1) OX=425580 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|P10921|M2_I50A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Fort Warren/1/1950 H1N1) OX=384525 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|A4GCK9|M2_I43A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Iowa/1943 H1N1) OX=425563 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|Q6XU12|M2_I57A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Japan/305/1957 H2N2) OX=387161 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 7e-65, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR EQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRNEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q8QV59|M2_I82A9 Matrix protein 2 OS=Influenza A virus (strain 
+A/Philippines/2/1982 H3N2) OX=382825 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSD LVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDSLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q30NQ0|M2_I75A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Beijing/39/1975 H3N2) OX=383596 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EW CRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRSEWECRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P35938|M2_I77AB Matrix protein 2 OS=Influenza A virus (strain 
+A/USSR/90/1977 H1N1) OX=381516 GN=M PE=1 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 93/97 (96%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVNIELE  97
+
+
+> sp|A4GBX8|M2_I77AA Matrix protein 2 OS=Influenza A virus (strain 
+A/Brazil/11/1978 H1N1) OX=393560 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 93/97 (96%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVNIELE  97
+
+
+> sp|A4U6V3|M2_I45A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Huston/AA/1945 H1N1) OX=425551 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 93/97 (96%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAA+IIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAANIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|Q6XT43|M2_I69A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/England/878/1969 H3N2) OX=387147 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (497),  Expect = 3e-64, Method: Compositional matrix adjust.
+ Identities = 94/97 (97%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSS+PLVVAASIIGILHLILWILDRLFFKCI RFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSNPLVVAASIIGILHLILWILDRLFFKCITRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|A4K144|M2_I54A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (496),  Expect = 3e-64, Method: Compositional matrix adjust.
+ Identities = 90/97 (93%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPL++AAS++GILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLIIAASVVGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|P67867|M2_I57A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Leningrad/134/47/1957 H2N2) OX=380983 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (492),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 93/97 (96%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKC YRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCNYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RG STEGVPESMREEYRKEQQSAVD DDSHFVSIELE
+Sbjct  61  RGASTEGVPESMREEYRKEQQSAVDTDDSHFVSIELE  97
+
+
+> sp|P67866|M2_I57A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Leningrad/134/17/1957 H2N2) OX=380984 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (492),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 93/97 (96%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKC YRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCNYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RG STEGVPESMREEYRKEQQSAVD DDSHFVSIELE
+Sbjct  61  RGASTEGVPESMREEYRKEQQSAVDTDDSHFVSIELE  97
+
+
+> sp|A4GCH6|M2_I83A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chile/1/1983 H1N1) OX=380985 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (492),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 92/97 (95%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIELE  97
+
+
+> sp|A4GCJ8|M2_I80AA Matrix protein 2 OS=Influenza A virus (strain 
+A/India/6263/1980 H1N1) OX=393562 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (492),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 92/97 (95%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIELE  97
+
+
+> sp|Q0HD59|M2_I40A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hickox/1940 H1N1) OX=383543 GN=M PE=1 SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 92/97 (95%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEW CRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWECRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVP+SMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPKSMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|Q288Z5|M2_I77A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Colorado/1/1977 H3N2) OX=385645 GN=M PE=3 SV=1
+Length=96
+
+ Score = 192 bits (487),  Expect = 7e-63, Method: Compositional matrix adjust.
+ Identities = 92/96 (96%), Positives = 94/96 (98%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDSSDP VVAASIIGILHLILWILDRLFFKCIYR FEHGLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSSDPFVVAASIIGILHLILWILDRLFFKCIYRSFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYR+EQQSAVDADDSHFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDADDSHFVSIEL  96
+
+
+> sp|A4GCI7|M2_I36A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Henry/1936 H1N1) OX=425562 GN=M PE=3 SV=1
+Length=97
+
+ Score = 192 bits (487),  Expect = 8e-63, Method: Compositional matrix adjust.
+ Identities = 91/97 (94%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPLV+AA+IIGILHLILWILDRLFFKCIYR FE+GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLVIAANIIGILHLILWILDRLFFKCIYRLFEYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|A3DRP1|M2_I96A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Memphis/10/1996 H1N1) OX=416730 GN=M PE=3 SV=1
+Length=97
+
+ Score = 189 bits (481),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 89/97 (92%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFFKCIYRIFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDAD+ HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADEGHFVSIELE  97
+
+
+> sp|P05780|M2_I33A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Wilson-Smith/1933 H1N1) OX=381518 GN=M PE=1 SV=1
+Length=97
+
+ Score = 187 bits (476),  Expect = 3e-61, Method: Compositional matrix adjust.
+ Identities = 88/97 (91%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLV+AA+IIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVIAANIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q8BAC4|M2_I18A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Brevig Mission/1/1918 H1N1) OX=88776 GN=M PE=3 SV=1
+Length=97
+
+ Score = 186 bits (473),  Expect = 9e-61, Method: Compositional matrix adjust.
+ Identities = 88/97 (91%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEWGCRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWGCRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67206|M2_I37A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/29/1937 H1N1) OX=382842 GN=M PE=3 SV=1
+Length=97
+
+ Score = 186 bits (472),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 88/97 (91%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR  E+GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRLEYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q07FI4|M2_I96A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/China:Nanchang/11/1996 H1N1) OX=394786 GN=M PE=3 SV=1
+Length=97
+
+ Score = 186 bits (471),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 88/97 (91%), Positives = 93/97 (96%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLF K IYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFSKSIYRIFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIELE  97
+
+
+> sp|A4GCM0|M2_I35A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Phila/1935 H1N1) OX=425570 GN=M PE=3 SV=1
+Length=97
+
+ Score = 184 bits (468),  Expect = 7e-60, Method: Compositional matrix adjust.
+ Identities = 88/97 (91%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPLV+AASIIGILHLILWILDRL FKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLVIAASIIGILHLILWILDRLLFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFV+IE E
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVNIEPE  97
+
+
+> sp|Q67203|M2_I81A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Ontario/2/1981 H1N1) OX=384501 GN=M PE=3 SV=1
+Length=97
+
+ Score = 184 bits (467),  Expect = 8e-60, Method: Compositional matrix adjust.
+ Identities = 87/97 (90%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIVLE  97
+
+
+> sp|Q289M6|M2_I00A1 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) 
+OX=363066 GN=M PE=3 SV=1
+Length=96
+
+ Score = 184 bits (467),  Expect = 9e-60, Method: Compositional matrix adjust.
+ Identities = 87/96 (91%), Positives = 92/96 (96%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLF K IYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFSKSIYRIFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIEL  96
+
+
+> sp|P06821|M2_I34A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Puerto Rico/8/1934 H1N1) OX=211044 GN=M PE=1 SV=1
+Length=97
+
+ Score = 184 bits (467),  Expect = 9e-60, Method: Compositional matrix adjust.
+ Identities = 87/97 (90%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPL +AA+IIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLAIAANIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVP+SMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  GGPSTEGVPKSMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q67186|M2_I88A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Iowa/17672/1988 H1N1) OX=380341 GN=M PE=3 SV=1
+Length=97
+
+ Score = 184 bits (466),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 86/97 (89%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGC+CNDSSDPLV  ASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCKCNDSSDPLVAVASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67207|M2_I61A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=M PE=3 SV=1
+Length=97
+
+ Score = 183 bits (464),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 86/97 (89%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP R+EWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPTRSEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q89687|M2_I54A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/May/1954 H1N1) OX=383535 GN=M PE=3 SV=1
+Length=97
+
+ Score = 182 bits (463),  Expect = 3e-59, Method: Compositional matrix adjust.
+ Identities = 86/97 (89%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR  E+GLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRLEYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEG+PESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGLPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|B4URD7|M2_I06A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 182 bits (462),  Expect = 4e-59, Method: Compositional matrix adjust.
+ Identities = 86/97 (89%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPL +AA+IIGILHL LWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLTIAANIIGILHLTLWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVP+SMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  GGPSTEGVPKSMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q67211|M2_I88A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Wisconsin/3523/1988 H1N1) OX=380346 GN=M PE=3 SV=1
+Length=97
+
+ Score = 181 bits (459),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGC+CNDSSDPLV AASIIGILHLILWILDRLF KCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCKCNDSSDPLVAAASIIGILHLILWILDRLFLKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIVLE  97
+
+
+> sp|Q6DPT5|M2_I02A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z) OX=284177 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 180 bits (457),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 86/97 (89%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|A8C8J5|M2_I07A0 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=M 
+PE=3 SV=1
+Length=94
+
+ Score = 180 bits (456),  Expect = 4e-58, Method: Compositional matrix adjust.
+ Identities = 85/94 (90%), Positives = 90/94 (96%), Gaps = 0/94 (0%)
+
+Query  4   LTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLKRGP  63
+           LTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLF K IYR F+HGLKRGP
+Sbjct  1   LTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFSKSIYRIFKHGLKRGP  60
+
+Query  64  STEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           STEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  STEGVPESMREEYREEQQNAVDADDDHFVSIELE  94
+
+
+> sp|P0C5T0|M2_I01A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 179 bits (454),  Expect = 7e-58, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67205|M2_I77AC Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Tennessee/24/1977 H1N1) OX=385606 GN=M PE=3 SV=1
+Length=97
+
+ Score = 179 bits (453),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDS DPLV AASIIGILHLILWILDRLFFKCI+R F++GLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSGDPLVAAASIIGILHLILWILDRLFFKCIHRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIALE  97
+
+
+> sp|Q0A447|M2_I49A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Germany/1949 H10N7) OX=382838 GN=M PE=3 SV=1
+Length=97
+
+ Score = 179 bits (453),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRC+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRIKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDSHFVNIELE  97
+
+
+> sp|Q6DPQ1|M2_I03A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Shantou/4231/2003 H5N1 genotype V) OX=284184 GN=M 
+PE=3 SV=1
+Length=97
+
+ Score = 178 bits (452),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTAGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q9IQ49|M2_I000X Matrix protein 2 OS=Influenza A virus (strain 
+A/X-31 H3N2) OX=132504 GN=M PE=3 SV=1
+Length=97
+
+ Score = 178 bits (452),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MS LTEVETPIRNEWGCRCN SSDPL +AA+IIGILHL LW+LDRLFFKCIYR F++GLK
+Sbjct  1   MSFLTEVETPIRNEWGCRCNGSSDPLTIAANIIGILHLTLWMLDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVP+SMREEYRKEQQSAVD DD HFVSIELE
+Sbjct  61  GGPSTEGVPKSMREEYRKEQQSAVDTDDGHFVSIELE  97
+
+
+> sp|O70632|M2_I97A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=M 
+PE=1 SV=1
+Length=97
+
+ Score = 178 bits (452),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN WGCRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETLTRNGWGCRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77XR9|M2_I97A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 178 bits (452),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN WGCRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETLTRNGWGCRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q9Q0L9|M2_I96A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=M 
+PE=3 SV=1
+Length=97
+
+ Score = 178 bits (452),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP +NEW C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTKNEWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67201|M2_I85A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Netherlands/12/1985 H1N1) OX=380347 GN=M PE=3 SV=1
+Length=97
+
+ Score = 178 bits (451),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN WGCR +DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWGCRFSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRLLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T6|M2_I05A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=M 
+PE=3 SV=1
+Length=97
+
+ Score = 178 bits (451),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+DSSDPL+VAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSDSSDPLIVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTAGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P0C575|M2_I00A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C) OX=176674 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 177 bits (450),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q76V06|M2_I82A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Hong Kong/127/1982 H3N2) OX=384483 GN=M PE=3 SV=1
+Length=97
+
+ Score = 177 bits (450),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRLLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|A8C8W4|M2_I67A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=M PE=3 SV=1
+Length=97
+
+ Score = 177 bits (450),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EW CRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRSEWECRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQ+AVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQNAVDVDDGHFVNIVLE  97
+
+
+> sp|Q0A415|M2_I77AF Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=M PE=3 SV=1
+Length=97
+
+ Score = 177 bits (449),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEW CRC+DSSDPLV+AASIIGILHLILWILDRL FK IYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWECRCSDSSDPLVIAASIIGILHLILWILDRLLFKFIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPS EGVPESMREEYR+EQQSAVD DDSHFV+IELE
+Sbjct  61  RGPSMEGVPESMREEYRQEQQSAVDVDDSHFVNIELE  97
+
+
+> sp|P03492|M2_I34A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=M 
+PE=1 SV=1
+Length=97
+
+ Score = 177 bits (449),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRCNDSSDPL++AASIIGILHLILWIL+RLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCNDSSDPLIIAASIIGILHLILWILNRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q2VC90|M2_I80A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Seal/Massachusetts/1/1980 H7N7) OX=384493 GN=M PE=3 SV=1
+Length=97
+
+ Score = 177 bits (449),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRN W C+C+DSSDPLV+AASIIGILHLILWILD LFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPIRNGWECKCSDSSDPLVIAASIIGILHLILWILDHLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDSHFVNIELE  97
+
+
+> sp|Q20P03|M2_I68A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=M PE=3 SV=1
+Length=97
+
+ Score = 177 bits (448),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T1|M2_I01A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (447),  Expect = 8e-57, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T3|M2_I01A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (447),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVA+SIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVASSIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q20PM2|M2_I79A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P08382|M2_I78A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Mallard/New York/6750/1978 H2N2) OX=384502 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q77ZJ9|M2_I77A9 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/New Market/1/1977 H7N7) OX=217831 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q77W49|M2_I71A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Oregon/1971 H7N3) OX=385636 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P36348|M2_I02A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Brescia/1902 H7N7) OX=36418 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRC+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A3Q8|M2_I78AC Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Minnesota/501/1978 H6N8) OX=387259 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRIKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A458|M2_I66A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRIKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A436|M2_I56A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/England/1/1956 H11N6) OX=383550 GN=M PE=3 SV=1
+Length=97
+
+ Score = 176 bits (445),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRN W CRC+DSSDPLV+AASIIGILHLILWILDRLFFKCI R  ++GLK
+Sbjct  1   MSLLTEVETPIRNGWECRCSDSSDPLVIAASIIGILHLILWILDRLFFKCISRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T4|M2_I02A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y) OX=279803 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 175 bits (444),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVAA+IIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVAANIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST+GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTKGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67210|M2_I80A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=M PE=3 SV=1
+Length=97
+
+ Score = 175 bits (443),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q08IG9|M2_I80A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=M PE=1 SV=1
+Length=97
+
+ Score = 175 bits (443),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q6DPT9|M2_I02A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 175 bits (443),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN W CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETLTRNGWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q67162|M2_I85A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Victoria/1/1985 H7N7) OX=402520 GN=M PE=3 SV=1
+Length=97
+
+ Score = 175 bits (443),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HF +IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFANIELE  97
+
+
+> sp|Q0A2G4|M2_I83A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=M PE=3 SV=1
+Length=97
+
+ Score = 174 bits (442),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFF+C+YR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFRCVYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67160|M2_I77AG Matrix protein 2 OS=Influenza A virus (strain 
+A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=M PE=3 SV=1
+Length=97
+
+ Score = 173 bits (438),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP +N W C+C+DSSDPL++AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTKNGWECKCSDSSDPLIIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQS VD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSVVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T5|M2_I03A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/212/2003 H5N1 genotype Z+) OX=279794 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 172 bits (437),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RNEW CRC+DSSDPLVVAA+IIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRNEWECRCSDSSDPLVVAANIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGP+T GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPATAGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67146|M2_I72A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Shearwater/Australia/1972 H6N5) OX=383604 GN=M PE=3 SV=1
+Length=97
+
+ Score = 172 bits (437),  Expect = 3e-55, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+ +DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKYSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q6DPT7|M2_I02A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 172 bits (436),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP R  W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRTGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTGGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q6DPU1|M2_I02A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 172 bits (436),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP R  W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRTGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTGGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A2E4|M2_I66A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Ontario/7732/1966 H5N9) OX=380301 GN=M PE=3 SV=1
+Length=97
+
+ Score = 172 bits (435),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLIL ILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILCILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67166|M2_I56A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=M PE=3 SV=1
+Length=97
+
+ Score = 171 bits (434),  Expect = 8e-55, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CR + SSDPLV+AASIIGILHLILWILDRLFFKCIYR  +HGLK
+Sbjct  1   MSLLTEVETPTRNGWECRYSGSSDPLVIAASIIGILHLILWILDRLFFKCIYRCLKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T2|M2_I01A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 
+GN=M PE=3 SV=1
+Length=100
+
+ Score = 171 bits (433),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 84/100 (84%), Positives = 90/100 (90%), Gaps = 3/100 (3%)
+
+Query  1   MSLLTEVET---PIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEH  57
+           MSLLTEVET   P RNEW CRC+ SSDPLVVA+SIIGILHLILWILDRLFFKCIYR  ++
+Sbjct  1   MSLLTEVETYVLPTRNEWECRCSGSSDPLVVASSIIGILHLILWILDRLFFKCIYRRLKY  60
+
+Query  58  GLKRGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           GLKRGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  GLKRGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  100
+
+
+> sp|Q77ZK8|M2_I91A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Alaska/1/1991 H3N8) OX=387213 GN=M PE=3 SV=1
+Length=97
+
+ Score = 171 bits (433),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77ZL3|M2_I81A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Kentucky/1/1981) OX=475467 GN=M PE=3 SV=1
+Length=97
+
+ Score = 171 bits (433),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77ZL5|M2_I79A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/New Market/1979 H3N8) OX=387226 GN=M PE=3 SV=1
+Length=97
+
+ Score = 171 bits (433),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|P05778|M2_I000F Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Weybridge H7N7) OX=11384 GN=M PE=3 SV=1
+Length=97
+
+ Score = 171 bits (433),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C C+DSSDPLV+AASIIGILH ILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECSCSDSSDPLVIAASIIGILHFILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVP+SMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPKSMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q04261|M2_I89A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=M PE=3 SV=1
+Length=97
+
+ Score = 171 bits (432),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRL FKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCDDSSDPLVIAASIIGILHLILWILDRLSFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q20NW0|M2_I80AD Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=M PE=3 SV=1
+Length=97
+
+ Score = 170 bits (431),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q89881|M2_I80AC Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Massachusetts/26/1980 H13N6) OX=385626 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 170 bits (431),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q76V04|M2_I79A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Maryland/1815/1979 H13N6) OX=385601 GN=M PE=3 SV=1
+Length=97
+
+ Score = 170 bits (431),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A2I6|M2_I83A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Pennsylvania/1/1983 H5N2) OX=385586 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 170 bits (430),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN W C+C+DSSDPL++AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETLTRNGWECKCSDSSDPLIIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEG PESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGAPESMREEYRQEQQSAVDVDDVHFVNIELE  97
+
+
+> sp|Q67168|M2_I86A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Kentucky/2/1986 H3N8) OX=385605 GN=M PE=3 SV=1
+Length=97
+
+ Score = 170 bits (430),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+ SSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSGSSDPLVIAASIIGILHLILWILDRLFFKFIYRLLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q6DPQ7|M2_I02A7 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 
+GN=M PE=3 SV=1
+Length=92
+
+ Score = 169 bits (429),  Expect = 4e-54, Method: Compositional matrix adjust.
+ Identities = 80/92 (87%), Positives = 85/92 (92%), Gaps = 0/92 (0%)
+
+Query  3   LLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLKRG  62
+           LLTEVETP RNEW CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLKRG
+Sbjct  1   LLTEVETPTRNEWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLKRG  60
+
+Query  63  PSTEGVPESMREEYRKEQQSAVDADDSHFVSI  94
+           PST GVPESMREEYR+EQQSAVD DD HFV+I
+Sbjct  61  PSTAGVPESMREEYRQEQQSAVDVDDGHFVNI  92
+
+
+> sp|Q0A2H5|M2_I59A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Scotland/1959 H5N1) OX=402527 GN=M PE=3 SV=1
+Length=97
+
+ Score = 169 bits (429),  Expect = 5e-54, Method: Compositional matrix adjust.
+ Identities = 81/97 (84%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRC+DSSDPLV+AASIIGILHLILWILD LFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCSDSSDPLVIAASIIGILHLILWILDCLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  GGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q67176|M2_I78AF Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Maryland/1824/1978 H13N6) OX=385602 GN=M PE=3 SV=1
+Length=97
+
+ Score = 169 bits (428),  Expect = 8e-54, Method: Compositional matrix adjust.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWI DRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWIFDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A2D6|M2_I83A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Pennsylvania/1370/1983 H5N2) OX=385617 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 167 bits (423),  Expect = 4e-53, Method: Compositional matrix adjust.
+ Identities = 78/97 (80%), Positives = 87/97 (90%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN W C+C+DSSDPL++AASIIGILHLILWI +RLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETLTRNGWECKCSDSSDPLIIAASIIGILHLILWIFNRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEG PESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGAPESMREEYRQEQQSAVDVDDVHFVNIELE  97
+
+
+> sp|Q67172|M2_I86A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=M PE=3 SV=1
+Length=97
+
+ Score = 166 bits (419),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 79/97 (81%), Positives = 87/97 (90%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+ SSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSGSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  GGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|P05779|M2_I30A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Iowa/15/1930 H1N1) OX=380342 GN=M PE=3 SV=1
+Length=97
+
+ Score = 166 bits (419),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 76/97 (78%), Positives = 85/97 (88%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSL TEVETP RNEWGCRCNDSSD + +AA  IGILHLILWILDRLFFKCIYR  ++G K
+Sbjct  1   MSLPTEVETPTRNEWGCRCNDSSDHITIAAKFIGILHLILWILDRLFFKCIYRRLKYGPK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVP+SMREEYR++QQ+A D DD HFV+IELE
+Sbjct  61  RGPSTEGVPDSMREEYRQKQQNAADVDDGHFVNIELE  97
+
+
+> sp|Q67170|M2_I56A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Prague/1/1956 H7N7) OX=380337 GN=M PE=3 SV=1
+Length=97
+
+ Score = 161 bits (407),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 76/97 (78%), Positives = 83/97 (86%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPI++ W CRCNDSSD LV  ASI GILHLILWI DRLFFKC YR F HGLK
+Sbjct  1   MSLLTEVETPIKSGWECRCNDSSDLLVAIASITGILHLILWIFDRLFFKCAYRRFRHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST G+PESMREEYR+EQQS V+ D+ HFV+IELE
+Sbjct  61  RGPSTGGIPESMREEYRQEQQSDVNVDNGHFVNIELE  97
+
+
+> sp|Q6DPU3|M2_I02A1 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype 
+X0) OX=284208 GN=M PE=3 SV=1
+Length=90
+
+ Score = 159 bits (403),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 75/90 (83%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  8   ETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLKRGPSTEG  67
+           ETP R  W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLKRGPST G
+Sbjct  1   ETPTRTGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLKRGPSTGG  60
+
+Query  68  VPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           VPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  VPESMREEYRQEQQSAVDVDDGHFVNIELE  90
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4870349370
+Results from round 2
+
+
+Query= P63231|2kihA
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P05780|M2_I33A0 Matrix protein 2 OS=Influenza A virus (strai...  202     9e-67
+  sp|Q8BAC4|M2_I18A0 Matrix protein 2 OS=Influenza A virus (strai...  200     4e-66
+  sp|Q67203|M2_I81A4 Matrix protein 2 OS=Influenza A virus (strai...  200     5e-66
+  sp|Q67207|M2_I61A1 Matrix protein 2 OS=Influenza A virus (strai...  200     6e-66
+  sp|Q67186|M2_I88A5 Matrix protein 2 OS=Influenza A virus (strai...  199     8e-66
+  sp|Q67206|M2_I37A0 Matrix protein 2 OS=Influenza A virus (strai...  199     2e-65
+  sp|P36348|M2_I02A0 Matrix protein 2 OS=Influenza A virus (strai...  198     2e-65
+  sp|P03492|M2_I34A0 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q67210|M2_I80A8 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q08IG9|M2_I80A6 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|P35938|M2_I77AB Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|A4GBX8|M2_I77AA Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|O70632|M2_I97A1 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q77XR9|M2_I97A0 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q20P03|M2_I68A3 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q20PM2|M2_I79A7 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|P08382|M2_I78A3 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q77ZJ9|M2_I77A9 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q77W49|M2_I71A2 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|A4U7A7|M2_I51A0 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|P10921|M2_I50A0 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|A4GCK9|M2_I43A0 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|A4U6V3|M2_I45A0 Matrix protein 2 OS=Influenza A virus (strai...  198     3e-65
+  sp|Q6XU12|M2_I57A0 Matrix protein 2 OS=Influenza A virus (strai...  197     4e-65
+  sp|Q6DPT5|M2_I02A6 Matrix protein 2 OS=Influenza A virus (strai...  197     4e-65
+  sp|P0C5T1|M2_I01A1 Matrix protein 2 OS=Influenza A virus (strai...  197     7e-65
+  sp|Q0A3Q8|M2_I78AC Matrix protein 2 OS=Influenza A virus (strai...  197     7e-65
+  sp|Q0A458|M2_I66A1 Matrix protein 2 OS=Influenza A virus (strai...  197     7e-65
+  sp|P0C5T0|M2_I01A0 Matrix protein 2 OS=Influenza A virus (strai...  197     7e-65
+  sp|Q6DPQ1|M2_I03A1 Matrix protein 2 OS=Influenza A virus (strai...  197     7e-65
+  sp|A4GCM0|M2_I35A3 Matrix protein 2 OS=Influenza A virus (strai...  197     7e-65
+  sp|P03491|M2_I79A0 Matrix protein 2 OS=Influenza A virus (strai...  197     8e-65
+  sp|P0C575|M2_I00A0 Matrix protein 2 OS=Influenza A virus (strai...  197     8e-65
+  sp|Q6XTV0|M2_I67A0 Matrix protein 2 OS=Influenza A virus (strai...  197     9e-65
+  sp|Q9Q0L9|M2_I96A0 Matrix protein 2 OS=Influenza A virus (strai...  197     1e-64
+  sp|A4GCH6|M2_I83A1 Matrix protein 2 OS=Influenza A virus (strai...  197     1e-64
+  sp|A4GCJ8|M2_I80AA Matrix protein 2 OS=Influenza A virus (strai...  197     1e-64
+  sp|P10920|M2_I57A5 Matrix protein 2 OS=Influenza A virus (strai...  197     1e-64
+  sp|Q67211|M2_I88A7 Matrix protein 2 OS=Influenza A virus (strai...  197     1e-64
+  sp|A8C8W4|M2_I67A2 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q67162|M2_I85A3 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q67205|M2_I77AC Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|P0C5T6|M2_I05A1 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q76V06|M2_I82A7 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q6DPT9|M2_I02A3 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q77GW2|M2_I89A2 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q76V11|M2_I88A3 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|Q38SQ7|M2_I83A8 Matrix protein 2 OS=Influenza A virus (strai...  196     1e-64
+  sp|P0C5T4|M2_I02A5 Matrix protein 2 OS=Influenza A virus (strai...  196     2e-64
+  sp|A4K144|M2_I54A2 Matrix protein 2 OS=Influenza A virus (strai...  196     2e-64
+  sp|P06821|M2_I34A1 Matrix protein 2 OS=Influenza A virus (strai...  196     2e-64
+  sp|Q6DPT7|M2_I02A4 Matrix protein 2 OS=Influenza A virus (strai...  196     2e-64
+  sp|Q6DPU1|M2_I02A2 Matrix protein 2 OS=Influenza A virus (strai...  196     2e-64
+  sp|Q0A2G4|M2_I83A4 Matrix protein 2 OS=Influenza A virus (strai...  196     2e-64
+  sp|A4GCI7|M2_I36A0 Matrix protein 2 OS=Influenza A virus (strai...  195     2e-64
+  sp|Q0HD59|M2_I40A0 Matrix protein 2 OS=Influenza A virus (strai...  195     2e-64
+  sp|Q0A447|M2_I49A1 Matrix protein 2 OS=Influenza A virus (strai...  195     3e-64
+  sp|Q2PI09|M2_I80A4 Matrix protein 2 OS=Influenza A virus (strai...  195     3e-64
+  sp|Q67179|M2_I68A5 Matrix protein 2 OS=Influenza A virus (strai...  195     3e-64
+  sp|Q89687|M2_I54A1 Matrix protein 2 OS=Influenza A virus (strai...  195     3e-64
+  sp|P21430|M2_I60A0 Matrix protein 2 OS=Influenza A virus (strai...  195     3e-64
+  sp|Q2PIM1|M2_I78A8 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|Q2PIM5|M2_I78A7 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|P0C5T3|M2_I01A3 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|B4URD7|M2_I06A0 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|P63232|M2_I73A5 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|P0DOF8|M2_I72A8 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|Q463X4|M2_I72A3 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|P0DOF5|M2_I72A2 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|Q6XT33|M2_I70A0 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|Q76R36|M2_I68A6 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|Q77IM6|M2_I68A4 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|Q76V12|M2_I68A0 Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|P05778|M2_I000F Matrix protein 2 OS=Influenza A virus (strai...  195     4e-64
+  sp|Q77ZK8|M2_I91A0 Matrix protein 2 OS=Influenza A virus (strai...  195     5e-64
+  sp|Q77ZL3|M2_I81A2 Matrix protein 2 OS=Influenza A virus (strai...  195     5e-64
+  sp|Q77ZL5|M2_I79A6 Matrix protein 2 OS=Influenza A virus (strai...  195     5e-64
+  sp|Q2VC90|M2_I80A2 Matrix protein 2 OS=Influenza A virus (strai...  195     5e-64
+  sp|Q67201|M2_I85A4 Matrix protein 2 OS=Influenza A virus (strai...  195     6e-64
+  sp|Q67160|M2_I77AG Matrix protein 2 OS=Influenza A virus (strai...  195     6e-64
+  sp|Q67146|M2_I72A5 Matrix protein 2 OS=Influenza A virus (strai...  194     6e-64
+  sp|Q0A436|M2_I56A2 Matrix protein 2 OS=Influenza A virus (strai...  194     6e-64
+  sp|Q3YPZ4|M2_I71A1 Matrix protein 2 OS=Influenza A virus (strai...  194     7e-64
+  sp|P26129|M2_I57A1 Matrix protein 2 OS=Influenza A virus (strai...  194     8e-64
+  sp|Q0A2H5|M2_I59A0 Matrix protein 2 OS=Influenza A virus (strai...  194     1e-63
+  sp|P0C2M3|M2_I72A4 Matrix protein 2 OS=Influenza A virus (strai...  194     2e-63
+  sp|P0C5T5|M2_I03A0 Matrix protein 2 OS=Influenza A virus (strai...  194     2e-63
+  sp|Q8QV59|M2_I82A9 Matrix protein 2 OS=Influenza A virus (strai...  193     2e-63
+  sp|Q0A2E4|M2_I66A0 Matrix protein 2 OS=Influenza A virus (strai...  193     2e-63
+  sp|Q2PIK5|M2_I76A6 Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q67166|M2_I56A1 Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q9IQ49|M2_I000X Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q20NW0|M2_I80AD Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q89881|M2_I80AC Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q76V04|M2_I79A8 Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q67168|M2_I86A2 Matrix protein 2 OS=Influenza A virus (strai...  193     3e-63
+  sp|Q67172|M2_I86A3 Matrix protein 2 OS=Influenza A virus (strai...  192     4e-63
+  sp|A3DRP1|M2_I96A2 Matrix protein 2 OS=Influenza A virus (strai...  192     4e-63
+  sp|Q67176|M2_I78AF Matrix protein 2 OS=Influenza A virus (strai...  192     5e-63
+  sp|Q04261|M2_I89A7 Matrix protein 2 OS=Influenza A virus (strai...  192     5e-63
+  sp|Q6XT43|M2_I69A0 Matrix protein 2 OS=Influenza A virus (strai...  192     6e-63
+  sp|Q30NQ0|M2_I75A0 Matrix protein 2 OS=Influenza A virus (strai...  191     1e-62
+  sp|P05779|M2_I30A0 Matrix protein 2 OS=Influenza A virus (strai...  191     2e-62
+  sp|Q288Z5|M2_I77A4 Matrix protein 2 OS=Influenza A virus (strai...  191     2e-62
+  sp|P67867|M2_I57A3 Matrix protein 2 OS=Influenza A virus (strai...  190     2e-62
+  sp|P67866|M2_I57A2 Matrix protein 2 OS=Influenza A virus (strai...  190     2e-62
+  sp|P0C5T2|M2_I01A2 Matrix protein 2 OS=Influenza A virus (strai...  190     3e-62
+  sp|Q0A2I6|M2_I83A5 Matrix protein 2 OS=Influenza A virus (strai...  189     6e-62
+  sp|Q0A415|M2_I77AF Matrix protein 2 OS=Influenza A virus (strai...  189     6e-62
+  sp|Q6DPQ7|M2_I02A7 Matrix protein 2 (Fragment) OS=Influenza A v...  189     8e-62
+  sp|Q07FI4|M2_I96A3 Matrix protein 2 OS=Influenza A virus (strai...  188     2e-61
+  sp|Q0A2D6|M2_I83A6 Matrix protein 2 OS=Influenza A virus (strai...  188     3e-61
+  sp|Q289M6|M2_I00A1 Matrix protein 2 (Fragment) OS=Influenza A v...  187     7e-61
+  sp|Q67170|M2_I56A3 Matrix protein 2 OS=Influenza A virus (strai...  184     7e-60
+  sp|Q6DPU3|M2_I02A1 Matrix protein 2 (Fragment) OS=Influenza A v...  184     1e-59
+  sp|A8C8J5|M2_I07A0 Matrix protein 2 (Fragment) OS=Influenza A v...  180     3e-58
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P05780|M2_I33A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Wilson-Smith/1933 H1N1) OX=381518 GN=M PE=1 SV=1
+Length=97
+
+ Score = 202 bits (513),  Expect = 9e-67, Method: Composition-based stats.
+ Identities = 88/97 (91%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLV+AA+IIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVIAANIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q8BAC4|M2_I18A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Brevig Mission/1/1918 H1N1) OX=88776 GN=M PE=3 SV=1
+Length=97
+
+ Score = 200 bits (509),  Expect = 4e-66, Method: Composition-based stats.
+ Identities = 88/97 (91%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEWGCRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWGCRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67203|M2_I81A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Ontario/2/1981 H1N1) OX=384501 GN=M PE=3 SV=1
+Length=97
+
+ Score = 200 bits (508),  Expect = 5e-66, Method: Composition-based stats.
+ Identities = 87/97 (90%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIVLE  97
+
+
+> sp|Q67207|M2_I61A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Wisconsin/1/1961 H1N1) OX=383533 GN=M PE=3 SV=1
+Length=97
+
+ Score = 200 bits (508),  Expect = 6e-66, Method: Composition-based stats.
+ Identities = 86/97 (89%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP R+EWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPTRSEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67186|M2_I88A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Iowa/17672/1988 H1N1) OX=380341 GN=M PE=3 SV=1
+Length=97
+
+ Score = 199 bits (507),  Expect = 8e-66, Method: Composition-based stats.
+ Identities = 86/97 (89%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGC+CNDSSDPLV  ASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCKCNDSSDPLVAVASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67206|M2_I37A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/29/1937 H1N1) OX=382842 GN=M PE=3 SV=1
+Length=97
+
+ Score = 199 bits (505),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 88/97 (91%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR  E+GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRLEYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P36348|M2_I02A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Brescia/1902 H7N7) OX=36418 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (504),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRC+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|P03492|M2_I34A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Fowl plague virus/Rostock/8/1934 H7N1) OX=392810 GN=M 
+PE=1 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRCNDSSDPL++AASIIGILHLILWIL+RLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCNDSSDPLIIAASIIGILHLILWILNRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67210|M2_I80A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Minnesota/833/1980 H4N2) OX=383603 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q08IG9|M2_I80A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Hokkaido/8/1980 H3N8) OX=387207 GN=M PE=1 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|P35938|M2_I77AB Matrix protein 2 OS=Influenza A virus (strain 
+A/USSR/90/1977 H1N1) OX=381516 GN=M PE=1 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 93/97 (96%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVNIELE  97
+
+
+> sp|A4GBX8|M2_I77AA Matrix protein 2 OS=Influenza A virus (strain 
+A/Brazil/11/1978 H1N1) OX=393560 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 93/97 (96%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVNIELE  97
+
+
+> sp|O70632|M2_I97A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/156/1997 H5N1 genotype Gs/Gd) OX=130763 GN=M 
+PE=1 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN WGCRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETLTRNGWGCRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77XR9|M2_I97A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd) OX=100834 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN WGCRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETLTRNGWGCRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q20P03|M2_I68A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Ontario/6118/1968 H8N4) OX=311175 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q20PM2|M2_I79A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Grey teal/Australia/2/1979 H4N4) OX=402464 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P08382|M2_I78A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Mallard/New York/6750/1978 H2N2) OX=384502 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q77ZJ9|M2_I77A9 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/New Market/1/1977 H7N7) OX=217831 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q77W49|M2_I71A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Oregon/1971 H7N3) OX=385636 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|A4U7A7|M2_I51A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Albany/12/1951 H1N1) OX=425580 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|P10921|M2_I50A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Fort Warren/1/1950 H1N1) OX=384525 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|A4GCK9|M2_I43A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Iowa/1943 H1N1) OX=425563 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|A4U6V3|M2_I45A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Huston/AA/1945 H1N1) OX=425551 GN=M PE=3 SV=1
+Length=97
+
+ Score = 198 bits (503),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 93/97 (96%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAA+IIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAANIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|Q6XU12|M2_I57A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Japan/305/1957 H2N2) OX=387161 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 4e-65, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR EQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRNEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q6DPT5|M2_I02A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z) OX=284177 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (502),  Expect = 4e-65, Method: Composition-based stats.
+ Identities = 86/97 (89%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T1|M2_I01A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B) OX=196426 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (501),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A3Q8|M2_I78AC Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Minnesota/501/1978 H6N8) OX=387259 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (501),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRIKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A458|M2_I66A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Wisconsin/1/1966 H9N2) OX=385620 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (501),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRIKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P0C5T0|M2_I01A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A) OX=196430 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (501),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q6DPQ1|M2_I03A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Shantou/4231/2003 H5N1 genotype V) OX=284184 GN=M 
+PE=3 SV=1
+Length=97
+
+ Score = 197 bits (501),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTAGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|A4GCM0|M2_I35A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Phila/1935 H1N1) OX=425570 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 88/97 (91%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPLV+AASIIGILHLILWILDRL FKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLVIAASIIGILHLILWILDRLLFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFV+IE E
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVNIEPE  97
+
+
+> sp|P03491|M2_I79A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Bangkok/1/1979 H3N2) OX=385630 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 8e-65, Method: Composition-based stats.
+ Identities = 95/97 (98%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|P0C575|M2_I00A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C) OX=176674 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 8e-65, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q6XTV0|M2_I67A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Tokyo/3/1967 H2N2) OX=380960 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 9e-65, Method: Composition-based stats.
+ Identities = 96/97 (99%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q9Q0L9|M2_I96A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd) OX=93838 GN=M 
+PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP +NEW C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTKNEWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|A4GCH6|M2_I83A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chile/1/1983 H1N1) OX=380985 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 92/97 (95%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIELE  97
+
+
+> sp|A4GCJ8|M2_I80AA Matrix protein 2 OS=Influenza A virus (strain 
+A/India/6263/1980 H1N1) OX=393562 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 92/97 (95%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIELE  97
+
+
+> sp|P10920|M2_I57A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Singapore/1/1957 H2N2) OX=382781 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q67211|M2_I88A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Wisconsin/3523/1988 H1N1) OX=380346 GN=M PE=3 SV=1
+Length=97
+
+ Score = 197 bits (500),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGC+CNDSSDPLV AASIIGILHLILWILDRLF KCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCKCNDSSDPLVAAASIIGILHLILWILDRLFLKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIVLE  97
+
+
+> sp|A8C8W4|M2_I67A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Wisconsin/1/1967 H1N1) OX=382855 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EW CRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRSEWECRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQ+AVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQNAVDVDDGHFVNIVLE  97
+
+
+> sp|Q67162|M2_I85A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Victoria/1/1985 H7N7) OX=402520 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HF +IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFANIELE  97
+
+
+> sp|Q67205|M2_I77AC Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Tennessee/24/1977 H1N1) OX=385606 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDS DPLV AASIIGILHLILWILDRLFFKCI+R F++GLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSGDPLVAAASIIGILHLILWILDRLFFKCIHRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR++QQSAVD DD HFV+I LE
+Sbjct  61  RGPSTEGVPESMREEYRQKQQSAVDVDDGHFVNIALE  97
+
+
+> sp|P0C5T6|M2_I05A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Goose/Guangxi/345/2005 H5N1 genotype G) OX=365089 GN=M 
+PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+DSSDPL+VAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSDSSDPLIVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTAGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q76V06|M2_I82A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Hong Kong/127/1982 H3N2) OX=384483 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRLLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q6DPT9|M2_I02A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2) OX=284172 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN W CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETLTRNGWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77GW2|M2_I89A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Beijing/353/1989 H3N2) OX=380949 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q76V11|M2_I88A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/8/1988 H3N2) OX=383588 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q38SQ7|M2_I83A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/5/1983 H3N2) OX=387159 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (499),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|P0C5T4|M2_I02A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y) OX=279803 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (498),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVAA+IIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVAANIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST+GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTKGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|A4K144|M2_I54A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Malaysia:Malaya/302/1954 H1N1) OX=425566 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (498),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 90/97 (93%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPL++AAS++GILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLIIAASVVGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|P06821|M2_I34A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Puerto Rico/8/1934 H1N1) OX=211044 GN=M PE=1 SV=1
+Length=97
+
+ Score = 196 bits (498),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 87/97 (90%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPL +AA+IIGILHLILWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLAIAANIIGILHLILWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVP+SMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  GGPSTEGVPKSMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q6DPT7|M2_I02A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3) OX=284214 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (498),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP R  W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRTGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTGGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q6DPU1|M2_I02A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1) OX=284169 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (498),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP R  W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRTGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTGGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A2G4|M2_I83A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Ireland/1378/1983 H5N8) OX=380285 GN=M PE=3 SV=1
+Length=97
+
+ Score = 196 bits (498),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFF+C+YR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFRCVYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|A4GCI7|M2_I36A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Henry/1936 H1N1) OX=425562 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (497),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 91/97 (94%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPLV+AA+IIGILHLILWILDRLFFKCIYR FE+GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLVIAANIIGILHLILWILDRLFFKCIYRLFEYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q0HD59|M2_I40A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hickox/1940 H1N1) OX=383543 GN=M PE=1 SV=1
+Length=97
+
+ Score = 195 bits (497),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 92/97 (95%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEW CRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWECRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRLFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVP+SMREEYRKEQQSAVDADDSHFV+IELE
+Sbjct  61  RGPSTEGVPKSMREEYRKEQQSAVDADDSHFVNIELE  97
+
+
+> sp|Q0A447|M2_I49A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Germany/1949 H10N7) OX=382838 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (497),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRC+DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRIKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDSHFVNIELE  97
+
+
+> sp|Q2PI09|M2_I80A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/4/1980 H3N2) OX=383578 GN=M PE=3 SV=1
+Length=96
+
+ Score = 195 bits (497),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 94/96 (98%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIEL  96
+
+
+> sp|Q67179|M2_I68A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Korea/426/1968 H2N2) OX=488241 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (497),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILH ILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHFILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q89687|M2_I54A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/May/1954 H1N1) OX=383535 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (497),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 86/97 (89%), Positives = 92/97 (95%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDSSDPLV AASIIGILHLILWILDRLFFKCIYR  E+GLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSSDPLVAAASIIGILHLILWILDRLFFKCIYRRLEYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEG+PESMREEYR++QQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGLPESMREEYRQKQQSAVDVDDGHFVNIELE  97
+
+
+> sp|P21430|M2_I60A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Ann Arbor/6/1960 H2N2) OX=384498 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (496),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILD LFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDHLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q2PIM1|M2_I78A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/18/1978 H3N2) OX=383579 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (496),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q2PIM5|M2_I78A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/2/1978 H3N2) OX=383580 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (496),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|P0C5T3|M2_I01A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E) OX=196434 
+GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RNEW CRC+ SSDPLVVA+SIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNEWECRCSGSSDPLVVASSIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|B4URD7|M2_I06A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Russia:St.Petersburg/8/2006 H1N1) OX=518998 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 86/97 (89%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCN SSDPL +AA+IIGILHL LWILDRLFFKCIYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNGSSDPLTIAANIIGILHLTLWILDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVP+SMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  GGPSTEGVPKSMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|P63232|M2_I73A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Port Chalmers/1/1973 H3N2) OX=385624 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P0DOF8|M2_I72A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Udorn/1972 H3N2) OX=385599 GN=M PE=1 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q463X4|M2_I72A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/102/1972 H3N2) OX=385640 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P0DOF5|M2_I72A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Udorn/307/1972 H3N2) OX=381517 GN=M PE=1 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q6XT33|M2_I70A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Qu/7/1970 H3N2) OX=221016 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q76R36|M2_I68A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Northern Territory/60/1968 H3N2) OX=384505 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q77IM6|M2_I68A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/1/1968 H3N2) OX=506350 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q76V12|M2_I68A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Aichi/2/1968 H3N2) OX=387139 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P05778|M2_I000F Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Weybridge H7N7) OX=11384 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C C+DSSDPLV+AASIIGILH ILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECSCSDSSDPLVIAASIIGILHFILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVP+SMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPKSMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77ZK8|M2_I91A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Alaska/1/1991 H3N8) OX=387213 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77ZL3|M2_I81A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Kentucky/1/1981) OX=475467 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q77ZL5|M2_I79A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/New Market/1979 H3N8) OX=387226 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q2VC90|M2_I80A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Seal/Massachusetts/1/1980 H7N7) OX=384493 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRN W C+C+DSSDPLV+AASIIGILHLILWILD LFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPIRNGWECKCSDSSDPLVIAASIIGILHLILWILDHLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DDSHFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDSHFVNIELE  97
+
+
+> sp|Q67201|M2_I85A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Netherlands/12/1985 H1N1) OX=380347 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 6e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN WGCR +DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWGCRFSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRLLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67160|M2_I77AG Matrix protein 2 OS=Influenza A virus (strain 
+A/Budgerigar/Hokkaido/1/1977 H4N6) OX=385587 GN=M PE=3 SV=1
+Length=97
+
+ Score = 195 bits (495),  Expect = 6e-64, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP +N W C+C+DSSDPL++AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTKNGWECKCSDSSDPLIIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQS VD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSVVDVDDGHFVNIELE  97
+
+
+> sp|Q67146|M2_I72A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Shearwater/Australia/1972 H6N5) OX=383604 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (494),  Expect = 6e-64, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+ +DSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKYSDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q0A436|M2_I56A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/England/1/1956 H11N6) OX=383550 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (494),  Expect = 6e-64, Method: Composition-based stats.
+ Identities = 84/97 (87%), Positives = 90/97 (93%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRN W CRC+DSSDPLV+AASIIGILHLILWILDRLFFKCI R  ++GLK
+Sbjct  1   MSLLTEVETPIRNGWECRCSDSSDPLVIAASIIGILHLILWILDRLFFKCISRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q3YPZ4|M2_I71A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/1/1971 H3N2) OX=383586 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (494),  Expect = 7e-64, Method: Composition-based stats.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPI+NEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIKNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P26129|M2_I57A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Leningrad/134/1957 H2N2) OX=387163 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (494),  Expect = 8e-64, Method: Composition-based stats.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKC YRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCNYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q0A2H5|M2_I59A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Scotland/1959 H5N1) OX=402527 GN=M PE=3 SV=1
+Length=97
+
+ Score = 194 bits (492),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CRC+DSSDPLV+AASIIGILHLILWILD LFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECRCSDSSDPLVIAASIIGILHLILWILDCLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  GGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|P0C2M3|M2_I72A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/101/1972 H3N2) OX=383583 GN=M PE=3 SV=1
+Length=96
+
+ Score = 194 bits (492),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 96/96 (100%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+
+
+> sp|P0C5T5|M2_I03A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Hong Kong/212/2003 H5N1 genotype Z+) OX=279794 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 194 bits (492),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RNEW CRC+DSSDPLVVAA+IIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRNEWECRCSDSSDPLVVAANIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGP+T GVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPATAGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q8QV59|M2_I82A9 Matrix protein 2 OS=Influenza A virus (strain 
+A/Philippines/2/1982 H3N2) OX=382825 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (491),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSD LVVAASIIGILHLILWILDRLFFKCIYRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDSLVVAASIIGILHLILWILDRLFFKCIYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQ+AVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIELE  97
+
+
+> sp|Q0A2E4|M2_I66A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Turkey/Ontario/7732/1966 H5N9) OX=380301 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (491),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLIL ILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSDSSDPLVIAASIIGILHLILCILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q2PIK5|M2_I76A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Memphis/110/1976 H3N2) OX=383581 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 96/97 (99%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|Q67166|M2_I56A1 Matrix protein 2 OS=Influenza A virus (strain 
+A/Duck/Czechoslovakia/1956 H4N6) OX=385590 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 82/97 (85%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W CR + SSDPLV+AASIIGILHLILWILDRLFFKCIYR  +HGLK
+Sbjct  1   MSLLTEVETPTRNGWECRYSGSSDPLVIAASIIGILHLILWILDRLFFKCIYRCLKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q9IQ49|M2_I000X Matrix protein 2 OS=Influenza A virus (strain 
+A/X-31 H3N2) OX=132504 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 83/97 (86%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MS LTEVETPIRNEWGCRCN SSDPL +AA+IIGILHL LW+LDRLFFKCIYR F++GLK
+Sbjct  1   MSFLTEVETPIRNEWGCRCNGSSDPLTIAANIIGILHLTLWMLDRLFFKCIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVP+SMREEYRKEQQSAVD DD HFVSIELE
+Sbjct  61  GGPSTEGVPKSMREEYRKEQQSAVDTDDGHFVSIELE  97
+
+
+> sp|Q20NW0|M2_I80AD Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Minnesota/945/1980 H13N6) OX=385597 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q89881|M2_I80AC Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Massachusetts/26/1980 H13N6) OX=385626 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q76V04|M2_I79A8 Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Maryland/1815/1979 H13N6) OX=385601 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 81/97 (84%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q67168|M2_I86A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Kentucky/2/1986 H3N8) OX=385605 GN=M PE=3 SV=1
+Length=97
+
+ Score = 193 bits (490),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+ SSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSGSSDPLVIAASIIGILHLILWILDRLFFKFIYRLLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q67172|M2_I86A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Tennessee/5/1986 H3N8) OX=380339 GN=M PE=3 SV=1
+Length=97
+
+ Score = 192 bits (489),  Expect = 4e-63, Method: Composition-based stats.
+ Identities = 79/97 (81%), Positives = 87/97 (90%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+ SSDPLV+AASIIGILHLILWILDRLFFK IYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCSGSSDPLVIAASIIGILHLILWILDRLFFKFIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+            GPSTEGVPESMREEYR+EQQ+AVD DD HFV+IELE
+Sbjct  61  GGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|A3DRP1|M2_I96A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/USA:Memphis/10/1996 H1N1) OX=416730 GN=M PE=3 SV=1
+Length=97
+
+ Score = 192 bits (489),  Expect = 4e-63, Method: Composition-based stats.
+ Identities = 89/97 (92%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLFFKCIYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFFKCIYRIFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDAD+ HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADEGHFVSIELE  97
+
+
+> sp|Q67176|M2_I78AF Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Maryland/1824/1978 H13N6) OX=385602 GN=M PE=3 SV=1
+Length=97
+
+ Score = 192 bits (489),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  R+ W CRCNDSSDPLV+AASIIGILHLILWI DRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETHTRSGWECRCNDSSDPLVIAASIIGILHLILWIFDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++E+QSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEKQSAVDVDDGHFVNIELE  97
+
+
+> sp|Q04261|M2_I89A7 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Jillin/1/1989 H3N8) OX=385585 GN=M PE=3 SV=1
+Length=97
+
+ Score = 192 bits (489),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 89/97 (92%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETP RN W C+C+DSSDPLV+AASIIGILHLILWILDRL FKCIYR  ++GLK
+Sbjct  1   MSLLTEVETPTRNGWECKCDDSSDPLVIAASIIGILHLILWILDRLSFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEY++EQQ+AVD DD HFV+IELE
+Sbjct  61  RGPSTEGVPESMREEYQQEQQNAVDVDDGHFVNIELE  97
+
+
+> sp|Q6XT43|M2_I69A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/England/878/1969 H3N2) OX=387147 GN=M PE=3 SV=1
+Length=97
+
+ Score = 192 bits (488),  Expect = 6e-63, Method: Composition-based stats.
+ Identities = 94/97 (97%), Positives = 95/97 (98%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSS+PLVVAASIIGILHLILWILDRLFFKCI RFFEHGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSNPLVVAASIIGILHLILWILDRLFFKCITRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDGHFVSIELE  97
+
+
+> sp|Q30NQ0|M2_I75A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Beijing/39/1975 H3N2) OX=383596 GN=M PE=3 SV=1
+Length=97
+
+ Score = 191 bits (486),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 95/97 (98%), Positives = 96/97 (99%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EW CRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK
+Sbjct  1   MSLLTEVETPIRSEWECRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+
+
+> sp|P05779|M2_I30A0 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Iowa/15/1930 H1N1) OX=380342 GN=M PE=3 SV=1
+Length=97
+
+ Score = 191 bits (485),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 76/97 (78%), Positives = 85/97 (88%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSL TEVETP RNEWGCRCNDSSD + +AA  IGILHLILWILDRLFFKCIYR  ++G K
+Sbjct  1   MSLPTEVETPTRNEWGCRCNDSSDHITIAAKFIGILHLILWILDRLFFKCIYRRLKYGPK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVP+SMREEYR++QQ+A D DD HFV+IELE
+Sbjct  61  RGPSTEGVPDSMREEYRQKQQNAADVDDGHFVNIELE  97
+
+
+> sp|Q288Z5|M2_I77A4 Matrix protein 2 OS=Influenza A virus (strain 
+A/Swine/Colorado/1/1977 H3N2) OX=385645 GN=M PE=3 SV=1
+Length=96
+
+ Score = 191 bits (485),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 92/96 (96%), Positives = 94/96 (98%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIR+EWGCRCNDSSDP VVAASIIGILHLILWILDRLFFKCIYR FEHGLK
+Sbjct  1   MSLLTEVETPIRSEWGCRCNDSSDPFVVAASIIGILHLILWILDRLFFKCIYRSFEHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYR+EQQSAVDADDSHFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYRQEQQSAVDADDSHFVSIEL  96
+
+
+> sp|P67867|M2_I57A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Leningrad/134/47/1957 H2N2) OX=380983 GN=M PE=3 SV=1
+Length=97
+
+ Score = 190 bits (484),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 93/97 (96%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKC YRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCNYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RG STEGVPESMREEYRKEQQSAVD DDSHFVSIELE
+Sbjct  61  RGASTEGVPESMREEYRKEQQSAVDTDDSHFVSIELE  97
+
+
+> sp|P67866|M2_I57A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Leningrad/134/17/1957 H2N2) OX=380984 GN=M PE=3 SV=1
+Length=97
+
+ Score = 190 bits (484),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 93/97 (96%), Positives = 94/97 (97%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKC YRFF+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCNYRFFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RG STEGVPESMREEYRKEQQSAVD DDSHFVSIELE
+Sbjct  61  RGASTEGVPESMREEYRKEQQSAVDTDDSHFVSIELE  97
+
+
+> sp|P0C5T2|M2_I01A2 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D) OX=222142 
+GN=M PE=3 SV=1
+Length=100
+
+ Score = 190 bits (484),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 84/100 (84%), Positives = 90/100 (90%), Gaps = 3/100 (3%)
+
+Query  1   MSLLTEVET---PIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEH  57
+           MSLLTEVET   P RNEW CRC+ SSDPLVVA+SIIGILHLILWILDRLFFKCIYR  ++
+Sbjct  1   MSLLTEVETYVLPTRNEWECRCSGSSDPLVVASSIIGILHLILWILDRLFFKCIYRRLKY  60
+
+Query  58  GLKRGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           GLKRGPSTEGVPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  GLKRGPSTEGVPESMREEYRQEQQSAVDVDDGHFVNIELE  100
+
+
+> sp|Q0A2I6|M2_I83A5 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Pennsylvania/1/1983 H5N2) OX=385586 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 189 bits (481),  Expect = 6e-62, Method: Composition-based stats.
+ Identities = 80/97 (82%), Positives = 88/97 (91%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN W C+C+DSSDPL++AASIIGILHLILWILDRLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETLTRNGWECKCSDSSDPLIIAASIIGILHLILWILDRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEG PESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGAPESMREEYRQEQQSAVDVDDVHFVNIELE  97
+
+
+> sp|Q0A415|M2_I77AF Matrix protein 2 OS=Influenza A virus (strain 
+A/Gull/Maryland/704/1977 H13N6) OX=384499 GN=M PE=3 SV=1
+Length=97
+
+ Score = 189 bits (481),  Expect = 6e-62, Method: Composition-based stats.
+ Identities = 85/97 (88%), Positives = 91/97 (94%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEW CRC+DSSDPLV+AASIIGILHLILWILDRL FK IYR F++GLK
+Sbjct  1   MSLLTEVETPIRNEWECRCSDSSDPLVIAASIIGILHLILWILDRLLFKFIYRRFKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPS EGVPESMREEYR+EQQSAVD DDSHFV+IELE
+Sbjct  61  RGPSMEGVPESMREEYRQEQQSAVDVDDSHFVNIELE  97
+
+
+> sp|Q6DPQ7|M2_I02A7 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W) OX=284215 
+GN=M PE=3 SV=1
+Length=92
+
+ Score = 189 bits (480),  Expect = 8e-62, Method: Composition-based stats.
+ Identities = 80/92 (87%), Positives = 85/92 (92%), Gaps = 0/92 (0%)
+
+Query  3   LLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLKRG  62
+           LLTEVETP RNEW CRC+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLKRG
+Sbjct  1   LLTEVETPTRNEWECRCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLKRG  60
+
+Query  63  PSTEGVPESMREEYRKEQQSAVDADDSHFVSI  94
+           PST GVPESMREEYR+EQQSAVD DD HFV+I
+Sbjct  61  PSTAGVPESMREEYRQEQQSAVDVDDGHFVNI  92
+
+
+> sp|Q07FI4|M2_I96A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/China:Nanchang/11/1996 H1N1) OX=394786 GN=M PE=3 SV=1
+Length=97
+
+ Score = 188 bits (477),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 88/97 (91%), Positives = 93/97 (96%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLF K IYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFSKSIYRIFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIELE  97
+
+
+> sp|Q0A2D6|M2_I83A6 Matrix protein 2 OS=Influenza A virus (strain 
+A/Chicken/Pennsylvania/1370/1983 H5N2) OX=385617 GN=M PE=3 
+SV=1
+Length=97
+
+ Score = 188 bits (477),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 78/97 (80%), Positives = 87/97 (90%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVET  RN W C+C+DSSDPL++AASIIGILHLILWI +RLFFKCIYR  ++GLK
+Sbjct  1   MSLLTEVETLTRNGWECKCSDSSDPLIIAASIIGILHLILWIFNRLFFKCIYRRLKYGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPSTEG PESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  RGPSTEGAPESMREEYRQEQQSAVDVDDVHFVNIELE  97
+
+
+> sp|Q289M6|M2_I00A1 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/New Zealand:South Canterbury/35/2000 H1N1) 
+OX=363066 GN=M PE=3 SV=1
+Length=96
+
+ Score = 187 bits (474),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 87/96 (91%), Positives = 92/96 (96%), Gaps = 0/96 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLF K IYR F+HGLK
+Sbjct  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFSKSIYRIFKHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIEL  96
+           RGPSTEGVPESMREEYR+EQQ+AVDADD HFVSIEL
+Sbjct  61  RGPSTEGVPESMREEYREEQQNAVDADDGHFVSIEL  96
+
+
+> sp|Q67170|M2_I56A3 Matrix protein 2 OS=Influenza A virus (strain 
+A/Equine/Prague/1/1956 H7N7) OX=380337 GN=M PE=3 SV=1
+Length=97
+
+ Score = 184 bits (468),  Expect = 7e-60, Method: Composition-based stats.
+ Identities = 76/97 (78%), Positives = 83/97 (86%), Gaps = 0/97 (0%)
+
+Query  1   MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLK  60
+           MSLLTEVETPI++ W CRCNDSSD LV  ASI GILHLILWI DRLFFKC YR F HGLK
+Sbjct  1   MSLLTEVETPIKSGWECRCNDSSDLLVAIASITGILHLILWIFDRLFFKCAYRRFRHGLK  60
+
+Query  61  RGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           RGPST G+PESMREEYR+EQQS V+ D+ HFV+IELE
+Sbjct  61  RGPSTGGIPESMREEYRQEQQSDVNVDNGHFVNIELE  97
+
+
+> sp|Q6DPU3|M2_I02A1 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype 
+X0) OX=284208 GN=M PE=3 SV=1
+Length=90
+
+ Score = 184 bits (466),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 75/90 (83%), Positives = 81/90 (90%), Gaps = 0/90 (0%)
+
+Query  8   ETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLKRGPSTEG  67
+           ETP R  W C+C+DSSDPLVVAASIIGILHLILWILDRLFFKCIYR  ++GLKRGPST G
+Sbjct  1   ETPTRTGWECKCSDSSDPLVVAASIIGILHLILWILDRLFFKCIYRRLKYGLKRGPSTGG  60
+
+Query  68  VPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           VPESMREEYR+EQQSAVD DD HFV+IELE
+Sbjct  61  VPESMREEYRQEQQSAVDVDDGHFVNIELE  90
+
+
+> sp|A8C8J5|M2_I07A0 Matrix protein 2 (Fragment) OS=Influenza A 
+virus (strain A/USA:Texas/UR06-0195/2007 H1N1) OX=455880 GN=M 
+PE=3 SV=1
+Length=94
+
+ Score = 180 bits (456),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 85/94 (90%), Positives = 90/94 (96%), Gaps = 0/94 (0%)
+
+Query  4   LTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHLILWILDRLFFKCIYRFFEHGLKRGP  63
+           LTEVETPIRNEWGCRCNDSSDPLVVAASIIGI+HLILWI+DRLF K IYR F+HGLKRGP
+Sbjct  1   LTEVETPIRNEWGCRCNDSSDPLVVAASIIGIVHLILWIIDRLFSKSIYRIFKHGLKRGP  60
+
+Query  64  STEGVPESMREEYRKEQQSAVDADDSHFVSIELE  97
+           STEGVPESMREEYR+EQQ+AVDADD HFVSIELE
+Sbjct  61  STEGVPESMREEYREEQQNAVDADDDHFVSIELE  94
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.141    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4870349370
+
+Search has CONVERGED!
+
+
+  Database: /home/u2376/PSSM/uniprot_sprot.fasta
+    Posted date:  Mar 12, 2018 10:29 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

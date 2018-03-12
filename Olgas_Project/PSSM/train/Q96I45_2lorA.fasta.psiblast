@@ -1,0 +1,223 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2376/PSSM/uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q96I45|2lorA
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q96I45|TM141_HUMAN Transmembrane protein 141 OS=Homo sapiens...  226     4e-76
+  sp|Q3SZU9|TM141_BOVIN Transmembrane protein 141 OS=Bos taurus O...  188     4e-61
+  sp|A2AJB2|TM141_MOUSE Transmembrane protein 141 OS=Mus musculus...  183     4e-59
+  sp|Q0D285|TM141_DANRE Transmembrane protein 141 OS=Danio rerio ...  115     2e-32
+
+
+> sp|Q96I45|TM141_HUMAN Transmembrane protein 141 OS=Homo sapiens 
+OX=9606 GN=TMEM141 PE=1 SV=1
+Length=108
+
+ Score = 226 bits (577),  Expect = 4e-76, Method: Compositional matrix adjust.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS
+Sbjct  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+
+
+> sp|Q3SZU9|TM141_BOVIN Transmembrane protein 141 OS=Bos taurus 
+OX=9913 GN=TMEM141 PE=3 SV=1
+Length=108
+
+ Score = 188 bits (478),  Expect = 4e-61, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 97/108 (90%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVA+KHPGLGEYAACQS+AF+KGV TFVTGTG  FGLQM +QRK PYP 
+Sbjct  1    MVNLGLSRVDDAVASKHPGLGEYAACQSNAFVKGVSTFVTGTGATFGLQMLVQRKLPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QW +L+AVVAGSV SY VTRVES+KC+NLWLFLETGQLPKD  TD+RS
+Sbjct  61   QWKVLLAVVAGSVASYWVTRVESQKCSNLWLFLETGQLPKDMGTDRRS  108
+
+
+> sp|A2AJB2|TM141_MOUSE Transmembrane protein 141 OS=Mus musculus 
+OX=10090 GN=Tmem141 PE=3 SV=1
+Length=108
+
+ Score = 183 bits (465),  Expect = 4e-59, Method: Compositional matrix adjust.
+ Identities = 85/105 (81%), Positives = 94/105 (90%), Gaps = 0/105 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAA+HPGL E+AACQSHAFMKGVFTFVTGTG  FGL MFI+RKFPYP+
+Sbjct  1    MVNLGLSRVDDAVAARHPGLEEFAACQSHAFMKGVFTFVTGTGATFGLLMFIKRKFPYPV  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTD  105
+            QWS LV+ +AGSV SY VT +E +KC+NLWLFLETGQLPKD STD
+Sbjct  61   QWSFLVSAIAGSVASYRVTSMECQKCSNLWLFLETGQLPKDISTD  105
+
+
+> sp|Q0D285|TM141_DANRE Transmembrane protein 141 OS=Danio rerio 
+OX=7955 GN=tmem141 PE=2 SV=1
+Length=124
+
+ Score = 115 bits (289),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 63/109 (58%), Positives = 85/109 (78%), Gaps = 3/109 (3%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGT-GMAFGLQMFIQRKFPYP  59
+            MVN+GLS+VDDA+ AKHPGL +Y ACQS+AFMKG  +F+ GT G+ FG Q  +Q+   YP
+Sbjct  1    MVNIGLSKVDDAIVAKHPGLQQYVACQSYAFMKGTASFILGTVGIFFG-QRALQKIIKYP  59
+
+Query  60   LQWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            LQW+L V++V+ SV SY VTR E+ KC+++WLFLETG +P DR++D+  
+Sbjct  60   LQWNLFVSIVSSSVFSYSVTRWETMKCSDVWLFLETGNIP-DRNSDKEE  107
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5034673728
+Results from round 2
+
+
+Query= Q96I45|2lorA
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q96I45|TM141_HUMAN Transmembrane protein 141 OS=Homo sapiens...  198     5e-65
+  sp|Q3SZU9|TM141_BOVIN Transmembrane protein 141 OS=Bos taurus O...  191     2e-62
+  sp|A2AJB2|TM141_MOUSE Transmembrane protein 141 OS=Mus musculus...  190     7e-62
+  sp|Q0D285|TM141_DANRE Transmembrane protein 141 OS=Danio rerio ...  151     3e-46
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q96I45|TM141_HUMAN Transmembrane protein 141 OS=Homo sapiens 
+OX=9606 GN=TMEM141 PE=1 SV=1
+Length=108
+
+ Score = 198 bits (504),  Expect = 5e-65, Method: Composition-based stats.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS
+Sbjct  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+
+
+> sp|Q3SZU9|TM141_BOVIN Transmembrane protein 141 OS=Bos taurus 
+OX=9913 GN=TMEM141 PE=3 SV=1
+Length=108
+
+ Score = 191 bits (486),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 88/108 (81%), Positives = 97/108 (90%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVA+KHPGLGEYAACQS+AF+KGV TFVTGTG  FGLQM +QRK PYP 
+Sbjct  1    MVNLGLSRVDDAVASKHPGLGEYAACQSNAFVKGVSTFVTGTGATFGLQMLVQRKLPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QW +L+AVVAGSV SY VTRVES+KC+NLWLFLETGQLPKD  TD+RS
+Sbjct  61   QWKVLLAVVAGSVASYWVTRVESQKCSNLWLFLETGQLPKDMGTDRRS  108
+
+
+> sp|A2AJB2|TM141_MOUSE Transmembrane protein 141 OS=Mus musculus 
+OX=10090 GN=Tmem141 PE=3 SV=1
+Length=108
+
+ Score = 190 bits (483),  Expect = 7e-62, Method: Composition-based stats.
+ Identities = 85/105 (81%), Positives = 94/105 (90%), Gaps = 0/105 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAA+HPGL E+AACQSHAFMKGVFTFVTGTG  FGL MFI+RKFPYP+
+Sbjct  1    MVNLGLSRVDDAVAARHPGLEEFAACQSHAFMKGVFTFVTGTGATFGLLMFIKRKFPYPV  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTD  105
+            QWS LV+ +AGSV SY VT +E +KC+NLWLFLETGQLPKD STD
+Sbjct  61   QWSFLVSAIAGSVASYRVTSMECQKCSNLWLFLETGQLPKDISTD  105
+
+
+> sp|Q0D285|TM141_DANRE Transmembrane protein 141 OS=Danio rerio 
+OX=7955 GN=tmem141 PE=2 SV=1
+Length=124
+
+ Score = 151 bits (381),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 63/109 (58%), Positives = 85/109 (78%), Gaps = 3/109 (3%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGT-GMAFGLQMFIQRKFPYP  59
+            MVN+GLS+VDDA+ AKHPGL +Y ACQS+AFMKG  +F+ GT G+ FG Q  +Q+   YP
+Sbjct  1    MVNIGLSKVDDAIVAKHPGLQQYVACQSYAFMKGTASFILGTVGIFFG-QRALQKIIKYP  59
+
+Query  60   LQWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            LQW+L V++V+ SV SY VTR E+ KC+++WLFLETG +P DR++D+  
+Sbjct  60   LQWNLFVSIVSSSVFSYSVTRWETMKCSDVWLFLETGNIP-DRNSDKEE  107
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5034673728
+
+Search has CONVERGED!
+
+
+  Database: /home/u2376/PSSM/uniprot_sprot.fasta
+    Posted date:  Mar 12, 2018 10:29 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,189 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2376/PSSM/uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= O00198|2l5bA
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|O00198|HRK_HUMAN Activator of apoptosis harakiri OS=Homo sap...  174     5e-56
+  sp|P62817|HRK_RAT Activator of apoptosis harakiri OS=Rattus nor...  70.5    1e-15
+  sp|P62816|HRK_MOUSE Activator of apoptosis harakiri OS=Mus musc...  70.5    1e-15
+
+
+> sp|O00198|HRK_HUMAN Activator of apoptosis harakiri OS=Homo sapiens 
+OX=9606 GN=HRK PE=1 SV=1
+Length=91
+
+ Score = 174 bits (441),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 91/91 (100%), Positives = 91/91 (100%), Gaps = 0/91 (0%)
+
+Query  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+           MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP
+Sbjct  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+
+Query  61  APGALPTYWPWLCAAAQVAALAAWLLGRRNL  91
+           APGALPTYWPWLCAAAQVAALAAWLLGRRNL
+Sbjct  61  APGALPTYWPWLCAAAQVAALAAWLLGRRNL  91
+
+
+> sp|P62817|HRK_RAT Activator of apoptosis harakiri OS=Rattus norvegicus 
+OX=10116 GN=Hrk PE=3 SV=1
+Length=92
+
+ Score = 70.5 bits (171),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 64/93 (69%), Positives = 69/93 (74%), Gaps = 5/93 (5%)
+
+Query  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+           MCPCP HRGRGPPAVC C   R GLR +AAQ+TA RL+ALGDELH+R M  RR    R P
+Sbjct  1   MCPCPRHRGRGPPAVCGCGDARPGLRWAAAQVTALRLQALGDELHRRAM--RRRARPRDP  58
+
+Query  61  APGALPTY---WPWLCAAAQVAALAAWLLGRRN  90
+            P  LP     WPWLCAAAQVAALAAWLLGRR+
+Sbjct  59  LPALLPALRARWPWLCAAAQVAALAAWLLGRRS  91
+
+
+> sp|P62816|HRK_MOUSE Activator of apoptosis harakiri OS=Mus musculus 
+OX=10090 GN=Hrk PE=3 SV=1
+Length=92
+
+ Score = 70.5 bits (171),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 64/93 (69%), Positives = 69/93 (74%), Gaps = 5/93 (5%)
+
+Query  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+           MCPCP HRGRGPPAVC C   R GLR +AAQ+TA RL+ALGDELH+R M  RR    R P
+Sbjct  1   MCPCPRHRGRGPPAVCGCGDARPGLRWAAAQVTALRLQALGDELHRRAM--RRRARPRDP  58
+
+Query  61  APGALPTY---WPWLCAAAQVAALAAWLLGRRN  90
+            P  LP     WPWLCAAAQVAALAAWLLGRR+
+Sbjct  59  LPALLPALRARWPWLCAAAQVAALAAWLLGRRS  91
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.134    0.472    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4970577870
+Results from round 2
+
+
+Query= O00198|2l5bA
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O00198|HRK_HUMAN Activator of apoptosis harakiri OS=Homo sap...  114     2e-32
+  sp|P62817|HRK_RAT Activator of apoptosis harakiri OS=Rattus nor...  72.3    3e-16
+  sp|P62816|HRK_MOUSE Activator of apoptosis harakiri OS=Mus musc...  72.3    3e-16
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|O00198|HRK_HUMAN Activator of apoptosis harakiri OS=Homo sapiens 
+OX=9606 GN=HRK PE=1 SV=1
+Length=91
+
+ Score = 114 bits (285),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 91/91 (100%), Positives = 91/91 (100%), Gaps = 0/91 (0%)
+
+Query  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+           MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP
+Sbjct  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+
+Query  61  APGALPTYWPWLCAAAQVAALAAWLLGRRNL  91
+           APGALPTYWPWLCAAAQVAALAAWLLGRRNL
+Sbjct  61  APGALPTYWPWLCAAAQVAALAAWLLGRRNL  91
+
+
+> sp|P62817|HRK_RAT Activator of apoptosis harakiri OS=Rattus norvegicus 
+OX=10116 GN=Hrk PE=3 SV=1
+Length=92
+
+ Score = 72.3 bits (176),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 63/93 (68%), Positives = 68/93 (73%), Gaps = 5/93 (5%)
+
+Query  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+           MCPCP HRGRGPPAVC C   R GLR +AAQ+TA RL+ALGDELH+R    RR    R P
+Sbjct  1   MCPCPRHRGRGPPAVCGCGDARPGLRWAAAQVTALRLQALGDELHRRA--MRRRARPRDP  58
+
+Query  61  APGALPTY---WPWLCAAAQVAALAAWLLGRRN  90
+            P  LP     WPWLCAAAQVAALAAWLLGRR+
+Sbjct  59  LPALLPALRARWPWLCAAAQVAALAAWLLGRRS  91
+
+
+> sp|P62816|HRK_MOUSE Activator of apoptosis harakiri OS=Mus musculus 
+OX=10090 GN=Hrk PE=3 SV=1
+Length=92
+
+ Score = 72.3 bits (176),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 63/93 (68%), Positives = 68/93 (73%), Gaps = 5/93 (5%)
+
+Query  1   MCPCPLHRGRGPPAVCACSAGRLGLRSSAAQLTAARLKALGDELHQRTMWRRRARSRRAP  60
+           MCPCP HRGRGPPAVC C   R GLR +AAQ+TA RL+ALGDELH+R    RR    R P
+Sbjct  1   MCPCPRHRGRGPPAVCGCGDARPGLRWAAAQVTALRLQALGDELHRRA--MRRRARPRDP  58
+
+Query  61  APGALPTY---WPWLCAAAQVAALAAWLLGRRN  90
+            P  LP     WPWLCAAAQVAALAAWLLGRR+
+Sbjct  59  LPALLPALRARWPWLCAAAQVAALAAWLLGRRS  91
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.491    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4970577870
+
+Search has CONVERGED!
+
+
+  Database: /home/u2376/PSSM/uniprot_sprot.fasta
+    Posted date:  Mar 12, 2018 10:29 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

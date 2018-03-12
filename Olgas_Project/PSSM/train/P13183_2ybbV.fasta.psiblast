@@ -1,0 +1,325 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2376/PSSM/uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P13183|2ybbV
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P13183|COX7B_BOVIN Cytochrome c oxidase subunit 7B, mitochon...  169     3e-54
+  sp|Q5R9K2|COX7B_PONAB Cytochrome c oxidase subunit 7B, mitochon...  143     3e-44
+  sp|P56393|COX7B_MOUSE Cytochrome c oxidase subunit 7B, mitochon...  142     1e-43
+  sp|P24311|COX7B_HUMAN Cytochrome c oxidase subunit 7B, mitochon...  141     2e-43
+  sp|P80431|COX7B_RAT Cytochrome c oxidase subunit 7B, mitochondr...  138     4e-42
+  sp|Q8TF08|CX7B2_HUMAN Cytochrome c oxidase subunit 7B2, mitocho...  135     6e-41
+  sp|Q4R648|CX7B2_MACFA Cytochrome c oxidase subunit 7B2, mitocho...  132     5e-40
+
+
+> sp|P13183|COX7B_BOVIN Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7B PE=1 SV=3
+Length=80
+
+ Score = 169 bits (427),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI
+Sbjct  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWNPSPVGRVTPKEWREQ
+Sbjct  61  GIEWNPSPVGRVTPKEWREQ  80
+
+
+> sp|Q5R9K2|COX7B_PONAB Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Pongo abelii OX=9601 GN=COX7B PE=3 SV=1
+Length=80
+
+ Score = 143 bits (361),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 64/80 (80%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL KNAL+RL+V+SIQQ +ARQ HQKR PDFHDKYGNAVLASGATFC+  W Y+ATQ+
+Sbjct  1   MFPLVKNALNRLQVRSIQQTMARQSHQKRTPDFHDKYGNAVLASGATFCIVTWTYVATQV  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> sp|P56393|COX7B_MOUSE Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7b PE=3 SV=1
+Length=80
+
+ Score = 142 bits (357),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 65/80 (81%), Positives = 70/80 (88%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PLAKNALSRL+V+SIQQ VARQ HQKRAP FHDKYGNA+LA GA FCV+ W Y ATQI
+Sbjct  1   MLPLAKNALSRLQVRSIQQVVARQSHQKRAPSFHDKYGNAILAGGAIFCVSTWTYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNMSPVGRVTPKEWRDQ  80
+
+
+> sp|P24311|COX7B_HUMAN Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7B PE=1 SV=2
+Length=80
+
+ Score = 141 bits (356),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 63/80 (79%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL K+AL+RL+V+SIQQ +ARQ HQKR PDFHDKYGNAVLASGATFC+  W Y+ATQ+
+Sbjct  1   MFPLVKSALNRLQVRSIQQTMARQSHQKRTPDFHDKYGNAVLASGATFCIVTWTYVATQV  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> sp|P80431|COX7B_RAT Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox7b PE=1 SV=3
+Length=80
+
+ Score = 138 bits (347),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 69/80 (86%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PLAKNALSRL+V+SIQQ VARQ HQK+ P FHDKYGNAVLA G+ FC++ W Y ATQI
+Sbjct  1   MLPLAKNALSRLQVRSIQQVVARQSHQKKTPTFHDKYGNAVLAGGSIFCISAWTYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRDQ  80
+
+
+> sp|Q8TF08|CX7B2_HUMAN Cytochrome c oxidase subunit 7B2, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7B2 PE=3 SV=2
+Length=81
+
+ Score = 135 bits (339),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 60/80 (75%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NALS L++QSI Q++AR  H K +PDFHDKYGNAVLASG  FCVA WV+ ATQI
+Sbjct  2   MFPLARNALSSLKIQSILQSMARHSHVKHSPDFHDKYGNAVLASGTAFCVATWVFTATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW+ Q
+Sbjct  62  GIEWNLSPVGRVTPKEWKHQ  81
+
+
+> sp|Q4R648|CX7B2_MACFA Cytochrome c oxidase subunit 7B2, mitochondrial 
+OS=Macaca fascicularis OX=9541 GN=COX7B2 PE=3 SV=1
+Length=81
+
+ Score = 132 bits (333),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 59/80 (74%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NALS L+++SI Q++ARQ H K +PDFHDKYGNAVLASG  FCV  WV+ ATQI
+Sbjct  2   MFPLARNALSSLKIRSILQSMARQSHVKHSPDFHDKYGNAVLASGTAFCVVAWVFTATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW+ Q
+Sbjct  62  GIEWNLSPVGRVTPKEWKHQ  81
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.132    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4966371191
+Results from round 2
+
+
+Query= P13183|2ybbV
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q5R9K2|COX7B_PONAB Cytochrome c oxidase subunit 7B, mitochon...  152     1e-47
+  sp|P56393|COX7B_MOUSE Cytochrome c oxidase subunit 7B, mitochon...  151     2e-47
+  sp|P80431|COX7B_RAT Cytochrome c oxidase subunit 7B, mitochondr...  151     4e-47
+  sp|P13183|COX7B_BOVIN Cytochrome c oxidase subunit 7B, mitochon...  150     9e-47
+  sp|P24311|COX7B_HUMAN Cytochrome c oxidase subunit 7B, mitochon...  149     1e-46
+  sp|Q8TF08|CX7B2_HUMAN Cytochrome c oxidase subunit 7B2, mitocho...  148     3e-46
+  sp|Q4R648|CX7B2_MACFA Cytochrome c oxidase subunit 7B2, mitocho...  147     7e-46
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q5R9K2|COX7B_PONAB Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Pongo abelii OX=9601 GN=COX7B PE=3 SV=1
+Length=80
+
+ Score = 152 bits (383),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 64/80 (80%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL KNAL+RL+V+SIQQ +ARQ HQKR PDFHDKYGNAVLASGATFC+  W Y+ATQ+
+Sbjct  1   MFPLVKNALNRLQVRSIQQTMARQSHQKRTPDFHDKYGNAVLASGATFCIVTWTYVATQV  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> sp|P56393|COX7B_MOUSE Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Mus musculus OX=10090 GN=Cox7b PE=3 SV=1
+Length=80
+
+ Score = 151 bits (382),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 65/80 (81%), Positives = 70/80 (88%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PLAKNALSRL+V+SIQQ VARQ HQKRAP FHDKYGNA+LA GA FCV+ W Y ATQI
+Sbjct  1   MLPLAKNALSRLQVRSIQQVVARQSHQKRAPSFHDKYGNAILAGGAIFCVSTWTYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNMSPVGRVTPKEWRDQ  80
+
+
+> sp|P80431|COX7B_RAT Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Rattus norvegicus OX=10116 GN=Cox7b PE=1 SV=3
+Length=80
+
+ Score = 151 bits (380),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 62/80 (78%), Positives = 69/80 (86%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PLAKNALSRL+V+SIQQ VARQ HQK+ P FHDKYGNAVLA G+ FC++ W Y ATQI
+Sbjct  1   MLPLAKNALSRLQVRSIQQVVARQSHQKKTPTFHDKYGNAVLAGGSIFCISAWTYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRDQ  80
+
+
+> sp|P13183|COX7B_BOVIN Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Bos taurus OX=9913 GN=COX7B PE=1 SV=3
+Length=80
+
+ Score = 150 bits (378),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI
+Sbjct  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWNPSPVGRVTPKEWREQ
+Sbjct  61  GIEWNPSPVGRVTPKEWREQ  80
+
+
+> sp|P24311|COX7B_HUMAN Cytochrome c oxidase subunit 7B, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7B PE=1 SV=2
+Length=80
+
+ Score = 149 bits (377),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 63/80 (79%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL K+AL+RL+V+SIQQ +ARQ HQKR PDFHDKYGNAVLASGATFC+  W Y+ATQ+
+Sbjct  1   MFPLVKSALNRLQVRSIQQTMARQSHQKRTPDFHDKYGNAVLASGATFCIVTWTYVATQV  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> sp|Q8TF08|CX7B2_HUMAN Cytochrome c oxidase subunit 7B2, mitochondrial 
+OS=Homo sapiens OX=9606 GN=COX7B2 PE=3 SV=2
+Length=81
+
+ Score = 148 bits (374),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 60/80 (75%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NALS L++QSI Q++AR  H K +PDFHDKYGNAVLASG  FCVA WV+ ATQI
+Sbjct  2   MFPLARNALSSLKIQSILQSMARHSHVKHSPDFHDKYGNAVLASGTAFCVATWVFTATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW+ Q
+Sbjct  62  GIEWNLSPVGRVTPKEWKHQ  81
+
+
+> sp|Q4R648|CX7B2_MACFA Cytochrome c oxidase subunit 7B2, mitochondrial 
+OS=Macaca fascicularis OX=9541 GN=COX7B2 PE=3 SV=1
+Length=81
+
+ Score = 147 bits (372),  Expect = 7e-46, Method: Composition-based stats.
+ Identities = 59/80 (74%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NALS L+++SI Q++ARQ H K +PDFHDKYGNAVLASG  FCV  WV+ ATQI
+Sbjct  2   MFPLARNALSSLKIRSILQSMARQSHVKHSPDFHDKYGNAVLASGTAFCVVAWVFTATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW+ Q
+Sbjct  62  GIEWNLSPVGRVTPKEWKHQ  81
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.131    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4966371191
+
+Search has CONVERGED!
+
+
+  Database: /home/u2376/PSSM/uniprot_sprot.fasta
+    Posted date:  Mar 12, 2018 10:29 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

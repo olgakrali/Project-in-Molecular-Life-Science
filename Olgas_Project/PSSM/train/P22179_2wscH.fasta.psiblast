@@ -1,0 +1,495 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2376/PSSM/uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= P22179|2wscH
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P22179|PSAH_SPIOL Photosystem I reaction center subunit VI, ...  290     5e-100
+  sp|Q9SUI6|PSAH2_ARATH Photosystem I reaction center subunit VI-...  243     2e-81 
+  sp|O04006|PSAH_BRACM Photosystem I reaction center subunit VI, ...  233     9e-78 
+  sp|Q9SUI7|PSAH1_ARATH Photosystem I reaction center subunit VI-...  232     3e-77 
+  sp|P20143|PSAH_HORVU Photosystem I reaction center subunit VI, ...  203     8e-66 
+  sp|Q0DG05|PSAH_ORYSJ Photosystem I reaction center subunit VI, ...  173     5e-54 
+  sp|A2Y7D9|PSAH_ORYSI Photosystem I reaction center subunit VI, ...  173     5e-54 
+  sp|O65101|PSAH_MAIZE Photosystem I reaction center subunit VI, ...  152     9e-46 
+  sp|P13352|PSAH_CHLRE Photosystem I reaction center subunit VI, ...  76.3    9e-17 
+  sp|P20121|PSAH_PEA Photosystem I reaction center subunit VI (Fr...  72.0    5e-16 
+
+
+> sp|P22179|PSAH_SPIOL Photosystem I reaction center subunit VI, 
+chloroplastic OS=Spinacia oleracea OX=3562 GN=PSAH PE=1 SV=1
+Length=144
+
+ Score = 290 bits (742),  Expect = 5e-100, Method: Compositional matrix adjust.
+ Identities = 144/144 (100%), Positives = 144/144 (100%), Gaps = 0/144 (0%)
+
+Query  1    MASLATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFDL  60
+            MASLATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFDL
+Sbjct  1    MASLATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFDL  60
+
+Query  61   EDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSAN  120
+            EDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSAN
+Sbjct  61   EDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSAN  120
+
+Query  121  APQDVLPITRGPQQPPKLGPRGKI  144
+            APQDVLPITRGPQQPPKLGPRGKI
+Sbjct  121  APQDVLPITRGPQQPPKLGPRGKI  144
+
+
+> sp|Q9SUI6|PSAH2_ARATH Photosystem I reaction center subunit VI-2, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAH2 
+PE=2 SV=1
+Length=145
+
+ Score = 243 bits (619),  Expect = 2e-81, Method: Compositional matrix adjust.
+ Identities = 119/145 (82%), Positives = 131/145 (90%), Gaps = 1/145 (1%)
+
+Query  1    MASLATLAAVQPTT-LKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MAS AT+AAVQP+  +KGL GSS+AG KL IKP+RQSFK  + R+GA+VAKYGDKSVYFD
+Sbjct  1    MASFATIAAVQPSAAVKGLGGSSLAGAKLFIKPSRQSFKTKSTRAGAVVAKYGDKSVYFD  60
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            LED+ NTTGQWDVYGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA
+Sbjct  61   LEDLGNTTGQWDVYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  120
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+            N+  DVLPI RGPQ+PPKLGPRGK+
+Sbjct  121  NSTGDVLPIKRGPQEPPKLGPRGKL  145
+
+
+> sp|O04006|PSAH_BRACM Photosystem I reaction center subunit VI, 
+chloroplastic OS=Brassica campestris OX=3711 GN=PSAH PE=2 
+SV=1
+Length=145
+
+ Score = 233 bits (595),  Expect = 9e-78, Method: Compositional matrix adjust.
+ Identities = 115/145 (79%), Positives = 129/145 (89%), Gaps = 1/145 (1%)
+
+Query  1    MASLATLAAVQP-TTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MAS AT+AAVQP + +KGL GSS+ G KL IKP+RQSFK  + R+GA+VAKYGDKSVYFD
+Sbjct  1    MASFATIAAVQPYSAVKGLGGSSLTGAKLFIKPSRQSFKPKSTRAGAVVAKYGDKSVYFD  60
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            LED+ NTTGQWD+YGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA
+Sbjct  61   LEDLGNTTGQWDLYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  120
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+            ++  DVLPI RGPQ+ PKLGPRGK+
+Sbjct  121  SSTGDVLPIKRGPQEKPKLGPRGKL  145
+
+
+> sp|Q9SUI7|PSAH1_ARATH Photosystem I reaction center subunit VI-1, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAH1 
+PE=2 SV=1
+Length=145
+
+ Score = 232 bits (592),  Expect = 3e-77, Method: Compositional matrix adjust.
+ Identities = 114/145 (79%), Positives = 129/145 (89%), Gaps = 1/145 (1%)
+
+Query  1    MASLATLAAVQPTT-LKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MASLAT+AAV+P+  +KGL GSS+AG KL IKP+R SFK  ++R+  +VAKYGDKSVYFD
+Sbjct  1    MASLATVAAVKPSAAIKGLGGSSLAGAKLSIKPSRLSFKPKSIRANGVVAKYGDKSVYFD  60
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            LED+ NTTGQWDVYGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA
+Sbjct  61   LEDLGNTTGQWDVYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  120
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+             +  +VLPI RGPQ+PPKLGPRGK+
+Sbjct  121  TSTGEVLPIKRGPQEPPKLGPRGKL  145
+
+
+> sp|P20143|PSAH_HORVU Photosystem I reaction center subunit VI, 
+chloroplastic OS=Hordeum vulgare OX=4513 GN=PSAH PE=1 SV=1
+Length=143
+
+ Score = 203 bits (516),  Expect = 8e-66, Method: Compositional matrix adjust.
+ Identities = 100/143 (70%), Positives = 117/143 (82%), Gaps = 2/143 (1%)
+
+Query  4    LATLAAVQPTTLKGLAGSSIAGTKLHIKP--ARQSFKLNNVRSGAIVAKYGDKSVYFDLE  61
+            +A+L AVQP  +KGL+GSSI+G KL ++P  A  S      R  A+VAKYG+KSVYFDL+
+Sbjct  1    MASLVAVQPAAVKGLSGSSISGRKLAVRPSSAAVSRSTRRARGAAVVAKYGEKSVYFDLD  60
+
+Query  62   DIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSANA  121
+            DIANTTGQWD+YGSDAPSPYN LQSKFF TFAAPFTKRGLLLKFL++GGGSL+ YVSA+A
+Sbjct  61   DIANTTGQWDLYGSDAPSPYNGLQSKFFNTFAAPFTKRGLLLKFLLIGGGSLVAYVSASA  120
+
+Query  122  PQDVLPITRGPQQPPKLGPRGKI  144
+              D+LPI +GPQ PP  GPRGKI
+Sbjct  121  SPDLLPIKKGPQLPPTPGPRGKI  143
+
+
+> sp|Q0DG05|PSAH_ORYSJ Photosystem I reaction center subunit VI, 
+chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=PSAH 
+PE=2 SV=1
+Length=142
+
+ Score = 173 bits (438),  Expect = 5e-54, Method: Compositional matrix adjust.
+ Identities = 100/142 (70%), Positives = 117/142 (82%), Gaps = 1/142 (1%)
+
+Query  4    LATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVR-SGAIVAKYGDKSVYFDLED  62
+            +A+L AVQP  +KGLAGSSI+G KL ++P+ ++      R   A+VAKYG+KSVYFDLED
+Sbjct  1    MASLVAVQPVAVKGLAGSSISGRKLAVRPSPRALCRTTRRPRAAVVAKYGEKSVYFDLED  60
+
+Query  63   IANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSANAP  122
+            I NTTGQWD+YGSDAPSPYN LQSKFFETFA PFTKRGLLLKFL+LGGGSL+ YVSA+A 
+Sbjct  61   IGNTTGQWDLYGSDAPSPYNPLQSKFFETFAGPFTKRGLLLKFLLLGGGSLVAYVSASAS  120
+
+Query  123  QDVLPITRGPQQPPKLGPRGKI  144
+             D+LPI +GPQ PP  GPRGKI
+Sbjct  121  PDLLPIKKGPQLPPTPGPRGKI  142
+
+
+> sp|A2Y7D9|PSAH_ORYSI Photosystem I reaction center subunit VI, 
+chloroplastic OS=Oryza sativa subsp. indica OX=39946 GN=PSAH 
+PE=2 SV=1
+Length=142
+
+ Score = 173 bits (438),  Expect = 5e-54, Method: Compositional matrix adjust.
+ Identities = 100/142 (70%), Positives = 117/142 (82%), Gaps = 1/142 (1%)
+
+Query  4    LATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVR-SGAIVAKYGDKSVYFDLED  62
+            +A+L AVQP  +KGLAGSSI+G KL ++P+ ++      R   A+VAKYG+KSVYFDLED
+Sbjct  1    MASLVAVQPVAVKGLAGSSISGRKLAVRPSPRALCRTTRRPRAAVVAKYGEKSVYFDLED  60
+
+Query  63   IANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSANAP  122
+            I NTTGQWD+YGSDAPSPYN LQSKFFETFA PFTKRGLLLKFL+LGGGSL+ YVSA+A 
+Sbjct  61   IGNTTGQWDLYGSDAPSPYNPLQSKFFETFAGPFTKRGLLLKFLLLGGGSLVAYVSASAS  120
+
+Query  123  QDVLPITRGPQQPPKLGPRGKI  144
+             D+LPI +GPQ PP  GPRGKI
+Sbjct  121  PDLLPIKKGPQLPPTPGPRGKI  142
+
+
+> sp|O65101|PSAH_MAIZE Photosystem I reaction center subunit VI, 
+chloroplastic OS=Zea mays OX=4577 GN=PSAH PE=2 SV=1
+Length=142
+
+ Score = 152 bits (383),  Expect = 9e-46, Method: Compositional matrix adjust.
+ Identities = 104/145 (72%), Positives = 124/145 (86%), Gaps = 4/145 (3%)
+
+Query  1    MASLATLAAVQPTTLKGLAGSSIAGTKLHI-KPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MASLA ++ V+P  +KGLAGSSI+G KL + +P+ +S  +   R+ A+VAKYGDKSVYFD
+Sbjct  1    MASLAAVS-VKPVAIKGLAGSSISGRKLAVARPSARS--IRRPRAAAVVAKYGDKSVYFD  57
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            L+DI NTTGQWD+YGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFL+LGGGSLL YVSA
+Sbjct  58   LDDIGNTTGQWDLYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLLLGGGSLLAYVSA  117
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+            +A  D+LPI +GPQ+PP+ GPRGKI
+Sbjct  118  SASPDLLPIKKGPQEPPQPGPRGKI  142
+
+
+> sp|P13352|PSAH_CHLRE Photosystem I reaction center subunit VI, 
+chloroplastic OS=Chlamydomonas reinhardtii OX=3055 GN=PSAH 
+PE=2 SV=1
+Length=130
+
+ Score = 76.3 bits (186),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 40/99 (40%), Positives = 55/99 (56%), Gaps = 1/99 (1%)
+
+Query  47   IVAKYGDKSVYFDLEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFL  106
+            + AKYG+ S YFDL+D+ NTTG WD+YG D    Y   Q+KFF       ++R  L   +
+Sbjct  28   VSAKYGENSRYFDLQDMENTTGSWDMYGVDEKKRYPDNQAKFFTQATDIISRRESLRALV  87
+
+Query  107  ILGG-GSLLTYVSANAPQDVLPITRGPQQPPKLGPRGKI  144
+             L G  +++TY    A    LPIT+GPQ   + G  G +
+Sbjct  88   ALSGIAAIVTYGLKGAKDADLPITKGPQTTGENGKGGSV  126
+
+
+> sp|P20121|PSAH_PEA Photosystem I reaction center subunit VI (Fragment) 
+OS=Pisum sativum OX=3888 GN=PSAH PE=1 SV=1
+Length=36
+
+ Score = 72.0 bits (175),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 32/36 (89%), Positives = 34/36 (94%), Gaps = 0/36 (0%)
+
+Query  50  KYGDKSVYFDLEDIANTTGQWDVYGSDAPSPYNSLQ  85
+           KYGDKSVYFDLEDI NTTGQWD+YGSDAPSPY+ LQ
+Sbjct  1   KYGDKSVYFDLEDIGNTTGQWDLYGSDAPSPYSXLQ  36
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5343894552
+Results from round 2
+
+
+Query= P22179|2wscH
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P22179|PSAH_SPIOL Photosystem I reaction center subunit VI, ...  229     4e-76
+  sp|Q9SUI6|PSAH2_ARATH Photosystem I reaction center subunit VI-...  221     5e-73
+  sp|O04006|PSAH_BRACM Photosystem I reaction center subunit VI, ...  219     6e-72
+  sp|Q9SUI7|PSAH1_ARATH Photosystem I reaction center subunit VI-...  216     5e-71
+  sp|P20143|PSAH_HORVU Photosystem I reaction center subunit VI, ...  206     8e-67
+  sp|Q0DG05|PSAH_ORYSJ Photosystem I reaction center subunit VI, ...  188     4e-60
+  sp|A2Y7D9|PSAH_ORYSI Photosystem I reaction center subunit VI, ...  188     4e-60
+  sp|O65101|PSAH_MAIZE Photosystem I reaction center subunit VI, ...  160     7e-49
+  sp|P13352|PSAH_CHLRE Photosystem I reaction center subunit VI, ...  140     2e-41
+  sp|P20121|PSAH_PEA Photosystem I reaction center subunit VI (Fr...  75.5    3e-17
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P22179|PSAH_SPIOL Photosystem I reaction center subunit VI, 
+chloroplastic OS=Spinacia oleracea OX=3562 GN=PSAH PE=1 SV=1
+Length=144
+
+ Score = 229 bits (584),  Expect = 4e-76, Method: Composition-based stats.
+ Identities = 144/144 (100%), Positives = 144/144 (100%), Gaps = 0/144 (0%)
+
+Query  1    MASLATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFDL  60
+            MASLATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFDL
+Sbjct  1    MASLATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFDL  60
+
+Query  61   EDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSAN  120
+            EDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSAN
+Sbjct  61   EDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSAN  120
+
+Query  121  APQDVLPITRGPQQPPKLGPRGKI  144
+            APQDVLPITRGPQQPPKLGPRGKI
+Sbjct  121  APQDVLPITRGPQQPPKLGPRGKI  144
+
+
+> sp|Q9SUI6|PSAH2_ARATH Photosystem I reaction center subunit VI-2, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAH2 
+PE=2 SV=1
+Length=145
+
+ Score = 221 bits (564),  Expect = 5e-73, Method: Composition-based stats.
+ Identities = 119/145 (82%), Positives = 131/145 (90%), Gaps = 1/145 (1%)
+
+Query  1    MASLATLAAVQPTT-LKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MAS AT+AAVQP+  +KGL GSS+AG KL IKP+RQSFK  + R+GA+VAKYGDKSVYFD
+Sbjct  1    MASFATIAAVQPSAAVKGLGGSSLAGAKLFIKPSRQSFKTKSTRAGAVVAKYGDKSVYFD  60
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            LED+ NTTGQWDVYGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA
+Sbjct  61   LEDLGNTTGQWDVYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  120
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+            N+  DVLPI RGPQ+PPKLGPRGK+
+Sbjct  121  NSTGDVLPIKRGPQEPPKLGPRGKL  145
+
+
+> sp|O04006|PSAH_BRACM Photosystem I reaction center subunit VI, 
+chloroplastic OS=Brassica campestris OX=3711 GN=PSAH PE=2 
+SV=1
+Length=145
+
+ Score = 219 bits (557),  Expect = 6e-72, Method: Composition-based stats.
+ Identities = 115/145 (79%), Positives = 129/145 (89%), Gaps = 1/145 (1%)
+
+Query  1    MASLATLAAVQP-TTLKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MAS AT+AAVQP + +KGL GSS+ G KL IKP+RQSFK  + R+GA+VAKYGDKSVYFD
+Sbjct  1    MASFATIAAVQPYSAVKGLGGSSLTGAKLFIKPSRQSFKPKSTRAGAVVAKYGDKSVYFD  60
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            LED+ NTTGQWD+YGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA
+Sbjct  61   LEDLGNTTGQWDLYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  120
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+            ++  DVLPI RGPQ+ PKLGPRGK+
+Sbjct  121  SSTGDVLPIKRGPQEKPKLGPRGKL  145
+
+
+> sp|Q9SUI7|PSAH1_ARATH Photosystem I reaction center subunit VI-1, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PSAH1 
+PE=2 SV=1
+Length=145
+
+ Score = 216 bits (551),  Expect = 5e-71, Method: Composition-based stats.
+ Identities = 114/145 (79%), Positives = 129/145 (89%), Gaps = 1/145 (1%)
+
+Query  1    MASLATLAAVQPTT-LKGLAGSSIAGTKLHIKPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MASLAT+AAV+P+  +KGL GSS+AG KL IKP+R SFK  ++R+  +VAKYGDKSVYFD
+Sbjct  1    MASLATVAAVKPSAAIKGLGGSSLAGAKLSIKPSRLSFKPKSIRANGVVAKYGDKSVYFD  60
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            LED+ NTTGQWDVYGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA
+Sbjct  61   LEDLGNTTGQWDVYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  120
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+             +  +VLPI RGPQ+PPKLGPRGK+
+Sbjct  121  TSTGEVLPIKRGPQEPPKLGPRGKL  145
+
+
+> sp|P20143|PSAH_HORVU Photosystem I reaction center subunit VI, 
+chloroplastic OS=Hordeum vulgare OX=4513 GN=PSAH PE=1 SV=1
+Length=143
+
+ Score = 206 bits (523),  Expect = 8e-67, Method: Composition-based stats.
+ Identities = 99/143 (69%), Positives = 117/143 (82%), Gaps = 2/143 (1%)
+
+Query  4    LATLAAVQPTTLKGLAGSSIAGTKLHIKPA--RQSFKLNNVRSGAIVAKYGDKSVYFDLE  61
+            +A+L AVQP  +KGL+GSSI+G KL ++P+    S      R  A+VAKYG+KSVYFDL+
+Sbjct  1    MASLVAVQPAAVKGLSGSSISGRKLAVRPSSAAVSRSTRRARGAAVVAKYGEKSVYFDLD  60
+
+Query  62   DIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSANA  121
+            DIANTTGQWD+YGSDAPSPYN LQSKFF TFAAPFTKRGLLLKFL++GGGSL+ YVSA+A
+Sbjct  61   DIANTTGQWDLYGSDAPSPYNGLQSKFFNTFAAPFTKRGLLLKFLLIGGGSLVAYVSASA  120
+
+Query  122  PQDVLPITRGPQQPPKLGPRGKI  144
+              D+LPI +GPQ PP  GPRGKI
+Sbjct  121  SPDLLPIKKGPQLPPTPGPRGKI  143
+
+
+> sp|Q0DG05|PSAH_ORYSJ Photosystem I reaction center subunit VI, 
+chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=PSAH 
+PE=2 SV=1
+Length=142
+
+ Score = 188 bits (478),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 100/142 (70%), Positives = 117/142 (82%), Gaps = 1/142 (1%)
+
+Query  4    LATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVR-SGAIVAKYGDKSVYFDLED  62
+            +A+L AVQP  +KGLAGSSI+G KL ++P+ ++      R   A+VAKYG+KSVYFDLED
+Sbjct  1    MASLVAVQPVAVKGLAGSSISGRKLAVRPSPRALCRTTRRPRAAVVAKYGEKSVYFDLED  60
+
+Query  63   IANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSANAP  122
+            I NTTGQWD+YGSDAPSPYN LQSKFFETFA PFTKRGLLLKFL+LGGGSL+ YVSA+A 
+Sbjct  61   IGNTTGQWDLYGSDAPSPYNPLQSKFFETFAGPFTKRGLLLKFLLLGGGSLVAYVSASAS  120
+
+Query  123  QDVLPITRGPQQPPKLGPRGKI  144
+             D+LPI +GPQ PP  GPRGKI
+Sbjct  121  PDLLPIKKGPQLPPTPGPRGKI  142
+
+
+> sp|A2Y7D9|PSAH_ORYSI Photosystem I reaction center subunit VI, 
+chloroplastic OS=Oryza sativa subsp. indica OX=39946 GN=PSAH 
+PE=2 SV=1
+Length=142
+
+ Score = 188 bits (478),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 100/142 (70%), Positives = 117/142 (82%), Gaps = 1/142 (1%)
+
+Query  4    LATLAAVQPTTLKGLAGSSIAGTKLHIKPARQSFKLNNVR-SGAIVAKYGDKSVYFDLED  62
+            +A+L AVQP  +KGLAGSSI+G KL ++P+ ++      R   A+VAKYG+KSVYFDLED
+Sbjct  1    MASLVAVQPVAVKGLAGSSISGRKLAVRPSPRALCRTTRRPRAAVVAKYGEKSVYFDLED  60
+
+Query  63   IANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSANAP  122
+            I NTTGQWD+YGSDAPSPYN LQSKFFETFA PFTKRGLLLKFL+LGGGSL+ YVSA+A 
+Sbjct  61   IGNTTGQWDLYGSDAPSPYNPLQSKFFETFAGPFTKRGLLLKFLLLGGGSLVAYVSASAS  120
+
+Query  123  QDVLPITRGPQQPPKLGPRGKI  144
+             D+LPI +GPQ PP  GPRGKI
+Sbjct  121  PDLLPIKKGPQLPPTPGPRGKI  142
+
+
+> sp|O65101|PSAH_MAIZE Photosystem I reaction center subunit VI, 
+chloroplastic OS=Zea mays OX=4577 GN=PSAH PE=2 SV=1
+Length=142
+
+ Score = 160 bits (404),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 104/145 (72%), Positives = 124/145 (86%), Gaps = 4/145 (3%)
+
+Query  1    MASLATLAAVQPTTLKGLAGSSIAGTKLHI-KPARQSFKLNNVRSGAIVAKYGDKSVYFD  59
+            MASLA ++ V+P  +KGLAGSSI+G KL + +P+ +S  +   R+ A+VAKYGDKSVYFD
+Sbjct  1    MASLAAVS-VKPVAIKGLAGSSISGRKLAVARPSARS--IRRPRAAAVVAKYGDKSVYFD  57
+
+Query  60   LEDIANTTGQWDVYGSDAPSPYNSLQSKFFETFAAPFTKRGLLLKFLILGGGSLLTYVSA  119
+            L+DI NTTGQWD+YGSDAPSPYN LQSKFFETFAAPFTKRGLLLKFL+LGGGSLL YVSA
+Sbjct  58   LDDIGNTTGQWDLYGSDAPSPYNPLQSKFFETFAAPFTKRGLLLKFLLLGGGSLLAYVSA  117
+
+Query  120  NAPQDVLPITRGPQQPPKLGPRGKI  144
+            +A  D+LPI +GPQ+PP+ GPRGKI
+Sbjct  118  SASPDLLPIKKGPQEPPQPGPRGKI  142
+
+
+> sp|P13352|PSAH_CHLRE Photosystem I reaction center subunit VI, 
+chloroplastic OS=Chlamydomonas reinhardtii OX=3055 GN=PSAH 
+PE=2 SV=1
+Length=130
+
+ Score = 140 bits (353),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 42/118 (36%), Positives = 62/118 (53%), Gaps = 1/118 (1%)
+
+Query  28   LHIKPARQSFKLNNVRSGAIVAKYGDKSVYFDLEDIANTTGQWDVYGSDAPSPYNSLQSK  87
+            L  + A    ++   ++  + AKYG+ S YFDL+D+ NTTG WD+YG D    Y   Q+K
+Sbjct  9    LSARVAASRPRVAARKAVRVSAKYGENSRYFDLQDMENTTGSWDMYGVDEKKRYPDNQAK  68
+
+Query  88   FFETFAAPFTKRGLLLKFLILGG-GSLLTYVSANAPQDVLPITRGPQQPPKLGPRGKI  144
+            FF       ++R  L   + L G  +++TY    A    LPIT+GPQ   + G  G +
+Sbjct  69   FFTQATDIISRRESLRALVALSGIAAIVTYGLKGAKDADLPITKGPQTTGENGKGGSV  126
+
+
+> sp|P20121|PSAH_PEA Photosystem I reaction center subunit VI (Fragment) 
+OS=Pisum sativum OX=3888 GN=PSAH PE=1 SV=1
+Length=36
+
+ Score = 75.5 bits (184),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 32/36 (89%), Positives = 34/36 (94%), Gaps = 0/36 (0%)
+
+Query  50  KYGDKSVYFDLEDIANTTGQWDVYGSDAPSPYNSLQ  85
+           KYGDKSVYFDLEDI NTTGQWD+YGSDAPSPY+ LQ
+Sbjct  1   KYGDKSVYFDLEDIGNTTGQWDLYGSDAPSPYSXLQ  36
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.129    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5343894552
+
+Search has CONVERGED!
+
+
+  Database: /home/u2376/PSSM/uniprot_sprot.fasta
+    Posted date:  Mar 12, 2018 10:29 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

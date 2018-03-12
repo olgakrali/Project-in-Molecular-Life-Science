@@ -1,0 +1,191 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2376/PSSM/uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= Q50541|3chxF
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q607G3|PMOA_METCA Particulate methane monooxygenase beta sub...  317     2e-107
+  sp|Q04507|AMOA_NITEU Ammonia monooxygenase alpha subunit OS=Nit...  229     1e-72 
+
+
+> sp|Q607G3|PMOA_METCA Particulate methane monooxygenase beta subunit 
+OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 
+11132 / Bath) OX=243233 GN=pmoA1 PE=1 SV=1
+Length=247
+
+ Score = 317 bits (813),  Expect = 2e-107, Method: Compositional matrix adjust.
+ Identities = 144/238 (61%), Positives = 188/238 (79%), Gaps = 0/238 (0%)
+
+Query  14   HSVAEAAGCVKTTDWMFLTLLFLAVLGGYHIHFMLTAGDWDFWVDWKDRRMWPTVVPILG  73
+             S AEA    +T DWM L ++F  ++G YHIH MLT GDWDFW DWKDRR+W TV PI+ 
+Sbjct  9    RSHAEAVQVSRTIDWMALFVVFFVIVGSYHIHAMLTMGDWDFWSDWKDRRLWVTVTPIVL  68
+
+Query  74   VTFAAAAQAFFWENFKLPFGATFAVSGLLIGEWINRYCNFWGWTYFPISLVFPSALVVPA  133
+            VTF AA Q++ WE ++LP+GAT  V GLL+GEWINRY NFWGWTYFPI+ VFP++LV  A
+Sbjct  69   VTFPAAVQSYLWERYRLPWGATVCVLGLLLGEWINRYFNFWGWTYFPINFVFPASLVPGA  128
+
+Query  134  LWLDIIMLLSGSYVITAVVGSLGWGLLFYPNNWPAIAALHQATEQHGQLMSLADLVGFHF  193
+            + LD +++LSGSY+ TA+VG++GWGL+FYP NWP IA LH   E +G LMS+AD+ G+++
+Sbjct  129  IILDTVLMLSGSYLFTAIVGAMGWGLIFYPGNWPIIAPLHVPVEYNGMLMSIADIQGYNY  188
+
+Query  194  VRTSMPEYIRMVERGTLRTFGKEVVPVAAFFSGFVSMMVYFLWWFVGKWYSTTKVIQK  251
+            VRT  PEYIRMVE+GTLRTFGK+V PV+AFFS F+S+++YF+W F+G+W+S  + +Q 
+Sbjct  189  VRTGTPEYIRMVEKGTLRTFGKDVAPVSAFFSAFMSILIYFMWHFIGRWFSNERFLQS  246
+
+
+> sp|Q04507|AMOA_NITEU Ammonia monooxygenase alpha subunit OS=Nitrosomonas 
+europaea (strain ATCC 19718 / CIP 103999 / KCTC 
+2705 / NBRC 14298) OX=228410 GN=amoA1 PE=1 SV=2
+Length=276
+
+ Score = 229 bits (584),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 107/228 (47%), Positives = 155/228 (68%), Gaps = 0/228 (0%)
+
+Query  18   EAAGCVKTTDWMFLTLLFLAVLGGYHIHFMLTAGDWDFWVDWKDRRMWPTVVPILGVTFA  77
+            EA    +  D ++  +L + ++G YH+HFML AGDWDFW+DWKDR+ WP V PI+G+T+ 
+Sbjct  18   EAVHMSRLIDAVYFPILIILLVGTYHMHFMLLAGDWDFWMDWKDRQWWPVVTPIVGITYC  77
+
+Query  78   AAAQAFFWENFKLPFGATFAVSGLLIGEWINRYCNFWGWTYFPISLVFPSALVVPALWLD  137
+            +A   + W N++ PFGAT  V  LLIGEW+ RY  F+ W+++PI+ V P  ++  AL LD
+Sbjct  78   SAIMYYLWVNYRQPFGATLCVVCLLIGEWLTRYWGFYWWSHYPINFVTPGIMLPGALMLD  137
+
+Query  138  IIMLLSGSYVITAVVGSLGWGLLFYPNNWPAIAALHQATEQHGQLMSLADLVGFHFVRTS  197
+              + L+ ++++TA+VG   +GLLFYP NWP     H      G L+S+AD +G  +VRT 
+Sbjct  138  FTLYLTRNWLVTALVGGGFFGLLFYPGNWPIFGPTHLPIVVEGTLLSMADYMGHLYVRTG  197
+
+Query  198  MPEYIRMVERGTLRTFGKEVVPVAAFFSGFVSMMVYFLWWFVGKWYST  245
+             PEY+R +E+G+LRTFG     +AAFFS FVSM+++ +WW++GK Y T
+Sbjct  198  TPEYVRHIEQGSLRTFGGHTTVIAAFFSAFVSMLMFTVWWYLGKVYCT  245
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.141    0.493    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18579580923
+Results from round 2
+
+
+Query= Q50541|3chxF
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q607G3|PMOA_METCA Particulate methane monooxygenase beta sub...  347     3e-119
+  sp|Q04507|AMOA_NITEU Ammonia monooxygenase alpha subunit OS=Nit...  337     1e-114
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q607G3|PMOA_METCA Particulate methane monooxygenase beta subunit 
+OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 
+11132 / Bath) OX=243233 GN=pmoA1 PE=1 SV=1
+Length=247
+
+ Score = 347 bits (891),  Expect = 3e-119, Method: Composition-based stats.
+ Identities = 144/238 (61%), Positives = 188/238 (79%), Gaps = 0/238 (0%)
+
+Query  14   HSVAEAAGCVKTTDWMFLTLLFLAVLGGYHIHFMLTAGDWDFWVDWKDRRMWPTVVPILG  73
+             S AEA    +T DWM L ++F  ++G YHIH MLT GDWDFW DWKDRR+W TV PI+ 
+Sbjct  9    RSHAEAVQVSRTIDWMALFVVFFVIVGSYHIHAMLTMGDWDFWSDWKDRRLWVTVTPIVL  68
+
+Query  74   VTFAAAAQAFFWENFKLPFGATFAVSGLLIGEWINRYCNFWGWTYFPISLVFPSALVVPA  133
+            VTF AA Q++ WE ++LP+GAT  V GLL+GEWINRY NFWGWTYFPI+ VFP++LV  A
+Sbjct  69   VTFPAAVQSYLWERYRLPWGATVCVLGLLLGEWINRYFNFWGWTYFPINFVFPASLVPGA  128
+
+Query  134  LWLDIIMLLSGSYVITAVVGSLGWGLLFYPNNWPAIAALHQATEQHGQLMSLADLVGFHF  193
+            + LD +++LSGSY+ TA+VG++GWGL+FYP NWP IA LH   E +G LMS+AD+ G+++
+Sbjct  129  IILDTVLMLSGSYLFTAIVGAMGWGLIFYPGNWPIIAPLHVPVEYNGMLMSIADIQGYNY  188
+
+Query  194  VRTSMPEYIRMVERGTLRTFGKEVVPVAAFFSGFVSMMVYFLWWFVGKWYSTTKVIQK  251
+            VRT  PEYIRMVE+GTLRTFGK+V PV+AFFS F+S+++YF+W F+G+W+S  + +Q 
+Sbjct  189  VRTGTPEYIRMVEKGTLRTFGKDVAPVSAFFSAFMSILIYFMWHFIGRWFSNERFLQS  246
+
+
+> sp|Q04507|AMOA_NITEU Ammonia monooxygenase alpha subunit OS=Nitrosomonas 
+europaea (strain ATCC 19718 / CIP 103999 / KCTC 
+2705 / NBRC 14298) OX=228410 GN=amoA1 PE=1 SV=2
+Length=276
+
+ Score = 337 bits (864),  Expect = 1e-114, Method: Composition-based stats.
+ Identities = 107/231 (46%), Positives = 155/231 (67%), Gaps = 0/231 (0%)
+
+Query  18   EAAGCVKTTDWMFLTLLFLAVLGGYHIHFMLTAGDWDFWVDWKDRRMWPTVVPILGVTFA  77
+            EA    +  D ++  +L + ++G YH+HFML AGDWDFW+DWKDR+ WP V PI+G+T+ 
+Sbjct  18   EAVHMSRLIDAVYFPILIILLVGTYHMHFMLLAGDWDFWMDWKDRQWWPVVTPIVGITYC  77
+
+Query  78   AAAQAFFWENFKLPFGATFAVSGLLIGEWINRYCNFWGWTYFPISLVFPSALVVPALWLD  137
+            +A   + W N++ PFGAT  V  LLIGEW+ RY  F+ W+++PI+ V P  ++  AL LD
+Sbjct  78   SAIMYYLWVNYRQPFGATLCVVCLLIGEWLTRYWGFYWWSHYPINFVTPGIMLPGALMLD  137
+
+Query  138  IIMLLSGSYVITAVVGSLGWGLLFYPNNWPAIAALHQATEQHGQLMSLADLVGFHFVRTS  197
+              + L+ ++++TA+VG   +GLLFYP NWP     H      G L+S+AD +G  +VRT 
+Sbjct  138  FTLYLTRNWLVTALVGGGFFGLLFYPGNWPIFGPTHLPIVVEGTLLSMADYMGHLYVRTG  197
+
+Query  198  MPEYIRMVERGTLRTFGKEVVPVAAFFSGFVSMMVYFLWWFVGKWYSTTKV  248
+             PEY+R +E+G+LRTFG     +AAFFS FVSM+++ +WW++GK Y T   
+Sbjct  198  TPEYVRHIEQGSLRTFGGHTTVIAAFFSAFVSMLMFTVWWYLGKVYCTAFF  248
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.144    0.499    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0446    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18579580923
+
+Search has CONVERGED!
+
+
+  Database: /home/u2376/PSSM/uniprot_sprot.fasta
+    Posted date:  Mar 12, 2018 10:29 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
