@@ -1,0 +1,765 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= A0A0K9PVC8_ZOSMR
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q944J0|SPCS1_ARATH Probable signal peptidase complex subunit...  122     1e-35
+  sp|Q5RF96|SPCS1_PONAB Signal peptidase complex subunit 1 OS=Pon...  70.5    2e-15
+  sp|Q9Y6A9|SPCS1_HUMAN Signal peptidase complex subunit 1 OS=Hom...  70.5    2e-15
+  sp|B0FWK4|SPCS1_PIG Signal peptidase complex subunit 1 OS=Sus s...  69.7    5e-15
+  sp|Q9D958|SPCS1_MOUSE Signal peptidase complex subunit 1 OS=Mus...  70.9    5e-15
+  sp|Q3T134|SPCS1_BOVIN Signal peptidase complex subunit 1 OS=Bos...  69.3    7e-15
+  sp|Q61CQ8|SPCS1_CAEBR Probable signal peptidase complex subunit...  55.8    8e-10
+  sp|O44953|SPCS1_CAEEL Probable signal peptidase complex subunit...  54.3    2e-09
+  sp|Q54Y83|SPCS1_DICDI Signal peptidase complex subunit 1 OS=Dic...  53.5    4e-09
+  sp|Q9VAL0|SPCS1_DROME Signal peptidase complex subunit 1 OS=Dro...  51.2    3e-08
+  sp|P46965|SPC1_YEAST Signal peptidase complex subunit SPC1 OS=S...  48.5    2e-07
+  sp|G2TRR4|SPC1_SCHPO Microsomal signal peptidase subunit 1 OS=S...  45.1    3e-06
+
+
+> sp|Q944J0|SPCS1_ARATH Probable signal peptidase complex subunit 
+1 OS=Arabidopsis thaliana OX=3702 GN=At2g22425 PE=3 SV=1
+Length=92
+
+ Score = 122 bits (307),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 56/82 (68%), Positives = 68/82 (83%), Gaps = 0/82 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MDW GQKL E LMQ++LV+S +VA   GY   SFR M+L+Y GGVVLTTLVTVPNWPF+N
+Sbjct  1   MDWQGQKLVEQLMQILLVISGVVAVVVGYTTESFRTMMLIYAGGVVLTTLVTVPNWPFYN  60
+
+Query  61  RHPLKWLEPSEAERHPRPQLTS  82
+            HPLKWL+PSEAE+HP+P++ S
+Sbjct  61  LHPLKWLDPSEAEKHPKPEVVS  82
+
+
+> sp|Q5RF96|SPCS1_PONAB Signal peptidase complex subunit 1 OS=Pongo 
+abelii OX=9601 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 70.5 bits (171),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 32/79 (41%), Positives = 48/79 (61%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKWL---EPSEAERHP  76
+           RHPLKWL   E S  ++ P
+Sbjct  72  RHPLKWLPVQESSTDDKKP  90
+
+
+> sp|Q9Y6A9|SPCS1_HUMAN Signal peptidase complex subunit 1 OS=Homo 
+sapiens OX=9606 GN=SPCS1 PE=1 SV=4
+Length=102
+
+ Score = 70.5 bits (171),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 32/79 (41%), Positives = 48/79 (61%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKWL---EPSEAERHP  76
+           RHPLKWL   E S  ++ P
+Sbjct  72  RHPLKWLPVQESSTDDKKP  90
+
+
+> sp|B0FWK4|SPCS1_PIG Signal peptidase complex subunit 1 OS=Sus 
+scrofa OX=9823 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 69.7 bits (169),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKWL  67
+           RHPLKWL
+Sbjct  72  RHPLKWL  78
+
+
+> sp|Q9D958|SPCS1_MOUSE Signal peptidase complex subunit 1 OS=Mus 
+musculus OX=10090 GN=Spcs1 PE=2 SV=3
+Length=161
+
+ Score = 70.9 bits (172),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  1    MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+            MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  71   MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  130
+
+Query  61   RHPLKWL  67
+            RHPLKWL
+Sbjct  131  RHPLKWL  137
+
+
+> sp|Q3T134|SPCS1_BOVIN Signal peptidase complex subunit 1 OS=Bos 
+taurus OX=9913 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 69.3 bits (168),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 48/79 (61%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYLAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKWL---EPSEAERHP  76
+           RHPLKWL   + S  ++ P
+Sbjct  72  RHPLKWLPVQDSSTEDKKP  90
+
+
+> sp|Q61CQ8|SPCS1_CAEBR Probable signal peptidase complex subunit 
+1 OS=Caenorhabditis briggsae OX=6238 GN=CBG12804 PE=3 SV=1
+Length=113
+
+ Score = 55.8 bits (133),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 41/75 (55%), Gaps = 1/75 (1%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPF-F  59
+           +D+ GQK++E   QV+L ++ I+ F  GY        +   +G  V T L+ +P WPF F
+Sbjct  19  IDFQGQKVAERTYQVILTLAGIIGFFVGYSTQQLSYAMYTVMGAAVFTALIILPPWPFLF  78
+
+Query  60  NRHPLKWLEPSEAER  74
+            ++P+ W  P E + 
+Sbjct  79  RKNPIVWQTPIEEQE  93
+
+
+> sp|O44953|SPCS1_CAEEL Probable signal peptidase complex subunit 
+1 OS=Caenorhabditis elegans OX=6239 GN=C34B2.10 PE=3 SV=1
+Length=105
+
+ Score = 54.3 bits (129),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 41/75 (55%), Gaps = 1/75 (1%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPF-F  59
+           +D+ GQK++E   QV+L ++ I+ F  G+        +   LG    T L+ +P WPF F
+Sbjct  19  IDFQGQKVAERTYQVILTIAGIIGFLVGFWTQQLSYAMFTVLGASAFTALIILPPWPFLF  78
+
+Query  60  NRHPLKWLEPSEAER  74
+            ++P+ W  P+E + 
+Sbjct  79  RKNPIVWHTPAEPQE  93
+
+
+> sp|Q54Y83|SPCS1_DICDI Signal peptidase complex subunit 1 OS=Dictyostelium 
+discoideum OX=44689 GN=spcs1 PE=3 SV=1
+Length=80
+
+ Score = 53.5 bits (127),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 39/69 (57%), Gaps = 0/69 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q  +++  ++ +  G+I   F +       G  L+ ++ +PNW  + 
+Sbjct  1   MDFEGQKLAEYIYQYTIIIFGVIGWIIGFIKQDFSITFYSVALGTFLSLILCLPNWKIYC  60
+
+Query  61  RHPLKWLEP  69
+           +HPL W +P
+Sbjct  61  QHPLSWQKP  69
+
+
+> sp|Q9VAL0|SPCS1_DROME Signal peptidase complex subunit 1 OS=Drosophila 
+melanogaster OX=7227 GN=Spase12 PE=1 SV=2
+Length=98
+
+ Score = 51.2 bits (121),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 39/73 (53%), Gaps = 0/73 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQ  +E   + ++    IV    G  +  F   + +   G VL++L+T+P WP + 
+Sbjct  8   MDFAGQGKAERWSRFIITFFGIVGLVYGAFVQQFSQTVYILGAGFVLSSLITIPPWPLYR  67
+
+Query  61  RHPLKWLEPSEAE  73
+           R+ LKW +P + +
+Sbjct  68  RNALKWQKPIDTD  80
+
+
+> sp|P46965|SPC1_YEAST Signal peptidase complex subunit SPC1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SPC1 PE=1 SV=1
+Length=94
+
+ Score = 48.5 bits (114),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 41/69 (59%), Gaps = 0/69 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+  Q+ +E   Q+ L++ A+VA   G+   S +++L  Y    V+T +  +P +P++N
+Sbjct  16  IDFPSQRKTEKFQQLSLMIGALVACILGFAQQSLKVLLTAYGISCVITLICVLPAYPWYN  75
+
+Query  61  RHPLKWLEP  69
+           +  L+W +P
+Sbjct  76  KQKLRWAQP  84
+
+
+> sp|G2TRR4|SPC1_SCHPO Microsomal signal peptidase subunit 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=new19 PE=2 SV=1
+Length=78
+
+ Score = 45.1 bits (105),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 39/71 (55%), Gaps = 0/71 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+ GQ   +  M   L  SA++++  GY++     ++ ++L    L  LV +P W  +N
+Sbjct  8   IDFAGQLRCQKYMNYGLCTSAVISYIYGYLVQDSYCVIKLFLILASLVALVCLPAWSMYN  67
+
+Query  61  RHPLKWLEPSE  71
+           ++PLK+ +  E
+Sbjct  68  KNPLKFQKKKE  78
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4870349370
+Results from round 2
+
+
+Query= A0A0K9PVC8_ZOSMR
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q944J0|SPCS1_ARATH Probable signal peptidase complex subunit...  110     1e-30
+  sp|Q5RF96|SPCS1_PONAB Signal peptidase complex subunit 1 OS=Pon...  108     4e-30
+  sp|Q9Y6A9|SPCS1_HUMAN Signal peptidase complex subunit 1 OS=Hom...  108     4e-30
+  sp|Q3T134|SPCS1_BOVIN Signal peptidase complex subunit 1 OS=Bos...  108     6e-30
+  sp|Q9D958|SPCS1_MOUSE Signal peptidase complex subunit 1 OS=Mus...  108     2e-29
+  sp|B0FWK4|SPCS1_PIG Signal peptidase complex subunit 1 OS=Sus s...  107     2e-29
+  sp|Q9VAL0|SPCS1_DROME Signal peptidase complex subunit 1 OS=Dro...  102     1e-27
+  sp|Q61CQ8|SPCS1_CAEBR Probable signal peptidase complex subunit...  101     5e-27
+  sp|O44953|SPCS1_CAEEL Probable signal peptidase complex subunit...  98.9    3e-26
+  sp|Q54Y83|SPCS1_DICDI Signal peptidase complex subunit 1 OS=Dic...  97.4    7e-26
+  sp|G2TRR4|SPC1_SCHPO Microsomal signal peptidase subunit 1 OS=S...  95.4    3e-25
+  sp|P46965|SPC1_YEAST Signal peptidase complex subunit SPC1 OS=S...  88.9    2e-22
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q74Z81|SPC1_ASHGO Microsomal signal peptidase subunit 1 OS=A...  47.3    5e-07
+
+
+> sp|Q944J0|SPCS1_ARATH Probable signal peptidase complex subunit 
+1 OS=Arabidopsis thaliana OX=3702 GN=At2g22425 PE=3 SV=1
+Length=92
+
+ Score = 110 bits (274),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 56/82 (68%), Positives = 68/82 (83%), Gaps = 0/82 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MDW GQKL E LMQ++LV+S +VA   GY   SFR M+L+Y GGVVLTTLVTVPNWPF+N
+Sbjct  1   MDWQGQKLVEQLMQILLVISGVVAVVVGYTTESFRTMMLIYAGGVVLTTLVTVPNWPFYN  60
+
+Query  61  RHPLKWLEPSEAERHPRPQLTS  82
+            HPLKWL+PSEAE+HP+P++ S
+Sbjct  61  LHPLKWLDPSEAEKHPKPEVVS  82
+
+
+> sp|Q5RF96|SPCS1_PONAB Signal peptidase complex subunit 1 OS=Pongo 
+abelii OX=9601 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 108 bits (271),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 47/79 (59%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    E S  ++ P
+Sbjct  72  RHPLKWLPVQESSTDDKKP  90
+
+
+> sp|Q9Y6A9|SPCS1_HUMAN Signal peptidase complex subunit 1 OS=Homo 
+sapiens OX=9606 GN=SPCS1 PE=1 SV=4
+Length=102
+
+ Score = 108 bits (271),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 47/79 (59%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    E S  ++ P
+Sbjct  72  RHPLKWLPVQESSTDDKKP  90
+
+
+> sp|Q3T134|SPCS1_BOVIN Signal peptidase complex subunit 1 OS=Bos 
+taurus OX=9913 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 108 bits (269),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 30/79 (38%), Positives = 47/79 (59%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYLAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    + S  ++ P
+Sbjct  72  RHPLKWLPVQDSSTEDKKP  90
+
+
+> sp|Q9D958|SPCS1_MOUSE Signal peptidase complex subunit 1 OS=Mus 
+musculus OX=10090 GN=Spcs1 PE=2 SV=3
+Length=161
+
+ Score = 108 bits (271),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 29/67 (43%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  1    MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+            MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  71   MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  130
+
+Query  61   RHPLKWL  67
+            RHPLKWL
+Sbjct  131  RHPLKWL  137
+
+
+> sp|B0FWK4|SPCS1_PIG Signal peptidase complex subunit 1 OS=Sus 
+scrofa OX=9823 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 107 bits (266),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 46/79 (58%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    +    ++ P
+Sbjct  72  RHPLKWLPVQDSGTEDKKP  90
+
+
+> sp|Q9VAL0|SPCS1_DROME Signal peptidase complex subunit 1 OS=Drosophila 
+melanogaster OX=7227 GN=Spase12 PE=1 SV=2
+Length=98
+
+ Score = 102 bits (254),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 39/75 (52%), Gaps = 0/75 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQ  +E   + ++    IV    G  +  F   + +   G VL++L+T+P WP + 
+Sbjct  8   MDFAGQGKAERWSRFIITFFGIVGLVYGAFVQQFSQTVYILGAGFVLSSLITIPPWPLYR  67
+
+Query  61  RHPLKWLEPSEAERH  75
+           R+ LKW +P + +  
+Sbjct  68  RNALKWQKPIDTDAK  82
+
+
+> sp|Q61CQ8|SPCS1_CAEBR Probable signal peptidase complex subunit 
+1 OS=Caenorhabditis briggsae OX=6238 GN=CBG12804 PE=3 SV=1
+Length=113
+
+ Score = 101 bits (251),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 25/75 (33%), Positives = 41/75 (55%), Gaps = 1/75 (1%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPF-F  59
+           +D+ GQK++E   QV+L ++ I+ F  GY        +   +G  V T L+ +P WPF F
+Sbjct  19  IDFQGQKVAERTYQVILTLAGIIGFFVGYSTQQLSYAMYTVMGAAVFTALIILPPWPFLF  78
+
+Query  60  NRHPLKWLEPSEAER  74
+            ++P+ W  P E + 
+Sbjct  79  RKNPIVWQTPIEEQE  93
+
+
+> sp|O44953|SPCS1_CAEEL Probable signal peptidase complex subunit 
+1 OS=Caenorhabditis elegans OX=6239 GN=C34B2.10 PE=3 SV=1
+Length=105
+
+ Score = 98.9 bits (245),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 24/75 (32%), Positives = 41/75 (55%), Gaps = 1/75 (1%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPF-F  59
+           +D+ GQK++E   QV+L ++ I+ F  G+        +   LG    T L+ +P WPF F
+Sbjct  19  IDFQGQKVAERTYQVILTIAGIIGFLVGFWTQQLSYAMFTVLGASAFTALIILPPWPFLF  78
+
+Query  60  NRHPLKWLEPSEAER  74
+            ++P+ W  P+E + 
+Sbjct  79  RKNPIVWHTPAEPQE  93
+
+
+> sp|Q54Y83|SPCS1_DICDI Signal peptidase complex subunit 1 OS=Dictyostelium 
+discoideum OX=44689 GN=spcs1 PE=3 SV=1
+Length=80
+
+ Score = 97.4 bits (241),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 39/70 (56%), Gaps = 0/70 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q  +++  ++ +  G+I   F +       G  L+ ++ +PNW  + 
+Sbjct  1   MDFEGQKLAEYIYQYTIIIFGVIGWIIGFIKQDFSITFYSVALGTFLSLILCLPNWKIYC  60
+
+Query  61  RHPLKWLEPS  70
+           +HPL W +P 
+Sbjct  61  QHPLSWQKPI  70
+
+
+> sp|G2TRR4|SPC1_SCHPO Microsomal signal peptidase subunit 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=new19 PE=2 SV=1
+Length=78
+
+ Score = 95.4 bits (236),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 20/71 (28%), Positives = 39/71 (55%), Gaps = 0/71 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+ GQ   +  M   L  SA++++  GY++     ++ ++L    L  LV +P W  +N
+Sbjct  8   IDFAGQLRCQKYMNYGLCTSAVISYIYGYLVQDSYCVIKLFLILASLVALVCLPAWSMYN  67
+
+Query  61  RHPLKWLEPSE  71
+           ++PLK+ +  E
+Sbjct  68  KNPLKFQKKKE  78
+
+
+> sp|P46965|SPC1_YEAST Signal peptidase complex subunit SPC1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SPC1 PE=1 SV=1
+Length=94
+
+ Score = 88.9 bits (219),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/70 (29%), Positives = 41/70 (59%), Gaps = 0/70 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+  Q+ +E   Q+ L++ A+VA   G+   S +++L  Y    V+T +  +P +P++N
+Sbjct  16  IDFPSQRKTEKFQQLSLMIGALVACILGFAQQSLKVLLTAYGISCVITLICVLPAYPWYN  75
+
+Query  61  RHPLKWLEPS  70
+           +  L+W +P 
+Sbjct  76  KQKLRWAQPK  85
+
+
+> sp|Q74Z81|SPC1_ASHGO Microsomal signal peptidase subunit 1 OS=Ashbya 
+gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 
+/ NRRL Y-1056) OX=284811 GN=SPC1 PE=3 SV=1
+Length=91
+
+ Score = 47.3 bits (111),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 15/66 (23%), Positives = 28/66 (42%), Gaps = 0/66 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+  Q+    L  ++L    +V+   G+   S  L L  +     L  L+ VP +  + 
+Sbjct  15  IDYPSQRRVAKLTDIILGSGTLVSCLLGFYAGSLSLTLYAFAAAYGLALLLVVPAYGKYR  74
+
+Query  61  RHPLKW  66
+           +  L W
+Sbjct  75  QQKLAW  80
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.140    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0432    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4870349370
+Results from round 3
+
+
+Query= A0A0K9PVC8_ZOSMR
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q944J0|SPCS1_ARATH Probable signal peptidase complex subunit...  108     5e-30
+  sp|Q5RF96|SPCS1_PONAB Signal peptidase complex subunit 1 OS=Pon...  108     7e-30
+  sp|Q9Y6A9|SPCS1_HUMAN Signal peptidase complex subunit 1 OS=Hom...  108     7e-30
+  sp|Q3T134|SPCS1_BOVIN Signal peptidase complex subunit 1 OS=Bos...  107     1e-29
+  sp|B0FWK4|SPCS1_PIG Signal peptidase complex subunit 1 OS=Sus s...  106     4e-29
+  sp|Q9D958|SPCS1_MOUSE Signal peptidase complex subunit 1 OS=Mus...  107     8e-29
+  sp|Q9VAL0|SPCS1_DROME Signal peptidase complex subunit 1 OS=Dro...  102     9e-28
+  sp|Q61CQ8|SPCS1_CAEBR Probable signal peptidase complex subunit...  99.7    2e-26
+  sp|Q54Y83|SPCS1_DICDI Signal peptidase complex subunit 1 OS=Dic...  97.0    1e-25
+  sp|O44953|SPCS1_CAEEL Probable signal peptidase complex subunit...  97.4    1e-25
+  sp|G2TRR4|SPC1_SCHPO Microsomal signal peptidase subunit 1 OS=S...  93.1    3e-24
+  sp|P46965|SPC1_YEAST Signal peptidase complex subunit SPC1 OS=S...  89.7    1e-22
+  sp|Q74Z81|SPC1_ASHGO Microsomal signal peptidase subunit 1 OS=A...  66.2    9e-14
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q944J0|SPCS1_ARATH Probable signal peptidase complex subunit 
+1 OS=Arabidopsis thaliana OX=3702 GN=At2g22425 PE=3 SV=1
+Length=92
+
+ Score = 108 bits (269),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 56/82 (68%), Positives = 68/82 (83%), Gaps = 0/82 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MDW GQKL E LMQ++LV+S +VA   GY   SFR M+L+Y GGVVLTTLVTVPNWPF+N
+Sbjct  1   MDWQGQKLVEQLMQILLVISGVVAVVVGYTTESFRTMMLIYAGGVVLTTLVTVPNWPFYN  60
+
+Query  61  RHPLKWLEPSEAERHPRPQLTS  82
+            HPLKWL+PSEAE+HP+P++ S
+Sbjct  61  LHPLKWLDPSEAEKHPKPEVVS  82
+
+
+> sp|Q5RF96|SPCS1_PONAB Signal peptidase complex subunit 1 OS=Pongo 
+abelii OX=9601 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 108 bits (269),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 47/79 (59%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    E S  ++ P
+Sbjct  72  RHPLKWLPVQESSTDDKKP  90
+
+
+> sp|Q9Y6A9|SPCS1_HUMAN Signal peptidase complex subunit 1 OS=Homo 
+sapiens OX=9606 GN=SPCS1 PE=1 SV=4
+Length=102
+
+ Score = 108 bits (269),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 47/79 (59%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    E S  ++ P
+Sbjct  72  RHPLKWLPVQESSTDDKKP  90
+
+
+> sp|Q3T134|SPCS1_BOVIN Signal peptidase complex subunit 1 OS=Bos 
+taurus OX=9913 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 107 bits (267),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 30/79 (38%), Positives = 47/79 (59%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYLAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    + S  ++ P
+Sbjct  72  RHPLKWLPVQDSSTEDKKP  90
+
+
+> sp|B0FWK4|SPCS1_PIG Signal peptidase complex subunit 1 OS=Sus 
+scrofa OX=9823 GN=SPCS1 PE=3 SV=1
+Length=102
+
+ Score = 106 bits (264),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 46/79 (58%), Gaps = 3/79 (4%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  12  MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  71
+
+Query  61  RHPLKW---LEPSEAERHP  76
+           RHPLKW    +    ++ P
+Sbjct  72  RHPLKWLPVQDSGTEDKKP  90
+
+
+> sp|Q9D958|SPCS1_MOUSE Signal peptidase complex subunit 1 OS=Mus 
+musculus OX=10090 GN=Spcs1 PE=2 SV=3
+Length=161
+
+ Score = 107 bits (266),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 29/67 (43%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  1    MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+            MD+ GQKL+E + Q +++ SAIV F  GY+   F   + + + G   + L+T+P WP + 
+Sbjct  71   MDYKGQKLAEQMFQGIILFSAIVGFIYGYVAEQFGWTVYIVMAGFAFSCLLTLPPWPIYR  130
+
+Query  61   RHPLKWL  67
+            RHPLKWL
+Sbjct  131  RHPLKWL  137
+
+
+> sp|Q9VAL0|SPCS1_DROME Signal peptidase complex subunit 1 OS=Drosophila 
+melanogaster OX=7227 GN=Spase12 PE=1 SV=2
+Length=98
+
+ Score = 102 bits (255),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 39/75 (52%), Gaps = 0/75 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQ  +E   + ++    IV    G  +  F   + +   G VL++L+T+P WP + 
+Sbjct  8   MDFAGQGKAERWSRFIITFFGIVGLVYGAFVQQFSQTVYILGAGFVLSSLITIPPWPLYR  67
+
+Query  61  RHPLKWLEPSEAERH  75
+           R+ LKW +P + +  
+Sbjct  68  RNALKWQKPIDTDAK  82
+
+
+> sp|Q61CQ8|SPCS1_CAEBR Probable signal peptidase complex subunit 
+1 OS=Caenorhabditis briggsae OX=6238 GN=CBG12804 PE=3 SV=1
+Length=113
+
+ Score = 99.7 bits (247),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 25/75 (33%), Positives = 41/75 (55%), Gaps = 1/75 (1%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPF-F  59
+           +D+ GQK++E   QV+L ++ I+ F  GY        +   +G  V T L+ +P WPF F
+Sbjct  19  IDFQGQKVAERTYQVILTLAGIIGFFVGYSTQQLSYAMYTVMGAAVFTALIILPPWPFLF  78
+
+Query  60  NRHPLKWLEPSEAER  74
+            ++P+ W  P E + 
+Sbjct  79  RKNPIVWQTPIEEQE  93
+
+
+> sp|Q54Y83|SPCS1_DICDI Signal peptidase complex subunit 1 OS=Dictyostelium 
+discoideum OX=44689 GN=spcs1 PE=3 SV=1
+Length=80
+
+ Score = 97.0 bits (240),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 39/70 (56%), Gaps = 0/70 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           MD+ GQKL+E + Q  +++  ++ +  G+I   F +       G  L+ ++ +PNW  + 
+Sbjct  1   MDFEGQKLAEYIYQYTIIIFGVIGWIIGFIKQDFSITFYSVALGTFLSLILCLPNWKIYC  60
+
+Query  61  RHPLKWLEPS  70
+           +HPL W +P 
+Sbjct  61  QHPLSWQKPI  70
+
+
+> sp|O44953|SPCS1_CAEEL Probable signal peptidase complex subunit 
+1 OS=Caenorhabditis elegans OX=6239 GN=C34B2.10 PE=3 SV=1
+Length=105
+
+ Score = 97.4 bits (241),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 24/75 (32%), Positives = 41/75 (55%), Gaps = 1/75 (1%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPF-F  59
+           +D+ GQK++E   QV+L ++ I+ F  G+        +   LG    T L+ +P WPF F
+Sbjct  19  IDFQGQKVAERTYQVILTIAGIIGFLVGFWTQQLSYAMFTVLGASAFTALIILPPWPFLF  78
+
+Query  60  NRHPLKWLEPSEAER  74
+            ++P+ W  P+E + 
+Sbjct  79  RKNPIVWHTPAEPQE  93
+
+
+> sp|G2TRR4|SPC1_SCHPO Microsomal signal peptidase subunit 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=new19 PE=2 SV=1
+Length=78
+
+ Score = 93.1 bits (230),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 20/71 (28%), Positives = 39/71 (55%), Gaps = 0/71 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+ GQ   +  M   L  SA++++  GY++     ++ ++L    L  LV +P W  +N
+Sbjct  8   IDFAGQLRCQKYMNYGLCTSAVISYIYGYLVQDSYCVIKLFLILASLVALVCLPAWSMYN  67
+
+Query  61  RHPLKWLEPSE  71
+           ++PLK+ +  E
+Sbjct  68  KNPLKFQKKKE  78
+
+
+> sp|P46965|SPC1_YEAST Signal peptidase complex subunit SPC1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=SPC1 PE=1 SV=1
+Length=94
+
+ Score = 89.7 bits (221),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 20/70 (29%), Positives = 41/70 (59%), Gaps = 0/70 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+  Q+ +E   Q+ L++ A+VA   G+   S +++L  Y    V+T +  +P +P++N
+Sbjct  16  IDFPSQRKTEKFQQLSLMIGALVACILGFAQQSLKVLLTAYGISCVITLICVLPAYPWYN  75
+
+Query  61  RHPLKWLEPS  70
+           +  L+W +P 
+Sbjct  76  KQKLRWAQPK  85
+
+
+> sp|Q74Z81|SPC1_ASHGO Microsomal signal peptidase subunit 1 OS=Ashbya 
+gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 
+/ NRRL Y-1056) OX=284811 GN=SPC1 PE=3 SV=1
+Length=91
+
+ Score = 66.2 bits (160),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 16/75 (21%), Positives = 31/75 (41%), Gaps = 0/75 (0%)
+
+Query  1   MDWVGQKLSETLMQVMLVVSAIVAFSTGYILASFRLMLLVYLGGVVLTTLVTVPNWPFFN  60
+           +D+  Q+    L  ++L    +V+   G+   S  L L  +     L  L+ VP +  + 
+Sbjct  15  IDYPSQRRVAKLTDIILGSGTLVSCLLGFYAGSLSLTLYAFAAAYGLALLLVVPAYGKYR  74
+
+Query  61  RHPLKWLEPSEAERH  75
+           +  L W+  + A   
+Sbjct  75  QQKLAWVGSAAATTK  89
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.140    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0426    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4870349370
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 14, 2018 12:19 AM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

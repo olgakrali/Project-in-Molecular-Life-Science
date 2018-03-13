@@ -2,6 +2,7 @@
 path = ('Datasets/')
 path2 = ('PSSM/train/')
 #path2 = ('PSSM/test/')
+#path2 = ('PSSM/50_new/')
 def my_fasta(filename):
     protein_ID = []
     sequences = []
@@ -23,6 +24,6 @@ def my_fasta(filename):
 
 my_fasta('fasta_train.fasta')
 #my_fasta('fasta_test.fasta')
-
+#my_fasta('50_new_prot.txt')
 
 
