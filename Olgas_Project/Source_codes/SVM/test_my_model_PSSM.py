@@ -18,7 +18,7 @@ print(X_test.shape)
 print(y_test.shape)
 
 # Load the model
-my_model = pickle.load(open(path3 + "my_pssm_test.plk","rb"))
+my_model = pickle.load(open(path3 + "my_pssm_test.pkl","rb"))
 
 result = my_model.score(X_test,y_test)
 print(result)
