@@ -21,7 +21,7 @@ print(y_test.shape)
 #####SVM
 
 # Load the model
-my_model = pickle.load(open(path2 + "my_test.plk","rb"))
+my_model = pickle.load(open(path2 + "my_test.pkl","rb"))
 
 result = my_model.score(X_test,y_test)
 print(result)
