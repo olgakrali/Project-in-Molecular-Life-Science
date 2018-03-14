@@ -17,4 +17,4 @@ clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000)
 
 clfr.fit(X_train,y_train)
 
-pickle.dump(clfr, open(path + "my_pssm_test.plk", "wb"))
+pickle.dump(clfr, open(path + "my_pssm_test.pkl", "wb"))
