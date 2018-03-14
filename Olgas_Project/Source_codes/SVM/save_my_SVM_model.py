@@ -19,4 +19,4 @@ clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000)
 
 clfr.fit(X,y)
 
-pickle.dump(clfr, open(path2 + "my_test.plk", "wb"))
+pickle.dump(clfr, open(path2 + "my_test.pkl", "wb"))
