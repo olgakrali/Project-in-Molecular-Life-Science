@@ -1,10 +1,11 @@
 import numpy as np
-from sklearn.externals import joblib
+import pickle
 from sklearn.metrics import confusion_matrix
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
 
 import parsers_windows as mp
+
 
 path = "Datasets/"
 path2 = "Saved_models/"
@@ -21,7 +22,7 @@ print(y_test.shape)
 #####SVM
 
 # Load the model
-my_model = joblib.load(path2 + "Decision_tree.sav")
+my_model = pickle.load(open(path2 + "Decision_tree.pkl","rb"))
 
 result = my_model.score(X_test,y_test)
 print(result)

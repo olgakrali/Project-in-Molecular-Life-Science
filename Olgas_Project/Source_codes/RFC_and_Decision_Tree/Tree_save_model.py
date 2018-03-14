@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.externals import joblib
+import pickle
 
 
 import parsers_windows as mp
@@ -20,4 +20,4 @@ clfr = DecisionTreeClassifier(min_samples_split=9)
 
 clfr.fit(X_train,y_train)
 
-joblib.dump(clfr, path2 + "Decision_tree.sav")
+pickle.dump(clfr, open(path2 + "Decision_tree.pkl", "wb"))

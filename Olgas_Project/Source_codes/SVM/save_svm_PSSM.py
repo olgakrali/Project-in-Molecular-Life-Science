@@ -4,6 +4,7 @@ from sklearn.svm import SVC
 import pickle
 path = "Datasets/"
 path2 = "PSSM/train/pssm/"
+path3 = "Saved_models/"
 
 fnames = os.listdir(path2)
 

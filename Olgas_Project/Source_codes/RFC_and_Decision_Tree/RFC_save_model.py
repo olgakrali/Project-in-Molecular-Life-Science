@@ -1,13 +1,12 @@
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.externals import joblib
+import pickle
 
 
 import parsers_windows as mp
 
 # Train and save my model
-path = "Datasets/"
-path2 = "Saved_models/"
+path = "Saved_models/"
 
 protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par('60_prot.txt',5)
 
@@ -20,4 +19,4 @@ clfr = RandomForestClassifier(n_estimators= 300, min_samples_split = 3)
 
 clfr.fit(X_train,y_train)
 
-joblib.dump(clfr, path2 + "RFC.sav")
+pickle.dump(clfr, open(path + "RFC.pkl", "wb"))

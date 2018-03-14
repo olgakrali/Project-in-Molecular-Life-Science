@@ -8,6 +8,7 @@ import PSSM_parsing as ps
 
 path = "Datasets/"
 path2 = "PSSM/test/pssm/"
+path3 = "Saved_models/"
 
 fnames = os.listdir(path2)
 
@@ -17,7 +18,7 @@ print(X_test.shape)
 print(y_test.shape)
 
 # Load the model
-my_model = pickle.load(open(path + "my_pssm_test.plk","rb"))
+my_model = pickle.load(open(path3 + "my_pssm_test.plk","rb"))
 
 result = my_model.score(X_test,y_test)
 print(result)

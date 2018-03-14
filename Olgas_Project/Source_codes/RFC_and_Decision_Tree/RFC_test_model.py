@@ -1,13 +1,14 @@
 import numpy as np
-from sklearn.externals import joblib
+import pickle
 from sklearn.metrics import confusion_matrix
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
 
 import parsers_windows as mp
 
-path = "Datasets/"
-path2  = "Saved_models"
+path = "Saved_models/"
+path2 = "Datasets/"
+
 protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("subset_of_30_proteins.txt",5)
 print(len(protein_ID))
 
@@ -20,7 +21,7 @@ print(y_test.shape)
 #####SVM
 
 # Load the model
-my_model = joblib.load(path2 + "RFC.sav")
+my_model = pickle.load(open(path + "RFC.pkl","rb"))
 
 result = my_model.score(X_test,y_test)
 print(result)
@@ -99,7 +100,7 @@ def my_predictions():
 my_pred = my_predictions()
 
 
-with open(path + 'true_vs_predicted_topo_RFC.txt', 'w') as file:
+with open(path2 + 'true_vs_predicted_topo_RFC.txt', 'w') as file:
     for prot, sequen, top, pre in zip(protein_ID,sequences,topology,my_pred):
         file.writelines('>' + prot + '\n')
         file.writelines(sequen + '\n')
