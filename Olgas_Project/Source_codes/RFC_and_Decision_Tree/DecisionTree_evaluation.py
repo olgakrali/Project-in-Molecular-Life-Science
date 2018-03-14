@@ -15,7 +15,7 @@ for windows in range(5,37,4):
     y = np.array(seconstr)
     #print(y.shape)
     for min_samples_split in range(2,10):
-        tree =  DecisionTreeClassifier(min_samples_split = min_samples_split)
+        tree =  DecisionTreeClassifier(min_samples_split = min_samples_split, class_weight = 'balanced')
         tree.fit(X,y)
         scores = cross_val_score(tree, X, y, cv = 5, verbose = True)
         scores2  = np.average(scores)

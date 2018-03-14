@@ -9,7 +9,7 @@ import parsers_windows as mp
 path = "Saved_models/"
 path2 = "Datasets/"
 
-protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("subset_of_30_proteins.txt",5)
+protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("subset_of_30_proteins.txt", 13)
 print(len(protein_ID))
 
 #Prepare the X and y for the svm
@@ -61,7 +61,7 @@ bar = fig.colorbar(residues)
 labels = ['Globular', 'Signal Peptide', 'Membrane']
 plt.xticks(range(hor), labels[:hor])
 plt.yticks(range(ver), labels[:ver])
-plt.title('Confusion Matrix for the predicted sequences RandomForest (window = 5)')
+plt.title('Confusion Matrix for the predicted sequences RandomForest (window = 13)')
 plt.xlabel('Predicted Topologies')
 plt.ylabel('True Topologies')
 plt.show()

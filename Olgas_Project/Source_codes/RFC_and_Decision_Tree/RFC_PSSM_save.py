@@ -9,12 +9,12 @@ path3 = "Saved_models/"
 
 fnames = os.listdir(path2)
 
-my_names, new_seq, new_top, struct_labels, X_train, y_train =  ps.my_par(path + "60_prot.txt",fnames,5,path2)
+my_names, new_seq, new_top, struct_labels, X_train, y_train =  ps.my_par(path + "60_prot.txt", fnames, 13, path2)
 
 print(X_train.shape)
 print(y_train.shape)
 
-clfr = RandomForestClassifier(n_estimators= 300, min_samples_split = 3)
+clfr = RandomForestClassifier(n_estimators= 300, min_samples_split = 9, class_weight = 'balanced')
 
 clfr.fit(X_train,y_train)
 

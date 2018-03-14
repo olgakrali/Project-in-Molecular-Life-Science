@@ -12,7 +12,7 @@ path3 = "Datasets/"
 
 fnames = os.listdir(path2)
 
-my_names, new_seq, new_top, struct_labels, X_test, y_test =  ps.my_par(path + "subset_of_30_proteins.txt",fnames,5, path2)
+my_names, new_seq, new_top, struct_labels, X_test, y_test =  ps.my_par(path3 + "subset_of_30_proteins.txt", fnames, 21, path2)
 
 print(X_test.shape)
 print(y_test.shape)
@@ -58,7 +58,7 @@ bar = fig.colorbar(residues)
 labels = ['Globular', 'Signal Peptide', 'Membrane']
 plt.xticks(range(hor), labels[:hor])
 plt.yticks(range(ver), labels[:ver])
-plt.title('Confusion Matrix for the predicted sequences PSSM (window = 5)')
+plt.title('Confusion Matrix for the predicted sequences PSSM (window = 21)')
 plt.xlabel('Predicted Topologies')
 plt.ylabel('True Topologies')
 plt.show()
