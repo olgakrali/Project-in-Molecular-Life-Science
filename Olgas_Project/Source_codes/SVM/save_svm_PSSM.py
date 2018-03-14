@@ -13,7 +13,7 @@ my_names, new_seq, new_top, struct_labels, X_train, y_train =  ps.my_par(path + 
 print(X_train.shape)
 print(y_train.shape)
 
-clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000)
+clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000, class_weight = 'balanced')
 
 clfr.fit(X_train,y_train)
 

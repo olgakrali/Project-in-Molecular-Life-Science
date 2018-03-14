@@ -15,7 +15,7 @@ print(X.shape)
 y = np.array(seconstr)
 print(y.shape)
 
-clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000)
+clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000, class_weight = 'balanced')
 
 clfr.fit(X,y)
 
