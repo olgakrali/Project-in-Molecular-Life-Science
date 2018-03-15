@@ -13,5 +13,5 @@ Note that the final datasets used for the final predictor are:
 		c) test_finaldeataset.txt for testing the predictive ability of each model (90 proteins)
 
 
-The files train_final.fasta and test_final.fasta were used to get separate fasta files for each sequence of the train and test set,
+The files train_final.fasta and test_final.fasta were used to get separated fasta files for each sequence of the train and test set,
 for PSI BLAST. The one-sequence fasta files are stored in another folder with the name 'PSSM'.
