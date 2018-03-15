@@ -1,3 +1,6 @@
-# Project folders
+# Project in Molecular Life Science 7.0 hp (KB8024/KB8025) Spring Semester 2018
 
-Project organization into folder files depending on if they are short scripts, source code, documents, diary entries, datasets etc. More folders will be probably added (e.g. Results) later during the course.
+# Master's in Molecular Techniques in Life Science (MTLS)
+
+	
+		# Project Folders
