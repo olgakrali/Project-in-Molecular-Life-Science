@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0A0LGU6_CUCSA
+Query= A0A0A0LGU6_CUCSA (A0A0A0LGU6)
 
 Length=110
                                                                       Score     E
@@ -66,7 +66,7 @@ Effective search space used: 4999036928
 Results from round 2
 
 
-Query= A0A0A0LGU6_CUCSA
+Query= A0A0A0LGU6_CUCSA (A0A0A0LGU6)
 
 Length=110
                                                                       Score     E
@@ -124,7 +124,7 @@ Effective search space used: 4999036928
 Results from round 3
 
 
-Query= A0A0A0LGU6_CUCSA
+Query= A0A0A0LGU6_CUCSA (A0A0A0LGU6)
 
 Length=110
                                                                       Score     E

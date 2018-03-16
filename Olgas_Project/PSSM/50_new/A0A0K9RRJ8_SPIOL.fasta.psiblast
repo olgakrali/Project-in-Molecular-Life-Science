@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0K9RRJ8_SPIOL
+Query= A0A0K9RRJ8_SPIOL (A0A0K9RRJ8)
 
 Length=110
                                                                       Score     E
@@ -79,7 +79,7 @@ Effective search space used: 4999036928
 Results from round 2
 
 
-Query= A0A0K9RRJ8_SPIOL
+Query= A0A0K9RRJ8_SPIOL (A0A0K9RRJ8)
 
 Length=110
                                                                       Score     E
@@ -154,7 +154,7 @@ Effective search space used: 4999036928
 Results from round 3
 
 
-Query= A0A0K9RRJ8_SPIOL
+Query= A0A0K9RRJ8_SPIOL (A0A0K9RRJ8)
 
 Length=110
                                                                       Score     E

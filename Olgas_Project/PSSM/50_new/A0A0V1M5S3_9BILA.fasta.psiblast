@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0V1M5S3_9BILA
+Query= A0A0V1M5S3_9BILA (A0A0V1M5S3)
 
 Length=92
                                                                       Score     E
@@ -237,7 +237,7 @@ Effective search space used: 4953873120
 Results from round 2
 
 
-Query= A0A0V1M5S3_9BILA
+Query= A0A0V1M5S3_9BILA (A0A0V1M5S3)
 
 Length=92
                                                                       Score     E
@@ -467,7 +467,7 @@ Effective search space used: 4953873120
 Results from round 3
 
 
-Query= A0A0V1M5S3_9BILA
+Query= A0A0V1M5S3_9BILA (A0A0V1M5S3)
 
 Length=92
                                                                       Score     E

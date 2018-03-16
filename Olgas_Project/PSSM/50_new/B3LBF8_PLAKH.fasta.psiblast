@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= B3LBF8_PLAKH
+Query= B3LBF8_PLAKH (B3LBF8)
 
 Length=101
                                                                       Score     E
@@ -237,7 +237,7 @@ Effective search space used: 4980909624
 Results from round 2
 
 
-Query= B3LBF8_PLAKH
+Query= B3LBF8_PLAKH (B3LBF8)
 
 Length=101
                                                                       Score     E
@@ -467,7 +467,7 @@ Effective search space used: 4980909624
 Results from round 3
 
 
-Query= B3LBF8_PLAKH
+Query= B3LBF8_PLAKH (B3LBF8)
 
 Length=101
                                                                       Score     E

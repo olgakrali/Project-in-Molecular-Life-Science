@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0N4YDJ7_NIPBR
+Query= A0A0N4YDJ7_NIPBR (A0A0N4YDJ7)
 
 Length=70
                                                                       Score     E
@@ -202,7 +202,7 @@ Effective search space used: 4935436912
 Results from round 2
 
 
-Query= A0A0N4YDJ7_NIPBR
+Query= A0A0N4YDJ7_NIPBR (A0A0N4YDJ7)
 
 Length=70
                                                                       Score     E
@@ -410,7 +410,7 @@ Effective search space used: 4935436912
 Results from round 3
 
 
-Query= A0A0N4YDJ7_NIPBR
+Query= A0A0N4YDJ7_NIPBR (A0A0N4YDJ7)
 
 Length=70
                                                                       Score     E

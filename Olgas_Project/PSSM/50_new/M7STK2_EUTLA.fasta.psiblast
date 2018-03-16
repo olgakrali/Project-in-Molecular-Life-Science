@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= M7STK2_EUTLA
+Query= M7STK2_EUTLA (M7STK2)
 
 Length=108
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 5034673728
 Results from round 2
 
 
-Query= M7STK2_EUTLA
+Query= M7STK2_EUTLA (M7STK2)
 
 Length=108
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 5034673728
 Results from round 3
 
 
-Query= M7STK2_EUTLA
+Query= M7STK2_EUTLA (M7STK2)
 
 Length=108
                                                                       Score     E

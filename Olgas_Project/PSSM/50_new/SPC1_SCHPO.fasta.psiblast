@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= SPC1_SCHPO
+Query= SPC1_SCHPO (G2TRR4)
 
 Length=78
                                                                       Score     E
@@ -203,7 +203,7 @@ Effective search space used: 4998667041
 Results from round 2
 
 
-Query= SPC1_SCHPO
+Query= SPC1_SCHPO (G2TRR4)
 
 Length=78
                                                                       Score     E
@@ -433,7 +433,7 @@ Effective search space used: 4998667041
 Results from round 3
 
 
-Query= SPC1_SCHPO
+Query= SPC1_SCHPO (G2TRR4)
 
 Length=78
                                                                       Score     E

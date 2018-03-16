@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A093I9S9_FULGA
+Query= A0A093I9S9_FULGA (A0A093I9S9)
 
 Length=89
                                                                       Score     E
@@ -250,7 +250,7 @@ Effective search space used: 5003987370
 Results from round 2
 
 
-Query= A0A093I9S9_FULGA
+Query= A0A093I9S9_FULGA (A0A093I9S9)
 
 Length=89
                                                                       Score     E
@@ -493,7 +493,7 @@ Effective search space used: 5003987370
 Results from round 3
 
 
-Query= A0A093I9S9_FULGA
+Query= A0A093I9S9_FULGA (A0A093I9S9)
 
 Length=89
                                                                       Score     E

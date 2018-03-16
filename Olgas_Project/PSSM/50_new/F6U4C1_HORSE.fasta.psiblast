@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= F6U4C1_HORSE
+Query= F6U4C1_HORSE (F6U4C1)
 
 Length=102
                                                                       Score     E
@@ -258,7 +258,7 @@ Effective search space used: 4963648049
 Results from round 2
 
 
-Query= F6U4C1_HORSE
+Query= F6U4C1_HORSE (F6U4C1)
 
 Length=102
                                                                       Score     E
@@ -527,7 +527,7 @@ Effective search space used: 4963648049
 Results from round 3
 
 
-Query= F6U4C1_HORSE
+Query= F6U4C1_HORSE (F6U4C1)
 
 Length=102
                                                                       Score     E

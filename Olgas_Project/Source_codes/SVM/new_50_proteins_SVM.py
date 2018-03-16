@@ -8,7 +8,7 @@ prot, seq , svm2 = nf.my_par(path + '50_new_prot.txt',19)
 X = np.array(svm2)
 print(X.shape)
 
-my_model = pickle.load(open(path + "my_test.plk","rb"))
+my_model = pickle.load(open(path + "SVM_new_model.pkl","rb"))
 
 
 

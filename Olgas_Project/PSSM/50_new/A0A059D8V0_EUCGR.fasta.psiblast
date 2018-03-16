@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A059D8V0_EUCGR
+Query= A0A059D8V0_EUCGR (A0A059D8V0)
 
 Length=138
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 4980474765
 Results from round 2
 
 
-Query= A0A059D8V0_EUCGR
+Query= A0A059D8V0_EUCGR (A0A059D8V0)
 
 Length=138
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 4980474765
 Results from round 3
 
 
-Query= A0A059D8V0_EUCGR
+Query= A0A059D8V0_EUCGR (A0A059D8V0)
 
 Length=138
                                                                       Score     E

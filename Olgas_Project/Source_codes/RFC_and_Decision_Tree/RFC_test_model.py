@@ -9,7 +9,7 @@ import parsers_windows as mp
 path = "Saved_models/"
 path2 = "Datasets/"
 
-protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("subset_of_30_proteins.txt", 13)
+protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("test_final.txt", 13)
 print(len(protein_ID))
 
 #Prepare the X and y for the svm
@@ -21,7 +21,7 @@ print(y_test.shape)
 #####SVM
 
 # Load the model
-my_model = pickle.load(open(path + "RFC.pkl","rb"))
+my_model = pickle.load(open(path + "RFC_final.pkl","rb"))
 
 result = my_model.score(X_test,y_test)
 print(result)
@@ -61,7 +61,7 @@ bar = fig.colorbar(residues)
 labels = ['Globular', 'Signal Peptide', 'Membrane']
 plt.xticks(range(hor), labels[:hor])
 plt.yticks(range(ver), labels[:ver])
-plt.title('Confusion Matrix for the predicted sequences RandomForest (window = 13)')
+plt.title('Confusion Matrix for the 89 predicted sequences RandomForest (window = 13)')
 plt.xlabel('Predicted Topologies')
 plt.ylabel('True Topologies')
 plt.show()
@@ -100,7 +100,7 @@ def my_predictions():
 my_pred = my_predictions()
 
 
-with open(path2 + 'true_vs_predicted_topo_RFC.txt', 'w') as file:
+with open(path2 + 'true_vs_predicted_topo_RFC_final.txt', 'w') as file:
     for prot, sequen, top, pre in zip(protein_ID,sequences,topology,my_pred):
         file.writelines('>' + prot + '\n')
         file.writelines(sequen + '\n')

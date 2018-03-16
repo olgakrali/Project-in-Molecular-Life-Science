@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0N8K172_9TELE
+Query= A0A0N8K172_9TELE (A0A0N8K172)
 
 Length=83
                                                                       Score     E
@@ -213,7 +213,7 @@ Effective search space used: 4917927416
 Results from round 2
 
 
-Query= A0A0N8K172_9TELE
+Query= A0A0N8K172_9TELE (A0A0N8K172)
 
 Length=83
                                                                       Score     E

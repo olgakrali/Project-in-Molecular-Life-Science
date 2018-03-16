@@ -33,7 +33,7 @@ def my_par(filename,slide_window_size):
     for line, aa in zip(zero_one, aminoacid):  ### it reads simultaneously every row and every amino acid
         dictionary[aa] = line
 
-    extra_window = int(slide_window_size // 2)  # gives the number of zeros which need to be added at the beginning as well as at the end of the sequence
+    extra_window = int(slide_window_size // 2)  # gives the number of zeros which need to be added at the beginning as well          														as at the end of the sequence
     ####### Sliding windows
     seq_win = []
     for sequence in sequences:

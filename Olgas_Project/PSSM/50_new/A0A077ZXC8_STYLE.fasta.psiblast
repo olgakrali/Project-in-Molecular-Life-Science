@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A077ZXC8_STYLE
+Query= A0A077ZXC8_STYLE (A0A077ZXC8)
 
 Length=765
                                                                       Score     E
@@ -219,7 +219,7 @@ Effective search space used: 82745582256
 Results from round 2
 
 
-Query= A0A077ZXC8_STYLE
+Query= A0A077ZXC8_STYLE (A0A077ZXC8)
 
 Length=765
                                                                       Score     E
@@ -449,7 +449,7 @@ Effective search space used: 82745582256
 Results from round 3
 
 
-Query= A0A077ZXC8_STYLE
+Query= A0A077ZXC8_STYLE (A0A077ZXC8)
 
 Length=765
                                                                       Score     E

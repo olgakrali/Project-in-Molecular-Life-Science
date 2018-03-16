@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= W5NVK4_SHEEP
+Query= W5NVK4_SHEEP (W5NVK4)
 
 Length=163
                                                                       Score     E
@@ -262,7 +262,7 @@ Effective search space used: 7503749766
 Results from round 2
 
 
-Query= W5NVK4_SHEEP
+Query= W5NVK4_SHEEP (W5NVK4)
 
 Length=163
                                                                       Score     E
@@ -527,7 +527,7 @@ Effective search space used: 7503749766
 Results from round 3
 
 
-Query= W5NVK4_SHEEP
+Query= W5NVK4_SHEEP (W5NVK4)
 
 Length=163
                                                                       Score     E

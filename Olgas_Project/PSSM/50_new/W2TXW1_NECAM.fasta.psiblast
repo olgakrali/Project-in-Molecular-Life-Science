@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= W2TXW1_NECAM
+Query= W2TXW1_NECAM (W2TXW1)
 
 Length=87
                                                                       Score     E
@@ -215,7 +215,7 @@ Effective search space used: 5037396870
 Results from round 2
 
 
-Query= W2TXW1_NECAM
+Query= W2TXW1_NECAM (W2TXW1)
 
 Length=87
                                                                       Score     E
@@ -427,7 +427,7 @@ Effective search space used: 5037396870
 Results from round 3
 
 
-Query= W2TXW1_NECAM
+Query= W2TXW1_NECAM (W2TXW1)
 
 Length=87
                                                                       Score     E

@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= W3WPC5_9PEZI
+Query= W3WPC5_9PEZI (W3WPC5)
 
 Length=108
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 5034673728
 Results from round 2
 
 
-Query= W3WPC5_9PEZI
+Query= W3WPC5_9PEZI (W3WPC5)
 
 Length=108
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 5034673728
 Results from round 3
 
 
-Query= W3WPC5_9PEZI
+Query= W3WPC5_9PEZI (W3WPC5)
 
 Length=108
                                                                       Score     E

@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= E1BX11_CHICK
+Query= E1BX11_CHICK (E1BX11)
 
 Length=244
                                                                       Score     E
@@ -237,7 +237,7 @@ Effective search space used: 17494641891
 Results from round 2
 
 
-Query= E1BX11_CHICK
+Query= E1BX11_CHICK (E1BX11)
 
 Length=244
                                                                       Score     E
@@ -467,7 +467,7 @@ Effective search space used: 17494641891
 Results from round 3
 
 
-Query= E1BX11_CHICK
+Query= E1BX11_CHICK (E1BX11)
 
 Length=244
                                                                       Score     E

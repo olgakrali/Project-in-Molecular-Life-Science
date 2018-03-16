@@ -10,7 +10,7 @@ import parsers_windows as mp
 path = "Datasets/"
 path2 = "Saved_models/"
 
-protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("subset_of_30_proteins.txt", 21)
+protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par("test_final.txt", 21)
 print(len(protein_ID))
 
 #Prepare the X and y for the svm
@@ -22,7 +22,7 @@ print(y_test.shape)
 #####SVM
 
 # Load the model
-my_model = pickle.load(open(path2 + "Decision_tree.pkl","rb"))
+my_model = pickle.load(open(path2 + "Decision_tree_largerdataset.pkl","rb"))
 
 result = my_model.score(X_test,y_test)
 print(result)
@@ -62,7 +62,7 @@ bar = fig.colorbar(residues)
 labels = ['Globular', 'Signal Peptide', 'Membrane']
 plt.xticks(range(hor), labels[:hor])
 plt.yticks(range(ver), labels[:ver])
-plt.title('Confusion Matrix for the predicted sequences Decision Tree (window = 21)')
+plt.title('Confusion Matrix for the 89 predicted sequences Decision Tree (window = 21)')
 plt.xlabel('Predicted Topologies')
 plt.ylabel('True Topologies')
 plt.show()
@@ -101,7 +101,7 @@ def my_predictions():
 my_pred = my_predictions()
 
 
-with open(path + 'true_vs_predicted_topo_DT.txt', 'w') as file:
+with open(path + 'true_vs_predicted_topo_DT_final.txt', 'w') as file:
     for prot, sequen, top, pre in zip(protein_ID,sequences,topology,my_pred):
         file.writelines('>' + prot + '\n')
         file.writelines(sequen + '\n')

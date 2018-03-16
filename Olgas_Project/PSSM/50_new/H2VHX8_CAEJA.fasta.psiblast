@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= H2VHX8_CAEJA
+Query= H2VHX8_CAEJA (H2VHX8)
 
 Length=76
                                                                       Score     E
@@ -219,7 +219,7 @@ Effective search space used: 5030962891
 Results from round 2
 
 
-Query= H2VHX8_CAEJA
+Query= H2VHX8_CAEJA (H2VHX8)
 
 Length=76
                                                                       Score     E
@@ -427,7 +427,7 @@ Effective search space used: 5030962891
 Results from round 3
 
 
-Query= H2VHX8_CAEJA
+Query= H2VHX8_CAEJA (H2VHX8)
 
 Length=76
                                                                       Score     E

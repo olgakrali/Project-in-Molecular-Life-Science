@@ -1,6 +1,8 @@
 
 path = ('Datasets/')
-path2 = ('PSSM/train/')
+#path2 = ('PSSM/train_final/')
+path2  = ('PSSM/test_final/')
+#path2 = ('PSSM/train/')
 #path2 = ('PSSM/test/')
 #path2 = ('PSSM/50_new/')
 def my_fasta(filename):
@@ -14,7 +16,7 @@ def my_fasta(filename):
             else:
                 seq = line.rstrip()
                 sequences.append(seq)	
-
+    print(len(sequences))
     for protein,seq in zip (protein_ID,sequences):
         output = path2 + protein[1:] + '.fasta'
         output_file = output.replace("|","_")
@@ -22,8 +24,9 @@ def my_fasta(filename):
             my_file.write(protein + '\n')
             my_file.write(seq + '\n')
 
-my_fasta('fasta_train.fasta')
+#my_fasta('fasta_train.fasta')
 #my_fasta('fasta_test.fasta')
 #my_fasta('50_new_prot.txt')
-
+#my_fasta('train_final.fasta')
+my_fasta('test_final.fasta')
 

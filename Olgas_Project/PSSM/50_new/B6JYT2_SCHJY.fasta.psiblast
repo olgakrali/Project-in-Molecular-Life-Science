@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= B6JYT2_SCHJY
+Query= B6JYT2_SCHJY (B6JYT2)
 
 Length=112
                                                                       Score     E
@@ -101,7 +101,7 @@ Effective search space used: 4963400128
 Results from round 2
 
 
-Query= B6JYT2_SCHJY
+Query= B6JYT2_SCHJY (B6JYT2)
 
 Length=112
                                                                       Score     E
@@ -331,7 +331,7 @@ Effective search space used: 4963400128
 Results from round 3
 
 
-Query= B6JYT2_SCHJY
+Query= B6JYT2_SCHJY (B6JYT2)
 
 Length=112
                                                                       Score     E

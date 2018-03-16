@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= B3MTD9_DROAN
+Query= B3MTD9_DROAN (B3MTD9)
 
 Length=97
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 4870349370
 Results from round 2
 
 
-Query= B3MTD9_DROAN
+Query= B3MTD9_DROAN (B3MTD9)
 
 Length=97
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 4870349370
 Results from round 3
 
 
-Query= B3MTD9_DROAN
+Query= B3MTD9_DROAN (B3MTD9)
 
 Length=97
                                                                       Score     E

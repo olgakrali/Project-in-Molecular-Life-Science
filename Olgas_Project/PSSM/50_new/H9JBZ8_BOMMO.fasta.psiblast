@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= H9JBZ8_BOMMO
+Query= H9JBZ8_BOMMO (H9JBZ8)
 
 Length=93
                                                                       Score     E
@@ -237,7 +237,7 @@ Effective search space used: 4937168370
 Results from round 2
 
 
-Query= H9JBZ8_BOMMO
+Query= H9JBZ8_BOMMO (H9JBZ8)
 
 Length=93
                                                                       Score     E
@@ -467,7 +467,7 @@ Effective search space used: 4937168370
 Results from round 3
 
 
-Query= H9JBZ8_BOMMO
+Query= H9JBZ8_BOMMO (H9JBZ8)
 
 Length=93
                                                                       Score     E

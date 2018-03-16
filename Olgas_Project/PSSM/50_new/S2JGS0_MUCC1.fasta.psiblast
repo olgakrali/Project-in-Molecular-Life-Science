@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= S2JGS0_MUCC1
+Query= S2JGS0_MUCC1 (S2JGS0)
 
 Length=87
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 5037396870
 Results from round 2
 
 
-Query= S2JGS0_MUCC1
+Query= S2JGS0_MUCC1 (S2JGS0)
 
 Length=87
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 5037396870
 Results from round 3
 
 
-Query= S2JGS0_MUCC1
+Query= S2JGS0_MUCC1 (S2JGS0)
 
 Length=87
                                                                       Score     E

@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= D3ZFK5_RAT
+Query= D3ZFK5_RAT (D3ZFK5)
 
 Length=162
                                                                       Score     E
@@ -262,7 +262,7 @@ Effective search space used: 7533818316
 Results from round 2
 
 
-Query= D3ZFK5_RAT
+Query= D3ZFK5_RAT (D3ZFK5)
 
 Length=162
                                                                       Score     E
@@ -509,7 +509,7 @@ Effective search space used: 7533818316
 Results from round 3
 
 
-Query= D3ZFK5_RAT
+Query= D3ZFK5_RAT (D3ZFK5)
 
 Length=162
                                                                       Score     E

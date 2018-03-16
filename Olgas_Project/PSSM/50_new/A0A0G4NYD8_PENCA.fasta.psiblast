@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0G4NYD8_PENCA
+Query= A0A0G4NYD8_PENCA (A0A0G4NYD8)
 
 Length=101
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 4980909624
 Results from round 2
 
 
-Query= A0A0G4NYD8_PENCA
+Query= A0A0G4NYD8_PENCA (A0A0G4NYD8)
 
 Length=101
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 4980909624
 Results from round 3
 
 
-Query= A0A0G4NYD8_PENCA
+Query= A0A0G4NYD8_PENCA (A0A0G4NYD8)
 
 Length=101
                                                                       Score     E

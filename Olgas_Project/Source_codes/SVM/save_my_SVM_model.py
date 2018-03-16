@@ -8,7 +8,7 @@ import parsers_windows as mp
 path = 'Datasets/'
 path2 = 'Saved_models/'
 
-protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par('60_prot.txt',19)
+protein_ID, sequences, topology, svm2, seconstr, struct_labels = mp.my_par('test.txt',19)
 
 X = np.array(svm2)
 print(X.shape)
@@ -19,4 +19,4 @@ clfr = SVC(kernel = 'linear', C = 1, gamma = 0.01, cache_size = 3000, class_weig
 
 clfr.fit(X,y)
 
-pickle.dump(clfr, open(path2 + "my_test.pkl", "wb"))
+pickle.dump(clfr, open(path2 + "SVM_new_model.pkl", "wb"))

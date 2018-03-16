@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0D3CGG4_BRAOL
+Query= A0A0D3CGG4_BRAOL (A0A0D3CGG4)
 
 Length=268
                                                                       Score     E
@@ -62,7 +62,7 @@ Effective search space used: 20529204208
 Results from round 2
 
 
-Query= A0A0D3CGG4_BRAOL
+Query= A0A0D3CGG4_BRAOL (A0A0D3CGG4)
 
 Length=268
                                                                       Score     E

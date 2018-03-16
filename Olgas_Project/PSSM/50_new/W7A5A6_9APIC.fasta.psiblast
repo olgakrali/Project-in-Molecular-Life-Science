@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= W7A5A6_9APIC
+Query= W7A5A6_9APIC (W7A5A6)
 
 Length=101
                                                                       Score     E
@@ -237,7 +237,7 @@ Effective search space used: 4980909624
 Results from round 2
 
 
-Query= W7A5A6_9APIC
+Query= W7A5A6_9APIC (W7A5A6)
 
 Length=101
                                                                       Score     E
@@ -467,7 +467,7 @@ Effective search space used: 4980909624
 Results from round 3
 
 
-Query= W7A5A6_9APIC
+Query= W7A5A6_9APIC (W7A5A6)
 
 Length=101
                                                                       Score     E

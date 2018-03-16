@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A072TSU0_MEDTR
+Query= A0A072TSU0_MEDTR (A0A072TSU0)
 
 Length=184
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 10062661567
 Results from round 2
 
 
-Query= A0A072TSU0_MEDTR
+Query= A0A072TSU0_MEDTR (A0A072TSU0)
 
 Length=184
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 10062661567
 Results from round 3
 
 
-Query= A0A072TSU0_MEDTR
+Query= A0A072TSU0_MEDTR (A0A072TSU0)
 
 Length=184
                                                                       Score     E

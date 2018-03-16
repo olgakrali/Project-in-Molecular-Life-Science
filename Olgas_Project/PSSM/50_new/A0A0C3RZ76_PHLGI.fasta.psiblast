@@ -29,7 +29,7 @@ Database: uniprot_sprot.fasta
 Results from round 1
 
 
-Query= A0A0C3RZ76_PHLGI
+Query= A0A0C3RZ76_PHLGI (A0A0C3RZ76)
 
 Length=94
                                                                       Score     E
@@ -255,7 +255,7 @@ Effective search space used: 4920463620
 Results from round 2
 
 
-Query= A0A0C3RZ76_PHLGI
+Query= A0A0C3RZ76_PHLGI (A0A0C3RZ76)
 
 Length=94
                                                                       Score     E
@@ -503,7 +503,7 @@ Effective search space used: 4920463620
 Results from round 3
 
 
-Query= A0A0C3RZ76_PHLGI
+Query= A0A0C3RZ76_PHLGI (A0A0C3RZ76)
 
 Length=94
                                                                       Score     E
