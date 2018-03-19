@@ -8,7 +8,7 @@ In this folder are stored the predicted results for both binary features and PSS
 		b) RandomForest Classifier
 		c) Decision Tree Classifier
 
-2) Prediction on 90 proteins (the model was trained on 213 proteins):
+2) Prediction on 89 proteins (the model was trained on 213 proteins):
 		
 		a) SVM Classifier
 		b) RandomForest Classifier
