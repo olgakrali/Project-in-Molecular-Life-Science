@@ -103,3 +103,4 @@ with open(path3 + 'true_vs_predicted_topo_RFC_PSSM_final.txt', 'w') as file:
         file.writelines('>' + id + '\n')
         file.writelines(sequen + '\n')
         file.writelines(top + '\n')
+        file.writelines(pre + '\n')
